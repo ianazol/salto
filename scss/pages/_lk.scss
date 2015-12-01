@@ -1,0 +1,98 @@
+// lk 
+.profile-page {
+	.page-title {
+		margin-bottom: 8px;
+	}
+	.breadcrumbs + .workarea .page-title {
+		margin-bottom: 25px;
+	}
+	.page-note-text {
+		margin-bottom: 25px;
+	}
+	.orders-table.row {
+		width: calc(100% + #{$gutter-width*2});
+		margin-right: -1*$gutter-width;
+		margin-left: -1*$gutter-width;
+	}
+	.orders-table {
+		margin-bottom: $gutter-width*1.75;
+		.table-header .col {
+			padding: $gutter-width*0.75  $gutter-width;
+		}
+		.col {
+			padding: 23px $gutter-width;
+		}
+		+ .btn {
+			max-width: 240px;
+			margin-bottom: $gutter-width/2;
+		}
+	}
+	.lk-boxes {
+		margin-bottom: $gutter-width*6;
+		.base-card {
+			padding-bottom: $gutter-width*4.75;
+			p {
+				min-height: 1.5em;
+			}
+		}
+		.card-content {
+			padding-top: 7px;
+		}
+		.card-content p {
+			margin: 8px 0;
+		}
+		.link-box {
+			position: absolute;
+			top: auto;
+			left: 0;
+			bottom: $gutter-width;
+			width: 100%;
+			padding: 0 $gutter-width;
+		}
+	}
+	
+	// address-book
+	.address-book {
+		.address-item {
+			padding-bottom: $gutter-width*4;
+			min-height: 220px;
+		}
+	}
+	.btn-delete-addr {
+		position: absolute;
+		width: 19px;
+		height: 19px;
+		top: 0;
+		right: 0;
+		.icon {
+			fill: color('icons', 'lightest');
+		}
+	}
+	.address-form {
+		margin-bottom: $gutter-width*1.5;
+		.def-addr {
+			margin-top: $gutter-width;
+		}
+	}
+	.address-form,
+	.ld-form,
+	.pas-form,
+	.subs-form {
+		margin-bottom: $gutter-width*1.5;
+	}
+	.ld-form,
+	.pas-form {
+		.card-content {
+			padding: $gutter-width/2 $gutter-width;
+		}
+	}
+	.subs-form .card-content {
+		padding-top: $gutter-width/2;
+	}
+	.address-form + .btn,
+	.ld-form + .btn,
+	.pas-form + .btn,
+	.subs-form + .btn{
+		margin-bottom: $gutter-width*10;
+	}
+}

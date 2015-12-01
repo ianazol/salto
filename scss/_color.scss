@@ -1,0 +1,137 @@
+// Utility Color Classes
+
+$primary: (
+	light: #f33b42,
+	base: #da0034,
+	//dark:,
+	red: #ce2d41,
+	blue: #7376f0,
+	green: #00b06c,
+	yellow: #ffa000,
+	violet: #7740a2
+);
+
+$text: (
+	lighter: #b9b9b9,
+	light: #8c8c8c,
+	base: #424242,
+	dark: #363636,
+	darker: #333333,
+	input: #959da6,
+);
+
+$bg: (
+	light: #f9f9f9,
+	base: #f6f6f6,
+	darker: #e7ebed,
+	dark: #363636,
+);
+
+$icons: (
+	soc: #939393,
+	lightest: #d8d8d8,
+	lighter: #d4d4d4,
+	light: #9d9d9d,
+	base: #6b6b6b,
+	dark: #242424,
+	fb: #3a5795,
+	vk: #517397,
+	tw: #2FC2EF,
+);
+
+$border: (
+	lightest: #f3f3f3,
+	lighter: #e8e8e8,
+	light: #d7d7d7,
+	base: #cfd3d5,
+	dark: #aaaaaa,
+	darker: #9c9c9c,
+	table-border: #e5e5e5,
+	darkest: #3a3a3a,
+);
+
+$shades: (
+  "black":        #000000,
+  "white":        #FFFFFF,
+  "transparent":  transparent
+);
+
+$colors: (
+  "primary": $primary,
+  "text": $text,
+  "bg": $bg,
+  "icons": $icons,
+  "border": $border,
+  "shades": $shades
+);
+
+
+
+// Color Classes
+@each $color_name, $color in $colors {
+	@each $color_type, $color_value in $color {
+		@if $color_type == "base" {
+			.#{$color_name} {
+				background-color: $color_value !important;
+			}
+			.#{$color_name}-text {
+				color: $color_value !important;
+			}
+		}
+		@else {
+			.#{$color_name}.#{$color_type} {
+				background-color: $color_value !important;
+			}
+			.color-#{$color_name}.text-#{$color_type} {
+				color: $color_value !important;
+			}
+		}
+	}
+}
+
+// Shade classes
+@each $color, $color_value in $shades {
+	.#{$color} {
+		background-color: $color_value !important;
+	}
+	.#{$color}-text {
+		color: $color_value !important;
+	}
+}
+@each $color, $color_value in $primary {
+	.bordered-box.#{$color} {
+		border: 1px solid $color_value;
+		color: $color_value;
+		a {
+			color: $color_value;
+		}
+		.icon {
+			fill: $color_value;
+		}
+		&:hover {
+			background-color: $color_value;
+			color: #fff;
+			a {
+				color: #fff;
+			}
+			.icon {
+				fill: #fff;
+			}
+		}
+	}
+}
+
+// usage: color("name_of_color", "type_of_color")
+// to avoid to repeating map-get($colors, ...)
+
+@function color($color, $type) {
+  @if map-has-key($colors, $color) {
+    $curr_color: map-get($colors, $color);
+    @if map-has-key($curr_color, $type) {
+      @return map-get($curr_color, $type);
+    }
+  }
+  @warn "Unknown `#{name}` in $colors.";
+  @return null;
+}
+

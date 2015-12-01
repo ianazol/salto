@@ -1,0 +1,32 @@
+// features-box 
+.features-box {
+	margin-bottom: $gutter-width*4;
+	.feature-item {
+		padding: $gutter-width*3 $gutter-width*2;
+		margin-bottom: $gutter-width;
+		min-height: 280px;
+		@media #{$medium-only}{
+			min-height: 240px;
+		}
+		@media #{$large-and-up}{
+			padding: $gutter-width*3;
+			min-height: 320px;
+		}
+		&.primary {
+			color: #fff;
+		}
+		.item-title {
+			font-size: $xbig-text;
+			text-transform: uppercase;
+			margin: 0 0 $gutter-width*2;
+			@media #{$medium-only}{
+				font-size: 20px;
+			}
+		}
+		.item-text {
+			@media #{$medium-only}{
+				font-size: 12px;
+			}
+		}
+	}
+}

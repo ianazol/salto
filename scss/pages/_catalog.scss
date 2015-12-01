@@ -1,0 +1,13 @@
+//catalog
+.catalog .item,
+.product-list .item {
+	margin: 0 0 $gutter-width;
+}
+
+.more-box {
+	margin: 50px auto;
+	text-align: center;
+	.btn-more {
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,116 @@
+// carousel
+.carousel {
+	overflow: hidden;
+	.carousel-inner {
+		width: 99999px;
+		z-index: 2;
+	}
+	.carousel-item {
+		margin-bottom: 0;
+		box-sizing: border-box;
+		position: relative;
+	}
+	&.fullwidth .carousel-item {
+		width: 100vw;
+	}
+	&.blog-carousel {
+		margin-top: $gutter-width*4;
+		margin-bottom: $gutter-width*4;
+	}
+	&.blog-carousel .carousel-item {
+		height: 360px;
+		background-position: left center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+.vertical {
+	padding-top: $gutter-width;
+	padding-bottom: $gutter-width;
+	.carousel-inner {
+		width: 100%;
+		height: 99999px;
+	}
+}
+.carousel-controlls {
+	position: absolute;
+	width: 100%;
+	max-width: 1200px;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	.prev,
+	.next {
+		position: absolute;
+		top: 50%;
+		margin-top: -3*$gutter-width;
+		width: $gutter-width*6;
+		height: $gutter-width*6;
+		padding: $gutter-width;
+		background: rgba(0,0,0,.6);
+		border: 0;
+		color: #fff;
+		.icon {
+			fill: #fff;
+		}
+	}
+	.prev {
+		left: 0;
+		transform: rotate(180deg);
+	}
+	.next {
+		right: 0;
+	}
+	@media screen and (min-width: 1200px){
+		left: 50%;
+		margin-left: -600px;
+	}
+}
+.vertical .carousel-controlls {
+	.prev,
+	.next {
+		left: 50%;
+		margin-left: -1em;
+		margin-top: 0;
+		width: 2em;
+		height: 2em;
+	}
+	.prev {
+		top: -0.5em;
+		transform: rotate(90deg);
+	}
+	.next {
+		top: auto;
+		bottom: -0.5em;
+		transform: rotate(-90deg);
+	}
+}
+.carousel-nav {
+	@extend ul.nostyle;
+	@extend ul.horizontal;
+	position: absolute;
+	width: 100%;
+	height: 13px;
+	left: 0;
+	bottom: $gutter-width;
+	z-index: 999;
+	text-align: center;
+	vertical-align: middle;
+	.nav-item {
+		margin: 0 3px;
+	}
+	.nav-link {
+		display: block;
+		width: 13px;
+		height: 13px;
+		border-radius: $circle-border-radius;
+		background: #f3f3f3;
+		opacity: 0.4;
+		will-change: opacity;
+		transition: opacity .3s ease;
+		&.active {
+			opacity: 1;
+		}
+	}
+}

@@ -1,0 +1,33 @@
+// filters
+.filter {
+	margin-bottom: $gutter-width*3;
+	.filter-list {
+		@extend ul.nostyle;
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+		label {
+			display: block;
+			padding: 3px;
+			cursor: pointer;
+		}
+		li:first-child label {
+			padding-left: 0;
+		}
+		li:last-child label {
+			padding-right: 0;
+		}
+		.divider {
+			background: color('border', 'base');
+			width: 1px;
+			height: 30px;
+			flex-shrink: 0;
+		}
+		input[type="radio"]:checked + label {
+			color: color('primary', 'base');
+		}
+	}
+	@media #{$medium-and-up}{
+		margin-bottom: $gutter-width*4;
+	}
+} 
