@@ -23,6 +23,42 @@
 <body>
 <div id="svg-placeholder" class="hide"></div>
 <div class="layout">
+<div class="page-aside">
+	<button class="btn btn-icon btn-close-menu"><svg class="icon"><use xlink:href="#cross"/></svg></button>
+	<div class="page-aside-inner">
+		<div class="phone-box hide-on-med-and-up">
+			<a href="callto:+78003000600" class="nostyle phone-link">8&nbsp;800&nbsp;3000&nbsp;600</a>
+		</div>
+		<div class="btn-box hide-on-med-and-up">
+			<button class="btn standart-color center">оставить заявку</button>
+		</div>
+		<ul class="ps-small-menu hide-on-large-only">
+			<li class="ps-small-menu-item"><a href="#" class="ps-small-menu-link">Документы</a></li>
+			<li class="ps-small-menu-item"><a href="#" class="ps-small-menu-link">Прайс-лист</a></li>
+		</ul>
+		<div class="main-menu">
+			<ul class="menu collapsible">
+				<li class="menu-item"><a class="menu-link" href="home.php">Главная</a></li>
+				<li class="menu-item parent">
+					<a class="menu-link" href="category.php">Продукция</a>
+					<span class="collapsible-header">+</span>
+					<ul class="submenu collapsible-body">
+						<li class="menu-item"><a href="#" class="menu-link">Для детских площадок</a></li>
+						<li class="menu-item"><a href="#" class="menu-link">Для спортивных площадок</a></li>
+						<li class="menu-item"><a href="#" class="menu-link">Для стадионов</a></li>
+						<li class="menu-item"><a href="#" class="menu-link">для загородного дома</a></li>
+						<li class="menu-item"><a href="#" class="menu-link">Отдельные компоненты</a></li>
+					</ul>
+				</li>
+				<li class="menu-item"><a class="menu-link" href="uslugi.php">Услуги</a></li>
+				<li class="menu-item"><a class="menu-link" href="portfolio.php">Портфолио</a></li>
+				<li class="menu-item"><a class="menu-link" href="about.php">О компании</a></li>
+				<li class="menu-item"><a class="menu-link" href="contacts.php">Контакты</a></li>
+				<li class="menu-item"><a class="menu-link" href="blog.php">Блог</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 <div class="page">
 	<div class="header-wrapper">
 		<div class="container header">

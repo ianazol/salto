@@ -31,36 +31,85 @@
 		color: inherit;
 	}
 }
+.ps-small-menu {
+	@extend ul.nostyle;
+	@extend .horizontal-menu;
+	font-size: $small-text;
+	line-height: 1.5;
+	padding: 1em 0;
+	border-bottom: 1px solid color('border','light');
+	display: flex;
+	justify-content: space-between;
+	.ps-small-menu-item {
+		margin: 0 $gutter-width/2;
+		&:first-child {
+			margin-left: 0;
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+	.ps-small-menu-link {
+		padding: 0;
+		@extend .medium;
+		text-transform: uppercase;
+		color: inherit;
+	}
+	@media #{$medium-and-up}{
+		padding: $gutter-width*0.5 0 $gutter-width*2.5;
+	}
+}
 .vertical-menu {
 	.menu-item {
 		margin: $gutter-width/2 - 1px 0;
 	}
 }
-.sidebar-menu {
-	max-width: 260px;
-	background: white;
-	@extend .z-depth-1;
-	border-radius: $base-border-radius;
+.main-menu {
+	margin-top: $gutter-width*2;
 	.menu-link {
 		display: block;
-		padding: 1em $gutter-width;
+		padding: 1em 0;
+		text-transform: uppercase;
+		@media #{$medium-and-up}{
+			padding: $gutter-width*2 0;
+		}
 	}
 	.menu-item {
-		border-top: 1px solid #eeeeee;
-		&:first-child {
-			border-top: 0;
+		&:first-child .menu-link {
+			padding-top: 0;
+		}
+		&:last-child .menu-link {
+			padding-bottom: 0;
 		}
 		&.active > .menu-link,
+		&.active > .collapsible-header,
 		.menu-link:hover,
 		.menu-link.primary-color {
 			color: color('primary', 'base');
 		}
-	}
-	.collapsible-body .menu-link {
-		padding: 5px 0;
-		&:first-child {
-			margin-top: 0;
+		&.parent {
+			.menu-link {
+				display: inline-block;
+			}
+			.collapsible-header {
+				font-size: 20px;
+				font-weight: 300;
+				display: inline-block;
+				margin-left: $gutter-width*1.5;
+				height: 100%;
+				&:after {
+					display: none;
+				}
+			}
 		}
+	}
+	.submenu {
+		@extend .menu;
+		padding: 5px 0;
+	}
+	.submenu .menu-link {
+		font-size: 12px;
+		padding: 1rem 1.5em;
 	}
 }
 

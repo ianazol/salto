@@ -2836,7 +2836,7 @@ html {
 }
 
 /* line 55, scss/elements/_global.scss */
-.z-depth-1, .base-card, .compare-page .compare, .sidebar-menu, .product-card {
+.z-depth-1, .base-card, .compare-page .compare, .product-card {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
 
@@ -2950,7 +2950,7 @@ i.small {
   font-size: 2rem;
 }
 /* line 142, scss/elements/_global.scss */
-i.medium, i.btn, .h-small-menu i.h-small-menu-link, .tabs .tab-header-item i.tab-link {
+i.medium, i.btn, .h-small-menu i.h-small-menu-link, .ps-small-menu i.ps-small-menu-link, .tabs .tab-header-item i.tab-link {
   font-size: 4rem;
 }
 /* line 145, scss/elements/_global.scss */
@@ -4030,7 +4030,7 @@ textarea + .textfield-placeholder, .dropdown-value, .brands-page .brands-box .le
 }
 
 /* line 28, scss/elements/_typography.scss */
-strong, .medium, .btn, .h-small-menu .h-small-menu-link, .tabs .tab-header-item .tab-link {
+strong, .medium, .btn, .h-small-menu .h-small-menu-link, .ps-small-menu .ps-small-menu-link, .tabs .tab-header-item .tab-link {
   font-weight: 600;
 }
 
@@ -4134,20 +4134,20 @@ ul.type-2 > li, ol.type-2 > li {
   margin: 10px 0;
 }
 /* line 85, scss/elements/_typography.scss */
-ul.nostyle, .pagin-list, .collapsible ul.collapsible-body-content, .dropdown-list, .menu, .horizontal-multilevel-menu .submenu, .h-small-menu, .filter .filter-list, .carousel-nav, .brand-box .brand-list, .product-item .item-links,
+ul.nostyle, .pagin-list, .collapsible ul.collapsible-body-content, .dropdown-list, .menu, .main-menu .submenu, .horizontal-multilevel-menu .submenu, .h-small-menu, .ps-small-menu, .filter .filter-list, .carousel-nav, .brand-box .brand-list, .product-item .item-links,
 .products-list .banner .item-links, .tabs .tab-header-list, .geo-box .projects-list, ol.nostyle {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 /* line 89, scss/elements/_typography.scss */
-ul.nostyle > li, .pagin-list > li, .collapsible ul.collapsible-body-content > li, .dropdown-list > li, .menu > li, .horizontal-multilevel-menu .submenu > li, .h-small-menu > li, .filter .filter-list > li, .carousel-nav > li, .brand-box .brand-list > li, .product-item .item-links > li,
+ul.nostyle > li, .pagin-list > li, .collapsible ul.collapsible-body-content > li, .dropdown-list > li, .menu > li, .main-menu .submenu > li, .horizontal-multilevel-menu .submenu > li, .h-small-menu > li, .ps-small-menu > li, .filter .filter-list > li, .carousel-nav > li, .brand-box .brand-list > li, .product-item .item-links > li,
 .products-list .banner .item-links > li, .tabs .tab-header-list > li, .geo-box .projects-list > li, ol.nostyle > li {
   padding: 0;
   margin: 0;
 }
 /* line 94, scss/elements/_typography.scss */
-ul.horizontal > li, .horizontal-menu > li, .h-small-menu > li, .horizontal-multilevel-menu > li, .carousel-nav > li, .brand-box .brand-list > li, .tabs .tab-header-list > li, ol.horizontal > li {
+ul.horizontal > li, .horizontal-menu > li, .h-small-menu > li, .ps-small-menu > li, .horizontal-multilevel-menu > li, .carousel-nav > li, .brand-box .brand-list > li, .tabs .tab-header-list > li, ol.horizontal > li {
   display: inline-block;
 }
 
@@ -4158,8 +4158,9 @@ a, .btn-link {
   -webkit-tap-highlight-color: transparent;
 }
 /* line 106, scss/elements/_typography.scss */
-a.nostyle, .nostyle.btn-link, .menu .menu-link, .horizontal-multilevel-menu .submenu .menu-link,
+a.nostyle, .nostyle.btn-link, .menu .menu-link, .main-menu .submenu .menu-link, .horizontal-multilevel-menu .submenu .menu-link,
 .menu .submenu-link,
+.main-menu .submenu .submenu-link,
 .horizontal-multilevel-menu .submenu .submenu-link, .breadcrumbs .brdcmb-link, .product-card .item-name a, .product-card .item-name .btn-link, .auth-box .auth-link {
   color: inherit;
 }
@@ -5598,7 +5599,7 @@ select option {
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 9980;
   width: 100%;
 }
 /* line 137, scss/components/_header.scss */
@@ -5692,12 +5693,12 @@ select option {
 }
 
 /* line 11, scss/components/_menu.scss */
-.horizontal-menu .menu-link, .h-small-menu .menu-link {
+.horizontal-menu .menu-link, .h-small-menu .menu-link, .ps-small-menu .menu-link {
   display: block;
   padding: 13px 7px;
 }
 /* line 15, scss/components/_menu.scss */
-.horizontal-menu .menu-item:first-of-type .menu-link, .h-small-menu .menu-item:first-of-type .menu-link {
+.horizontal-menu .menu-item:first-of-type .menu-link, .h-small-menu .menu-item:first-of-type .menu-link, .ps-small-menu .menu-item:first-of-type .menu-link {
   padding-left: 0;
 }
 
@@ -5717,66 +5718,128 @@ select option {
   color: inherit;
 }
 
-/* line 35, scss/components/_menu.scss */
+/* line 34, scss/components/_menu.scss */
+.ps-small-menu {
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 1em 0;
+  border-bottom: 1px solid #d7d7d7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/* line 43, scss/components/_menu.scss */
+.ps-small-menu .ps-small-menu-item {
+  margin: 0 5px;
+}
+/* line 45, scss/components/_menu.scss */
+.ps-small-menu .ps-small-menu-item:first-child {
+  margin-left: 0;
+}
+/* line 48, scss/components/_menu.scss */
+.ps-small-menu .ps-small-menu-item:last-child {
+  margin-right: 0;
+}
+/* line 52, scss/components/_menu.scss */
+.ps-small-menu .ps-small-menu-link {
+  padding: 0;
+  text-transform: uppercase;
+  color: inherit;
+}
+@media only screen and (min-width: 651px) {
+  /* line 34, scss/components/_menu.scss */
+  .ps-small-menu {
+    padding: 5px 0 25px;
+  }
+}
+
+/* line 63, scss/components/_menu.scss */
 .vertical-menu .menu-item {
   margin: 4px 0;
 }
 
-/* line 39, scss/components/_menu.scss */
-.sidebar-menu {
-  max-width: 260px;
-  background: white;
-  border-radius: 6px;
+/* line 67, scss/components/_menu.scss */
+.main-menu {
+  margin-top: 20px;
 }
-/* line 44, scss/components/_menu.scss */
-.sidebar-menu .menu-link {
+/* line 69, scss/components/_menu.scss */
+.main-menu .menu-link {
   display: block;
-  padding: 1em 10px;
+  padding: 1em 0;
+  text-transform: uppercase;
 }
-/* line 48, scss/components/_menu.scss */
-.sidebar-menu .menu-item {
-  border-top: 1px solid #eeeeee;
+@media only screen and (min-width: 651px) {
+  /* line 69, scss/components/_menu.scss */
+  .main-menu .menu-link {
+    padding: 20px 0;
+  }
 }
-/* line 50, scss/components/_menu.scss */
-.sidebar-menu .menu-item:first-child {
-  border-top: 0;
+/* line 78, scss/components/_menu.scss */
+.main-menu .menu-item:first-child .menu-link {
+  padding-top: 0;
 }
-/* line 53, scss/components/_menu.scss */
-.sidebar-menu .menu-item.active > .menu-link,
-.sidebar-menu .menu-item .menu-link:hover,
-.sidebar-menu .menu-item .menu-link.primary-color {
+/* line 81, scss/components/_menu.scss */
+.main-menu .menu-item:last-child .menu-link {
+  padding-bottom: 0;
+}
+/* line 84, scss/components/_menu.scss */
+.main-menu .menu-item.active > .menu-link, .main-menu .menu-item.active > .collapsible-header,
+.main-menu .menu-item .menu-link:hover,
+.main-menu .menu-item .menu-link.primary-color {
   color: #da0034;
 }
-/* line 59, scss/components/_menu.scss */
-.sidebar-menu .collapsible-body .menu-link {
+/* line 91, scss/components/_menu.scss */
+.main-menu .menu-item.parent .menu-link {
+  display: inline-block;
+}
+/* line 94, scss/components/_menu.scss */
+.main-menu .menu-item.parent .collapsible-header {
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  margin-left: 15px;
+  height: 100%;
+}
+/* line 100, scss/components/_menu.scss */
+.main-menu .menu-item.parent .collapsible-header:after {
+  display: none;
+}
+/* line 106, scss/components/_menu.scss */
+.main-menu .submenu {
   padding: 5px 0;
 }
-/* line 61, scss/components/_menu.scss */
-.sidebar-menu .collapsible-body .menu-link:first-child {
-  margin-top: 0;
+/* line 110, scss/components/_menu.scss */
+.main-menu .submenu .menu-link {
+  font-size: 12px;
+  padding: 1rem 1.5em;
 }
 
-/* line 67, scss/components/_menu.scss */
+/* line 116, scss/components/_menu.scss */
 .horizontal-multilevel-menu {
   width: 100%;
 }
-/* line 70, scss/components/_menu.scss */
+/* line 119, scss/components/_menu.scss */
 .horizontal-multilevel-menu .menu-link,
 .horizontal-multilevel-menu .submenu-link {
   display: block;
 }
-/* line 74, scss/components/_menu.scss */
+/* line 123, scss/components/_menu.scss */
 .horizontal-multilevel-menu > .menu-item {
   position: static;
 }
-/* line 77, scss/components/_menu.scss */
+/* line 126, scss/components/_menu.scss */
 .horizontal-multilevel-menu > .menu-item > .menu-link {
   font-size: 13px;
   font-weight: 600;
   line-height: 1;
   padding: 9px 12px 8px;
 }
-/* line 87, scss/components/_menu.scss */
+/* line 136, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu {
   position: absolute;
   left: 0;
@@ -5784,32 +5847,32 @@ select option {
   padding: 10px 0;
   color: #424242;
 }
-/* line 95, scss/components/_menu.scss */
+/* line 144, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-item {
   display: block;
   position: static;
 }
-/* line 99, scss/components/_menu.scss */
+/* line 148, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-link.default, .horizontal-multilevel-menu .submenu.level-2 > .submenu-item > .submenu-link, .horizontal-multilevel-menu .submenu.level-3 > .submenu-item > .submenu-link {
   line-height: 18px;
   padding: 1em 10px;
   position: static;
 }
-/* line 106, scss/components/_menu.scss */
+/* line 155, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2 {
   display: none;
   left: auto;
   background: #d8d8d8;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 115, scss/components/_menu.scss */
+/* line 164, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2.parent-box {
   width: 100%;
   width: calc(100% - 10px);
   left: 5px;
   background: white;
 }
-/* line 120, scss/components/_menu.scss */
+/* line 169, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2.parent-box:before {
   content: '';
   display: block;
@@ -5821,11 +5884,11 @@ select option {
   background: #d8d8d8;
   z-index: -1;
 }
-/* line 131, scss/components/_menu.scss */
+/* line 180, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2.parent-box > .submenu-item {
   width: 25%;
 }
-/* line 137, scss/components/_menu.scss */
+/* line 186, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3 {
   display: none;
   top: 0;
@@ -5834,21 +5897,21 @@ select option {
   min-height: 100%;
   background: white;
 }
-/* line 144, scss/components/_menu.scss */
+/* line 193, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3 > .submenu-item {
   width: 33.33%;
 }
-/* line 147, scss/components/_menu.scss */
+/* line 196, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3.col-2 > .submenu-item {
   width: 45%;
   display: inline-block;
 }
-/* line 151, scss/components/_menu.scss */
+/* line 200, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3 > .submenu-item > .submenu-link {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 158, scss/components/_menu.scss */
+/* line 207, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4 {
   top: 0;
   left: 33.34%;
@@ -5857,58 +5920,176 @@ select option {
   display: none;
   font-size: 0;
 }
-/* line 166, scss/components/_menu.scss */
+/* line 215, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4 .submenu-item {
   display: inline-block;
   width: 100%;
 }
-/* line 170, scss/components/_menu.scss */
+/* line 219, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4.col-2 .submenu-item {
   width: 49%;
 }
-/* line 173, scss/components/_menu.scss */
+/* line 222, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4 .submenu-link {
   font-size: 16px;
   padding: 5px 15px;
 }
-/* line 180, scss/components/_menu.scss */
+/* line 229, scss/components/_menu.scss */
 .horizontal-multilevel-menu .menu-item:hover .menu-link {
   background: #da0034;
 }
-/* line 183, scss/components/_menu.scss */
+/* line 232, scss/components/_menu.scss */
 .horizontal-multilevel-menu .menu-item:hover > .submenu {
   display: block;
 }
-/* line 188, scss/components/_menu.scss */
+/* line 237, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-item.active > .submenu-link {
   color: #da0034;
 }
-/* line 191, scss/components/_menu.scss */
+/* line 240, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-item.active > .submenu {
   display: block;
 }
-/* line 196, scss/components/_menu.scss */
+/* line 245, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2 > .submenu-item.active > .submenu-link,
 .horizontal-multilevel-menu .submenu.level-2 > .submenu-item:hover > .submenu-link {
   color: #424242;
   background: white;
 }
 
-/* line 203, scss/components/_menu.scss */
+/* line 252, scss/components/_menu.scss */
 .alphabet-menu {
   margin: 5px 0;
   line-height: 1;
 }
-/* line 207, scss/components/_menu.scss */
+/* line 256, scss/components/_menu.scss */
 .alphabet-menu .menu-link {
   padding-top: 2px;
   padding-bottom: 2px;
   color: #424242;
   text-transform: uppercase;
 }
-/* line 213, scss/components/_menu.scss */
+/* line 262, scss/components/_menu.scss */
 .alphabet-menu .menu-item {
   margin-right: 3px;
+}
+
+/* line 2, scss/components/_page-aside.scss */
+.page-aside {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  z-index: 9998;
+  will-change: transform;
+  -webkit-transform: translateX(-100%) translateZ(0);
+          transform: translateX(-100%) translateZ(0);
+  -webkit-transition: -webkit-transform .3s ease;
+          transition: transform .3s ease;
+}
+@media only screen and (min-width: 651px) {
+  /* line 2, scss/components/_page-aside.scss */
+  .page-aside {
+    width: 50%;
+    max-width: 410px;
+  }
+}
+/* line 17, scss/components/_page-aside.scss */
+.page-aside.open {
+  -webkit-transform: translateX(0);
+      -ms-transform: translateX(0);
+          transform: translateX(0);
+}
+/* line 20, scss/components/_page-aside.scss */
+.page-aside .page-aside-inner {
+  height: 100%;
+  padding: 20px 15.6%;
+  overflow-y: auto;
+}
+@media only screen and (min-width: 651px) {
+  /* line 20, scss/components/_page-aside.scss */
+  .page-aside .page-aside-inner {
+    padding: 30px 20%;
+  }
+}
+@media only screen and (min-width: 651px) {
+  /* line 20, scss/components/_page-aside.scss */
+  .page-aside .page-aside-inner {
+    padding: 100px 30px 30px 100px;
+  }
+}
+/* line 31, scss/components/_page-aside.scss */
+.page-aside .btn-close-menu {
+  position: fixed;
+  top: 20px;
+  left: 5px;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  will-change: transform;
+  -webkit-transform: rotate(0) translateZ(0);
+          transform: rotate(0) translateZ(0);
+  -webkit-transition: -webkit-transform .3s ease;
+          transition: transform .3s ease;
+  z-index: 9999;
+}
+@media only screen and (min-width: 651px) {
+  /* line 31, scss/components/_page-aside.scss */
+  .page-aside .btn-close-menu {
+    top: 30px;
+    left: 25px;
+  }
+}
+/* line 46, scss/components/_page-aside.scss */
+.page-aside .btn-close-menu .icon {
+  width: 100%;
+  height: 100%;
+  fill: #da0034;
+}
+/* line 51, scss/components/_page-aside.scss */
+.page-aside .btn-close-menu:hover {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+/* line 55, scss/components/_page-aside.scss */
+.page-aside .phone-box {
+  font-size: 18px;
+  text-align: center;
+  padding-top: 5px;
+}
+/* line 59, scss/components/_page-aside.scss */
+.page-aside .phone-box a, .page-aside .phone-box .btn-link {
+  color: #424242;
+}
+/* line 63, scss/components/_page-aside.scss */
+.page-aside .btn-box {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* line 68, scss/components/_page-aside.scss */
+.dark-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  will-change: opacity;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-transition: opacity .3s ease;
+          transition: opacity .3s ease;
+}
+/* line 80, scss/components/_page-aside.scss */
+.dark-bg.open {
+  opacity: 1;
+  z-index: 9990;
 }
 
 /* line 3, scss/components/_geo.scss */
