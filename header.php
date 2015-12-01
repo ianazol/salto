@@ -40,14 +40,14 @@
 			<ul class="menu collapsible">
 				<li class="menu-item"><a class="menu-link" href="home.php">Главная</a></li>
 				<li class="menu-item parent">
-					<a class="menu-link" href="category.php">Продукция</a>
+					<a class="menu-link" href="products.php">Продукция</a>
 					<span class="collapsible-header">+</span>
 					<ul class="submenu collapsible-body">
-						<li class="menu-item"><a href="#" class="menu-link">Для детских площадок</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Для спортивных площадок</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Для стадионов</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">для загородного дома</a></li>
-						<li class="menu-item"><a href="#" class="menu-link">Отдельные компоненты</a></li>
+						<li class="menu-item"><a href="category.php" class="menu-link">Для детских площадок</a></li>
+						<li class="menu-item"><a href="category.php" class="menu-link">Для спортивных площадок</a></li>
+						<li class="menu-item"><a href="category.php" class="menu-link">Для стадионов</a></li>
+						<li class="menu-item"><a href="category.php" class="menu-link">для загородного дома</a></li>
+						<li class="menu-item"><a href="category.php" class="menu-link">Отдельные компоненты</a></li>
 					</ul>
 				</li>
 				<li class="menu-item"><a class="menu-link" href="uslugi.php">Услуги</a></li>
@@ -59,8 +59,9 @@
 		</div>
 	</div>
 </div>
-<div class="page">
-	<div class="header-wrapper">
+<!-- если главная - .page.home-page, .header-wrapper.start -->
+<div class="page home-page">
+	<div class="header-wrapper start">
 		<div class="container header">
 			<div class="menu-box">
 				<button class="btn-menu btn btn-icon">
@@ -86,6 +87,7 @@
 				<div class="search-field-box">
 					<input type="text" class="search inputtext" id="h-search" />
 					<label for="h-search" class="textfield-placeholder">Поиск</label>
+					<div class="tngl hide-on-med-and-up"></div>
 				</div>
 			</div>
 			<div class="btn-box hide-on-small-only">

@@ -233,6 +233,14 @@
 	}
 }
 
+.home-page .products-list {
+	margin-top: $gutter-width*2;
+	margin-bottom: $gutter-width*4.5;
+	@media #{$medium-and-up}{
+		margin-top: $gutter-width*3;
+	}
+}
+
 // serv
 .serv-box {
 	@media #{$medium-and-up}{

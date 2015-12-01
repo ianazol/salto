@@ -21,16 +21,15 @@ $(document).ready(function(){
 	// menu
 	$('.btn-menu').click(function(){
 		$('.dark-bg, .page-aside').addClass('open');
-		//position('fix');
-	});
-	$('.page-aside-inner').scroll(function(e){
-		//e.preventDefault();
-		return false;
 	});
 	$('.btn-close-menu,.dark-bg').click(function(){
 		$('.dark-bg, .page-aside').removeClass('open');
-		//position();
 	});	
+	
+	// search
+	$('.search-btn').click(function(){
+		$(this).toggleClass('active').siblings('.search-field-box').toggleClass('active');
+	});
 	
 	// modal
 	$('.btn-modal').click(function(){

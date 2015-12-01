@@ -66,6 +66,23 @@
 		}
 	}
 }
+.home-page .portfolio {
+	@media #{$medium-and-up}{
+		margin-bottom: $gutter-width*4;
+		.portfolio-list {
+			margin-top: $gutter-width*3;
+		}
+	}
+	@media #{$large-and-up}{
+		margin-bottom: $gutter-width*5;
+		.portfolio-list {
+			margin-top: $gutter-width*4;
+		}
+		.portfolio-item {
+			height: 370px;
+		}
+	}
+}
 
 // project-box
 .project-box {
