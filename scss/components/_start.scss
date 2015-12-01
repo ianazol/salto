@@ -75,3 +75,15 @@
 		}
 	}
 }
+.case .start-box {
+	height: 410px;
+	@media #{$medium-and-up}{
+		height: 560px;
+		.content {
+			padding-top: $gutter-width*16;
+		}
+	}
+	.page-title {
+		text-transform: uppercase;
+	}
+}

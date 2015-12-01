@@ -18,6 +18,10 @@ $(document).ready(function(){
 		}
 	});
 	
+	// fullpage
+	// https://github.com/alvarotrigo/fullPage.js
+	// $('.fullpage').fullpage();
+	
 	// menu
 	$('.btn-menu').click(function(){
 		$('.dark-bg, .page-aside').addClass('open');

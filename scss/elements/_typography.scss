@@ -239,3 +239,16 @@ h6 { font-size: $h6-fontsize; line-height: 1.5; margin: 1em 0;}
 		margin-bottom: $gutter-width*5;
 	}
 }
+
+.cols-2 {
+	@media #{$medium-and-up}{
+		column-count: 2;
+		column-gap: 50px;
+		p:first-child {
+			margin-top: 0;
+		}
+	}
+	@media #{$large-and-up}{
+		column-gap: 100px;
+	}
+}
