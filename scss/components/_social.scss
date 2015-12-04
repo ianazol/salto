@@ -13,16 +13,8 @@
 		width: 100%;
 		height: 100%;
 		padding: 0 $gutter-width*0.5;
-		&:hover {
-			&.vk .icon {
-				fill: color('icons', 'vk');
-			}
-			&.fb .icon {
-				fill: color('icons', 'fb');
-			}
-			&.tw .icon {
-				fill: color('icons', 'tw');
-			}
+		&:hover .icon {
+			fill: color('primary', 'base');
 		}
 	}
 }

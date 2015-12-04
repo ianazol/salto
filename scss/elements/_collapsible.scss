@@ -23,29 +23,8 @@
 		min-height: 50px;
 	}
 	.collapsible-header {
-		&:after {
-			content: '>';
-			display: block;
-			position: absolute;
-			right: 22px;
-			top: $gutter-width*0.9;
-			font-size: 16px;
-			line-height: 1;
-			color: color('icons', 'base');
-			transform: scale(2,1) rotate(90deg) translateZ(0);
-			will-change: transform;
-			//transition: transform .3s ease;
-		}
-		&:not(.active):hover {
-			background-color: color('bg', 'light');
-		}
-		&.active {
-			&:after {
-				transform: scale(2,1) rotate(-90deg) translateZ(0);
-			}
-			& + .collapsible-body {
-				//display: block;
-			}
+		&:hover {
+			color: color('primary', 'base');
 		}
 	}
 	&.collapsible-type-2 {

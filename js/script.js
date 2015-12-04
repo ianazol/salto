@@ -37,7 +37,6 @@ $(document).ready(function(){
 				});
 			});
 		}
-		
 	});
 	
 	
@@ -423,7 +422,7 @@ function commaSeparateNumber(val){
 function animateNumber(el,value,start,separate){
 	console.log('ok');
 	el.animate({num: value}, {
-		duration: 5000,
+		duration: 1500,
 		easing: 'swing',
 		step: function(num){
 			if(separate == true){
@@ -435,10 +434,3 @@ function animateNumber(el,value,start,separate){
 	});
 	//$(window).unbind('animate.once');
 }
-
-// angularjs 
-// https://docs.angularjs.org/guide
-// http://angular.ru/guide/
-/*
-var zakrepi = angular.module('zakrepi',[]);
-*/

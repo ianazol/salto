@@ -3,7 +3,7 @@
 $primary: (
 	light: #f33b42,
 	base: #da0034,
-	//dark:,
+	dark: #bb012d,
 	red: #ce2d41,
 	blue: #7376f0,
 	green: #00b06c,
@@ -74,18 +74,18 @@ $colors: (
 	@each $color_type, $color_value in $color {
 		@if $color_type == "base" {
 			.#{$color_name} {
-				background-color: $color_value !important;
+				background-color: $color_value;
 			}
 			.#{$color_name}-text {
-				color: $color_value !important;
+				color: $color_value;
 			}
 		}
 		@else {
 			.#{$color_name}.#{$color_type} {
-				background-color: $color_value !important;
+				background-color: $color_value;
 			}
 			.color-#{$color_name}.text-#{$color_type} {
-				color: $color_value !important;
+				color: $color_value;
 			}
 		}
 	}
@@ -94,10 +94,10 @@ $colors: (
 // Shade classes
 @each $color, $color_value in $shades {
 	.#{$color} {
-		background-color: $color_value !important;
+		background-color: $color_value;
 	}
 	.#{$color}-text {
-		color: $color_value !important;
+		color: $color_value;
 	}
 }
 @each $color, $color_value in $primary {

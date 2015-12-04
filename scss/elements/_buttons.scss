@@ -35,12 +35,20 @@
 		.icon {
 			fill: white;
 		}
+		&:hover {
+			background: color('primary', 'dark');
+			border-color: color('primary', 'dark');
+		}
 	}
 	
 	&.standart-color {
 		background: transparent;
 		color: color('primary', 'base');
 		border-color: color('primary', 'base');
+		&:hover {
+			color: color('primary', 'dark');
+			border-color: color('primary', 'dark');
+		}
 	}
 	&.flat {
 		background: white;

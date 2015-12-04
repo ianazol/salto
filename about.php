@@ -38,13 +38,13 @@
 			</div>
 		</div>
 	</div>
-	<div class="digit-box about-digit-box">
+	<div class="digit-box about-digit-box animate-number-box">
 		<div class="box-title center-align">Наши преимущества</div>
 		<div class="row">
 			<div class="col l9 center m12 s-full-width no-padding">
 				<div class="row digit-item">
 					<div class="digit-content col m5 bg darker center-align">
-						<div class="digit bold">400</div>
+						<div class="digit bold animate-number">400</div>
 						<div class="digit-text light">
 							Квадратных метров средняя скорость монтажа
 						</div>
@@ -58,7 +58,7 @@
 				</div>
 				<div class="row digit-item">
 					<div class="digit-content col m5 bg darker center-align">
-						<div class="digit bold">20 000</div>
+						<div class="digit bold animate-number">20 000</div>
 						<div class="digit-text light">
 							Квадратных метров резинового покрытия уложено
 						</div>
@@ -72,7 +72,7 @@
 				</div>
 				<div class="row digit-item">
 					<div class="digit-content col m5 bg darker center-align">
-						<div class="digit bold">5</div>
+						<div class="digit bold animate-number">5</div>
 						<div class="digit-text light">
 							лет гарантии на все виды работ
 						</div>

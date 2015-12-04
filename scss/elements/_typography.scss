@@ -95,6 +95,17 @@ ul, ol {
 		display: inline-block;
 	}
 }
+ol {
+	list-style-type: none;
+	counter-reset: item;
+	li:before {
+		content: counter(item) '.';
+		font-weight: 600;
+		counter-increment: item;
+		position: absolute;
+		left: -23px;
+	}
+}
 
 a {
 	color: $link-color;
@@ -114,15 +125,18 @@ a {
 
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
+	font-weight: 300;
 	line-height: 1.5;
 }
 
 // Header Styles
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-//h1 { font-size: $h1-fontsize; line-height: 1.5; margin: 1em 0;}
-h2 { font-size: $h2-fontsize; line-height: 1.5; margin: 1em 0;}
-h3 { font-size: $h3-fontsize; line-height: 1.5; margin: 1em 0;}
+p a:hover {
+	text-decoration: underline;
+}
+//h1 { font-size: $h1-fontsize; line-height: 1.5; margin: 1em 0 0.5em;}
+h2 { font-size: $h2-fontsize; line-height: 1.5; margin: 2em 0 0.5em;}
+h3 { font-size: $h3-fontsize; line-height: 1.5; margin: 1em 0 0.5em; font-weight: 600;}
 h4 { font-size: $h4-fontsize; line-height: 1.5; margin: 1em 0;}
 h5 { font-size: $h5-fontsize; line-height: 1.5; margin: 1em 0;}
 h6 { font-size: $h6-fontsize; line-height: 1.5; margin: 1em 0;}
@@ -138,8 +152,12 @@ h6 { font-size: $h6-fontsize; line-height: 1.5; margin: 1em 0;}
 		margin: $gutter-width*5 0 $gutter-width*4;
 	}
 	@media #{$large-and-up}{
-		max-width: 60%;
 		margin: $gutter-width*7 auto $gutter-width*4;
+	}
+}
+@media #{$large-and-up}{
+	.page-title {
+		max-width: 60%;
 	}
 }
 .page-note-text {

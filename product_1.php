@@ -58,24 +58,6 @@
 				</div>
 			</div>
 			<input type="submit" class="btn primary mediumwidth center" value="Отправить"/>
-			<!--button class="btn primary mediumwidth center">Отправить</button-->
-			<!-- ответы форм --
-			<div class="modal small-modal" id="success-form">
-				<button class="btn btn-icon btn-close btn-close-modal"><svg class="icon"><use xlink:href="#cross"/></svg></button>
-				<div class="modal-inner">
-					<div class="modal-title center-align">Ваша заявка успешно отправлена!</div>
-					<button class="btn primary mediumwidth center btn-close-modal">Назад</button>
-				</div>
-			</div>
-			<div class="modal small-modal" id="error-form">
-				<button class="btn btn-icon btn-close btn-close-modal"><svg class="icon"><use xlink:href="#cross"/></svg></button>
-				<div class="modal-inner">
-					<div class="modal-title center-align">Извините, не удалось отправить!</div>
-					<div class="modal-text center-align">Повторите попытку позже.</div>
-					<button class="btn primary mediumwidth center btn-close-modal">Назад</button>
-				</div>
-			</div>
-			<!-- /ответы форм -->
 		</form>
 	</div>
 </div>

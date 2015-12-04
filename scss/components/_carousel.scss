@@ -1,6 +1,10 @@
 // carousel
 .carousel {
 	overflow: hidden;
+	height: 350px;
+	@media #{$medium-and-up}{
+		height: 560px;
+	}
 	.carousel-inner {
 		width: 99999px;
 		z-index: 2;
@@ -60,6 +64,9 @@
 		color: #fff;
 		.icon {
 			fill: #fff;
+		}
+		&:hover .icon {
+			fill: color('primary', 'base');
 		}
 	}
 	.prev {

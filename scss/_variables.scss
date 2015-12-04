@@ -59,8 +59,8 @@ $xbig-text: 24px !default;
 $large-text: 34px !default;
 // Header Styles
 $h1-fontsize: 4.2rem !default;
-$h2-fontsize: 3.56rem !default;
-$h3-fontsize: 2.92rem !default;
+$h2-fontsize: $xbig-text !default;
+$h3-fontsize: $big-text !default;
 $h4-fontsize: 1.5rem !default;
 $h5-fontsize: 1.313rem !default;
 $h6-fontsize: 1.125rem !default;

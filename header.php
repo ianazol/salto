@@ -13,9 +13,6 @@
 	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 	<script src="js/modernizr-custom.js"></script>
 	<script src="js/materialize.min.js"></script>
-	<script src="js/jquery.fullpage.min.js"></script>
-	<script src="js/angular.js"></script>
-	<script src="js/content-app.js"></script>
 	<script src="js/jquery.jcarousel.min.js"></script>
 	<script src="js/svg-lib.js"></script>
 	<script src="js/script.js"></script>

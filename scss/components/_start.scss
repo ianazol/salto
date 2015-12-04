@@ -83,6 +83,7 @@
 	}
 	@media #{$large-and-up}{
 		height: 695px;
+		background-size: cover;
 		.content {
 			padding-top: 390px;
 		}
