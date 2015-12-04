@@ -2,7 +2,7 @@
 <div class="start-box">
 	<div class="content container">
 		<div class="title center-align">Лучшие бесшовные покрытия из резиновой крошки в Тюмени</div>
-		<button class="btn standart center hide-on-med-and-up">оставить заявку</button>
+		<button class="btn standart center hide-on-med-and-up btn-modal" data-modal="order-form">оставить заявку</button>
 		<div class="down-icon center hide-on-med-and-down"><svg class="icon"><use xlink:href="#arr"/></svg></div>
 	</div>
 </div>
@@ -12,6 +12,7 @@
 		<div class="col s12 m4 l4">
 			<div class="product-item primary yellow">
 				<div class="item-img hide-on-touch" style="background-image:url('images/content/products/1.jpg');"></div>
+				<div class="item-img-blur hide-on-touch" style="background-image:url('images/content/products/1.jpg');"></div>
 				<div class="item-title"><a href="category-1.php">Для детских площадок</a></div>
 				<ul class="item-links">
 					<li><a href="#" class="item-link">Сальто стадионов</a></li>
@@ -23,6 +24,7 @@
 		<div class="col s12 m4 l4">
 			<div class="banner">
 				<div class="item-img" style="background-image:url('images/content/banner.jpg');"></div>
+				<div class="item-img-blur" style="background-image:url('images/content/banner.jpg');"></div>
 				<div class="item-title">Скидка 40 %</div>
 				<p class="item-text">До конца декабря действует скидка 40% для застройщиков</p>
 			</div>
@@ -30,6 +32,7 @@
 		<div class="col s12 m4 l4">
 			<div class="product-item primary blue">
 				<div class="item-img hide-on-touch" style="background-image:url('images/content/products/2.jpg');"></div>
+				<div class="item-img-blur hide-on-touch" style="background-image:url('images/content/products/2.jpg');"></div>
 				<div class="item-title"><a href="category-1.php">Для спортивных площадок</a></div>
 				<ul class="item-links">
 					<li><a href="#" class="item-link">Сальто стадионов</a></li>
@@ -41,6 +44,7 @@
 		<div class="col s12 m4 l4">
 			<div class="product-item primary red">
 				<div class="item-img hide-on-touch" style="background-image:url('images/content/products/3.jpg');"></div>
+				<div class="item-img-blur hide-on-touch" style="background-image:url('images/content/products/3.jpg');"></div>
 				<div class="item-title"><a href="category-1.php">Для стадионов</a></div>
 				<ul class="item-links">
 					<li><a href="#" class="item-link">Сальто стадионов</a></li>
@@ -52,6 +56,7 @@
 		<div class="col s12 m4 l4">
 			<div class="product-item primary violet">
 				<div class="item-img hide-on-touch" style="background-image:url('images/content/products/4.jpg');"></div>
+				<div class="item-img-blur hide-on-touch" style="background-image:url('images/content/products/4.jpg');"></div>
 				<div class="item-title"><a href="category-1.php">Для загородных домов</a></div>
 				<ul class="item-links">
 					<li><a href="#" class="item-link">Сальто стадионов</a></li>
@@ -64,6 +69,7 @@
 		<div class="col s12 m4 l4">
 			<div class="product-item primary green">
 				<div class="item-img hide-on-touch" style="background-image:url('images/content/products/5.jpg');"></div>
+				<div class="item-img-blur hide-on-touch" style="background-image:url('images/content/products/5.jpg');"></div>
 				<div class="item-title"><a href="category-1.php">Отдельные компоненты</a></div>
 				<ul class="item-links">
 					<li><a href="#" class="item-link">Клей</a></li>
@@ -116,49 +122,55 @@
 	</div>
 </div>
 <div class="box-title center-align hide-on-small-only">Компания в цифрах</div>
-<div class="bg darker home-digit-box hide-on-small-only medium">
+<div class="bg darker home-digit-box hide-on-small-only medium animate-number-box">
 	<div class="container">
 		<div class="row">
+			<!-- 
+				.animate-number - анимация
+				.animate-number-box - родителю, анимация начнется, когда доскроллим до него
+				data-separate - делить ли на разряды, true/false, default - true
+				data-start - с какого числа начинать, default - 1
+			-->
 			<div class="col l4 m4 big-block">
 				<div class="digit-content">
 					Начиная с <br/>
-					<span class="digit">2013 </span> года
+					<span class="digit animate-number" data-separate="false" data-start="2000">2013</span> года
 				</div>
 			</div>
 			<div class="col l4 m4 medium-block">
 				<div class="digit-content">
 					Реализовано<br/>
-					<span class="digit">114 </span> проектов
+					<span class="digit animate-number">114</span> проектов
 				</div>
 			</div>
 			<div class="col l4 m4 medium-block">
 				<div class="digit-content">
 					Общая площадь<br/>
-					<span class="digit">20&nbsp;000 </span> кв.м
+					<span class="digit animate-number" data-step="100">20&nbsp;000</span> кв.м
 				</div>
 			</div>
 			<div class="col l8 m8 divider-block"><div class="digit-content">из них</div></div>
 			<div class="col l2 m2 small-block">
 				<div class="digit-content">
-					<span class="digit">25</span><br/>
+					<span class="digit animate-number">25</span><br/>
 					спортивных площадок
 				</div>
 			</div>
 			<div class="col l2 m2 small-block">
 				<div class="digit-content">
-					<span class="digit">68</span><br/>
+					<span class="digit animate-number">68</span><br/>
 					детских площадок
 				</div>
 			</div>
 			<div class="col l2 m2 small-block">
 				<div class="digit-content">
-					<span class="digit">17</span><br/>
+					<span class="digit animate-number">17</span><br/>
 					workout площадок
 				</div>
 			</div>
 			<div class="col l2 m2 small-block">
 				<div class="digit-content">
-					<span class="digit">4</span><br/>
+					<span class="digit animate-number">4</span><br/>
 					беговые дорожки
 				</div>
 			</div>

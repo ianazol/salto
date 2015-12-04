@@ -34,6 +34,17 @@ textarea {
 		will-change: opacity, transform;
 		transform: translate(0,0);
 		transition: transform .1s, opacity .1s;
+		&:focus {
+			outline: none;
+		}
+	}
+	&[required] {
+		background-position: right 19px center;
+		background-repeat: no-repeat;
+	}
+	&[required] + .textfield-placeholder:after {
+		content: '*';
+		color: color('primary','base');
 	}
 	
 	&.inputtext-small {
@@ -60,18 +71,26 @@ textarea {
 		transform: translate(50px,0);
 	}
 	&[class*='invalid-']{
-		border-color: color('primary', 'base');
+		border-color: color('border', 'error');
+		background-image: url('images/error-cross.png');
 	}
 	&.invalid-required ~ .error-required,
 	&.invalid-pattern ~ .error-pattern {
 		height: 1.5em;
 	}
+	&.dirty:not([class*='invalid-']){
+		background-image: url('images/success-tick.png');
+		border-color: color('border', 'success');
+	}
 }
 .error-text {
 	display: block;
+	@extend .light;
 	height: 0;
 	overflow: hidden;
 	margin-top: 3px;
+	margin-left: $gutter-width*1.5;
+	font-size: 12px;
 	color: color('primary', 'base');
 	transition: height .3s ease;
 }
@@ -79,20 +98,6 @@ textarea {
 	max-width: 100%;
 	min-height: 190px;
 }
-/*.col {
-	>input[type="text"],
-	>input[type="email"],
-	>input[type="url"],
-	>input[type="tel"],
-	>input[type="password"],
-	>input[type="search"],
-	>.inputtext,
-	>textarea {
-		& + .textfield-placeholder {
-			left: $gutter-width*1.25;
-		}
-	}
-}*/
 
 // checkbox
 input[type="checkbox"] {

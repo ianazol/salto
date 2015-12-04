@@ -24,6 +24,7 @@
 <body>
 <div id="svg-placeholder" class="hide"></div>
 <div class="layout">
+<div class="page-aside-dark-bg dark-bg"></div>
 <div class="page-aside">
 	<button class="btn btn-icon btn-close-menu"><svg class="icon"><use xlink:href="#cross"/></svg></button>
 	<div class="page-aside-inner">
@@ -31,7 +32,7 @@
 			<a href="callto:+78003000600" class="nostyle phone-link">8&nbsp;800&nbsp;3000&nbsp;600</a>
 		</div>
 		<div class="btn-box hide-on-med-and-up">
-			<button class="btn standart-color center">оставить заявку</button>
+			<button class="btn standart-color center btn-modal" data-modal="order-form">оставить заявку</button>
 		</div>
 		<ul class="ps-small-menu hide-on-large-only">
 			<li class="ps-small-menu-item"><a href="#" class="ps-small-menu-link">Документы</a></li>
@@ -92,7 +93,7 @@
 				</div>
 			</div>
 			<div class="btn-box hide-on-small-only">
-				<button class="btn">оставить заявку</button>
+				<button class="btn btn-modal" data-modal="order-form">оставить заявку</button>
 			</div>
 		</div>
 	</div>

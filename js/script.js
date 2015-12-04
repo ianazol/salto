@@ -16,18 +16,37 @@ $(document).ready(function(){
 				$('.header-wrapper').removeClass('fixed');
 			}
 		}
+		
+		// numbers animation
+		if(($('.animate-number').length > 0) && ($(window).scrollTop() >= ($('.animate-number-box').offset().top - $(window).height() + 100)) && ($(window).scrollTop() < ($('.animate-number-box').offset().top - $(window).height() + 200))){
+			$(window).one('scroll', function(){
+				$('.animate-number').each(function(){
+					var value = parseInt($(this).text().replace(/\s+/g,''),10);
+					if($(this).attr('data-start')){
+						var start = $(this).attr('data-start');
+					} else {
+						var start = 1;
+					}
+					if($(this).attr('data-separate')){
+						var separate = $(this).attr('data-separate');
+					} else {
+						var separate = true;
+					}
+					$(this).text(start);
+					animateNumber($(this),value,start,separate);
+				});
+			});
+		}
+		
 	});
 	
-	// fullpage
-	// https://github.com/alvarotrigo/fullPage.js
-	// $('.fullpage').fullpage();
 	
 	// menu
 	$('.btn-menu').click(function(){
-		$('.dark-bg, .page-aside').addClass('open');
+		$('.page-aside-dark-bg, .page-aside').addClass('open');
 	});
-	$('.btn-close-menu,.dark-bg').click(function(){
-		$('.dark-bg, .page-aside').removeClass('open');
+	$('.btn-close-menu,.page-aside-dark-bg').click(function(){
+		$('.page-aside-dark-bg, .page-aside').removeClass('open');
 	});	
 	
 	// search
@@ -38,10 +57,12 @@ $(document).ready(function(){
 	// modal
 	$('.btn-modal').click(function(){
 		var modal = $(this).attr('data-modal');
-		$('.dark-bg, #'+modal).addClass('open');
+		$('#'+modal).css('top', $(window).scrollTop() + 150);
+		$('.modal-dark-bg, #'+modal).addClass('open');
 	});
-	$('.modal .btn-close, .dark-bg').click(function(){
-		$('.dark-bg, .modal').removeClass('open');
+	$('.btn-close-modal, .modal-dark-bg').click(function(e){
+		e.preventDefault();
+		$('.modal-dark-bg, .modal').removeClass('open');
 	});
 	
 	
@@ -132,7 +153,7 @@ $(document).ready(function(){
 		.on('jcarouselcontrol:inactive', function(){
 			$(this).removeClass('active');
 		})
-		.jcarouselControl();
+		.jcarouselControl({target: '-=1'});
 	$('.carousel-controlls .next')
 		.on('jcarouselcontrol:active', function(){
 			$(this).addClass('active');
@@ -140,7 +161,7 @@ $(document).ready(function(){
 		.on('jcarouselcontrol:inactive', function(){
 			$(this).removeClass('active');
 		})
-		.jcarouselControl();
+		.jcarouselControl({target: '+=1'});
 	
 	
 	
@@ -301,8 +322,16 @@ $(document).ready(function(){
 			validateRequired($(this));
 		});
 		if($(this).find('.invalid-required, .invalid-pattern, .invalid-file').length > 0){
+			$('.modal').removeClass('open');
+			$('.modal#error-form').css('top',$(window).scrollTop() + 150);
+			$('.modal-dark-bg, .modal#error-form').addClass('open');
 			return false;
-		} 
+		} else {
+			$('.modal').removeClass('open');
+			$('.modal#success-form').css('top',$(window).scrollTop() + 150);
+			$('.modal-dark-bg, .modal#success-form').addClass('open');
+			return false;
+		}
 	});
 
 });
@@ -351,9 +380,6 @@ function toggleContent(el,action,state,num){
 		}
 	}
 }
-function tab(){
-	console.log('ok');
-}
 // validation functions
 function validateEmail(el){
 	var pattern = /.+@.+\..+/i;
@@ -387,6 +413,27 @@ function validateRequired(el){
 	} else {
 		el.removeClass('invalid-required');
 	}
+}
+function commaSeparateNumber(val){
+	while (/(\d+)(\d{3})/.test(val.toString())){
+		val = val.toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1&nbsp;");
+	}
+	return val;
+}
+function animateNumber(el,value,start,separate){
+	console.log('ok');
+	el.animate({num: value}, {
+		duration: 5000,
+		easing: 'swing',
+		step: function(num){
+			if(separate == true){
+				$(this).html(commaSeparateNumber(Math.round(num))+' ');
+			} else {
+				$(this).text(Math.round(num)+' ');
+			}
+		}
+	});
+	//$(window).unbind('animate.once');
 }
 
 // angularjs 

@@ -21,6 +21,7 @@
 			<div class="carousel blog-carousel fullwidth">
 				<div class="carousel-inner">
 					<div class="carousel-item" style="background-image: url('images/content/blog/detail-slide-1.jpg');"></div>
+					<div class="carousel-item" style="background-image: url('images/content/blog/detail-slide-1.jpg');"></div>
 				</div>
 				<div class="carousel-controlls">
 					<button class="prev"><svg class="icon"><use xlink:href="#arr"/></svg></button>

@@ -24,7 +24,7 @@
 		@media #{$medium-and-up}{
 			padding: $gutter-width*3 20%;
 		}
-		@media #{$medium-and-up}{
+		@media #{$large-and-up}{
 			padding: $gutter-width*10 $gutter-width*3  $gutter-width*3  $gutter-width*10;
 		}
 	}
