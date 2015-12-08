@@ -420,7 +420,6 @@ function commaSeparateNumber(val){
 	return val;
 }
 function animateNumber(el,value,start,separate){
-	console.log('ok');
 	el.animate({num: value}, {
 		duration: 1500,
 		easing: 'swing',
@@ -432,5 +431,4 @@ function animateNumber(el,value,start,separate){
 			}
 		}
 	});
-	//$(window).unbind('animate.once');
 }

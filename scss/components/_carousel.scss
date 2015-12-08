@@ -28,11 +28,14 @@
 		margin-top: $gutter-width*4;
 		margin-bottom: $gutter-width*4;
 	}
-	&.blog-carousel .carousel-item {
+	&.blog-carousel {
 		height: 360px;
 		background-position: left center;
 		background-repeat: no-repeat;
 		background-size: cover;
+		@media #{$medium-and-up}{
+			height: 560px;
+		}
 	}
 }
 .vertical {

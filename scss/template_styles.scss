@@ -16,19 +16,15 @@
 
 // elements
 @import "elements/global";
-@import "elements/cards";
 @import "elements/buttons";
 @import "elements/typography";
 @import "elements/form";
 @import "elements/search";
 @import "elements/sort";
-@import "elements/rating";
 @import "elements/pagination";
 @import "elements/collapsible";
 @import "elements/toggle-content";
 @import "elements/dropdown";
-@import "elements/tooltip";
-//@import "elements/";
 
 // components
 @import "components/header";
@@ -37,20 +33,10 @@
 @import "components/geo";
 @import "components/breadcrumbs";
 @import "components/filters";
-@import "components/shopping-card";
-@import "components/product-card";
-@import "components/news-card";
 @import "components/carousel";
-@import "components/brands";
-@import "components/banners";
 @import "components/product";
 @import "components/tabs";
 @import "components/reviews";
-@import "components/shops";
-@import "components/compare";
-@import "components/basket";
-@import "components/comments";
-@import "components/order";
 @import "components/start";
 @import "components/portfolio";
 @import "components/salebox";
@@ -64,12 +50,3 @@
 @import "components/case";
 @import "components/modal";
 //@import "components/";
-
-// pages
-@import "pages/catalog";
-@import "pages/news";
-@import "pages/lk";
-@import "pages/auth";
-@import "pages/vakansii";
-@import "pages/category";
-//@import "pages/";

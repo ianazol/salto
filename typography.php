@@ -81,6 +81,7 @@
 			</div>
 		</div>
 	</div>
+	<div class="loader center"><svg class="icon"><use xlink:href="#loader"/></svg></div>
 	<br/></br/></br>
 </div>
 <?php include('footer.php'); ?>

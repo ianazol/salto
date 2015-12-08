@@ -10,31 +10,6 @@ html {
 	box-sizing: inherit;
 }
 
-body {
-  // display: flex;
-  // min-height: 100vh;
-  // flex-direction: column;
-}
-
-main {
-  // flex: 1 0 auto;
-}
-
-.fullpage {
-	.section {
-		margin-top: 0;
-		margin-bottom: 0;
-		.fp-tableCell {
-			display: flex;
-			flex-flow: row wrap;
-			justify-content: center;
-			align-items: center;
-			height: 100%;
-		}
-	}
-}
-
-
 // Positioning
 .valign-wrapper {
  // @include flexbox();
@@ -61,60 +36,6 @@ main {
 	}
 }
 
-
-// Z-levels
-.z-depth-0 {
-  box-shadow: none !important;
-}
-.z-depth-1{
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-}
-.z-depth-2{
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.z-depth-3{
-  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
-}
-.z-depth-4{
-  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
-}
-.z-depth-5{
-  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
-}
-.base-card {
-	background: white;
-	@extend .z-depth-1;
-	border-radius: $base-border-radius;
-	padding: $gutter-width;
-	width: 100%;
-	margin-bottom: $gutter-width;
-	.title {
-		margin-bottom: $gutter-width/2;
-	}
-	.card-content {
-		padding: $gutter-width;
-		> *:first-child {
-			margin-top: 0;
-		}
-		> *:last-child {
-			margin-bottom: 0;
-		}
-		&.big-g-padding {
-			padding: $gutter-width $gutter-width*3;
-		}
-	}
-	&.v-center {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		padding: $gutter-width!important;
-	}
-}
-
-.hoverable:hover {
-  transition: box-shadow .25s;
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
 
 // Dividers
 
@@ -189,6 +110,17 @@ img.inline-img {
 	margin-left: $gutter-width/2;
 	&:first-of-type {
 		margin-left: $gutter-width;
+	}
+}
+
+.loader {
+	width: 50px;
+	height: 50px;
+	margin-top: $gutter-width*5;
+	margin-bottom: $gutter-width*5;
+	.icon {
+		fill: none;
+		stroke: color('text', 'base');
 	}
 }
 

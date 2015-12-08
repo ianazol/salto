@@ -234,49 +234,49 @@
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
 					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
-					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-hover.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
-					<div class="clients-logo"><img src="images/content/clients/stroydom.png" /></div>
-					<div class="clients-logo"><img src="images/content/clients/stroydom-hover.png" /></div>
+					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
-					<div class="clients-logo"><img class="client-logo" src="images/content/clients/vershina.png" /></div>
-					<div class="clients-logo hover-box"><img src="images/content/clients/vershina-hover.png" /></div>
+					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
-					<div class="clients-logo"><img src="images/content/clients/vertical.png" /></div>
-					<div class="clients-logo hover-box"><img src="images/content/clients/vertical-hover.png" /></div>
+					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
-					<div class="clients-logo"><img src="images/content/clients/shtross.png" /></div>
-					<div class="clients-logo hover-box"><img src="images/content/clients/shtross-hover.png" /></div>
+					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
-					<div class="clients-logo"><img src="images/content/clients/practic.png" /></div>
-					<div class="clients-logo hover-box"><img src="images/content/clients/practic-hover.png" /></div>
+					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
-					<div class="clients-logo"><img src="images/content/clients/developmentcity.png" /></div>
-					<div class="clients-logo hover-box"><img src="images/content/clients/developmentcity-hover.png" /></div>
+					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 			<div class="col l3 m3 s12 client-item">
 				<a href="#">
-					<div class="clients-logo"><img src="images/content/clients/buildingmg.png" /></div>
-					<div class="clients-logo hover-box"><img src="images/content/clients/buildingmg-hover.png" /></div>
+					<div class="clients-logo"><img src="images/content/clients/alberta.png" /></div>
+					<div class="clients-logo hover-box"><img class="client-logo-hover" src="images/content/clients/alberta-color.png" /></div>
 				</a>
 			</div>
 		</div>

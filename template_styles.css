@@ -6,7 +6,7 @@ input[type="tel"] + .primary.textfield-placeholder,
 input[type="password"] + .primary.textfield-placeholder,
 input[type="search"] + .primary.textfield-placeholder,
 .inputtext + .primary.textfield-placeholder,
-textarea + .primary.textfield-placeholder, .primary.error-text, .primary.dropdown-value, .brands-page .brands-box .primary.letter-marker, .primary.product-item,
+textarea + .primary.textfield-placeholder, .primary.error-text, .primary.dropdown-value, .primary.product-item,
 .products-list .primary.banner, .product-anons-item .primary.item-title, .relative-prod-box .rel-product-item .primary.product-name,
 .relative-prod-box .rel-product-item .product-name a.primary,
 .relative-prod-box .rel-product-item .product-name .primary.btn-link, .home-page .start-box .primary.title, .project-box .primary.project-name, .fullwidth-project-box .project-item .primary.item-title, .sale-box .primary.sale-box-text, .blog-item .primary.item-text, .blog-box .blog-art-item .primary.item-title, .document-item .primary.item-name, .modal .primary.modal-title,
@@ -107,7 +107,7 @@ input[type="tel"] + .text.textfield-placeholder,
 input[type="password"] + .text.textfield-placeholder,
 input[type="search"] + .text.textfield-placeholder,
 .inputtext + .text.textfield-placeholder,
-textarea + .text.textfield-placeholder, .text.error-text, .text.dropdown-value, .brands-page .brands-box .text.letter-marker, .text.product-item,
+textarea + .text.textfield-placeholder, .text.error-text, .text.dropdown-value, .text.product-item,
 .products-list .text.banner, .product-anons-item .text.item-title, .relative-prod-box .rel-product-item .text.product-name,
 .relative-prod-box .rel-product-item .product-name a.text,
 .relative-prod-box .rel-product-item .product-name .text.btn-link, .home-page .start-box .text.title, .project-box .text.project-name, .fullwidth-project-box .project-item .text.item-title, .sale-box .text.sale-box-text, .blog-item .text.item-text, .blog-box .blog-art-item .text.item-title, .document-item .text.item-name, .modal .text.modal-title,
@@ -168,7 +168,7 @@ input[type="tel"] + .bg.textfield-placeholder,
 input[type="password"] + .bg.textfield-placeholder,
 input[type="search"] + .bg.textfield-placeholder,
 .inputtext + .bg.textfield-placeholder,
-textarea + .bg.textfield-placeholder, .bg.error-text, .bg.dropdown-value, .brands-page .brands-box .bg.letter-marker, .bg.product-item,
+textarea + .bg.textfield-placeholder, .bg.error-text, .bg.dropdown-value, .bg.product-item,
 .products-list .bg.banner, .product-anons-item .bg.item-title, .relative-prod-box .rel-product-item .bg.product-name,
 .relative-prod-box .rel-product-item .product-name a.bg,
 .relative-prod-box .rel-product-item .product-name .bg.btn-link, .home-page .start-box .bg.title, .project-box .bg.project-name, .fullwidth-project-box .project-item .bg.item-title, .sale-box .bg.sale-box-text, .blog-item .bg.item-text, .blog-box .blog-art-item .bg.item-title, .document-item .bg.item-name, .modal .bg.modal-title,
@@ -249,7 +249,7 @@ input[type="tel"] + .icons.textfield-placeholder,
 input[type="password"] + .icons.textfield-placeholder,
 input[type="search"] + .icons.textfield-placeholder,
 .inputtext + .icons.textfield-placeholder,
-textarea + .icons.textfield-placeholder, .icons.error-text, .icons.dropdown-value, .brands-page .brands-box .icons.letter-marker, .icons.product-item,
+textarea + .icons.textfield-placeholder, .icons.error-text, .icons.dropdown-value, .icons.product-item,
 .products-list .icons.banner, .product-anons-item .icons.item-title, .relative-prod-box .rel-product-item .icons.product-name,
 .relative-prod-box .rel-product-item .product-name a.icons,
 .relative-prod-box .rel-product-item .product-name .icons.btn-link, .home-page .start-box .icons.title, .project-box .icons.project-name, .fullwidth-project-box .project-item .icons.item-title, .sale-box .icons.sale-box-text, .blog-item .icons.item-text, .blog-box .blog-art-item .icons.item-title, .document-item .icons.item-name, .modal .icons.modal-title,
@@ -340,7 +340,7 @@ input[type="tel"] + .border.textfield-placeholder,
 input[type="password"] + .border.textfield-placeholder,
 input[type="search"] + .border.textfield-placeholder,
 .inputtext + .border.textfield-placeholder,
-textarea + .border.textfield-placeholder, .border.error-text, .border.dropdown-value, .brands-page .brands-box .border.letter-marker, .border.product-item,
+textarea + .border.textfield-placeholder, .border.error-text, .border.dropdown-value, .border.product-item,
 .products-list .border.banner, .product-anons-item .border.item-title, .relative-prod-box .rel-product-item .border.product-name,
 .relative-prod-box .rel-product-item .product-name a.border,
 .relative-prod-box .rel-product-item .product-name .border.btn-link, .home-page .start-box .border.title, .project-box .border.project-name, .fullwidth-project-box .project-item .border.item-title, .sale-box .border.sale-box-text, .blog-item .border.item-text, .blog-box .blog-art-item .border.item-title, .document-item .border.item-name, .modal .border.modal-title,
@@ -491,7 +491,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder,
 input[type="password"] + .bordered-box.textfield-placeholder,
 input[type="search"] + .bordered-box.textfield-placeholder,
 .inputtext + .bordered-box.textfield-placeholder,
-textarea + .bordered-box.textfield-placeholder, .bordered-box.error-text, .bordered-box.dropdown-value, .brands-page .brands-box .bordered-box.letter-marker, .bordered-box.product-item,
+textarea + .bordered-box.textfield-placeholder, .bordered-box.error-text, .bordered-box.dropdown-value, .bordered-box.product-item,
 .products-list .bordered-box.banner, .product-anons-item .bordered-box.item-title, .relative-prod-box .rel-product-item .bordered-box.product-name,
 .relative-prod-box .rel-product-item .product-name a.bordered-box,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link, .home-page .start-box .bordered-box.title, .project-box .bordered-box.project-name, .fullwidth-project-box .project-item .bordered-box.item-title, .sale-box .bordered-box.sale-box-text, .blog-item .bordered-box.item-text, .blog-box .blog-art-item .bordered-box.item-title, .document-item .bordered-box.item-name, .modal .bordered-box.modal-title,
@@ -507,7 +507,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder a,
 input[type="password"] + .bordered-box.textfield-placeholder a,
 input[type="search"] + .bordered-box.textfield-placeholder a,
 .inputtext + .bordered-box.textfield-placeholder a,
-textarea + .bordered-box.textfield-placeholder a, .bordered-box.error-text a, .bordered-box.dropdown-value a, .brands-page .brands-box .bordered-box.letter-marker a, .bordered-box.product-item a,
+textarea + .bordered-box.textfield-placeholder a, .bordered-box.error-text a, .bordered-box.dropdown-value a, .bordered-box.product-item a,
 .products-list .bordered-box.banner a, .product-anons-item .bordered-box.item-title a, .relative-prod-box .rel-product-item .bordered-box.product-name a,
 .relative-prod-box .rel-product-item .product-name a.bordered-box a,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link a, .home-page .start-box .bordered-box.title a, .project-box .bordered-box.project-name a, .fullwidth-project-box .project-item .bordered-box.item-title a, .sale-box .bordered-box.sale-box-text a, .blog-item .bordered-box.item-text a, .blog-box .blog-art-item .bordered-box.item-title a, .document-item .bordered-box.item-name a, .modal .bordered-box.modal-title a,
@@ -518,7 +518,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder .btn-link,
 input[type="password"] + .bordered-box.textfield-placeholder .btn-link,
 input[type="search"] + .bordered-box.textfield-placeholder .btn-link,
 .inputtext + .bordered-box.textfield-placeholder .btn-link,
-textarea + .bordered-box.textfield-placeholder .btn-link, .bordered-box.error-text .btn-link, .bordered-box.dropdown-value .btn-link, .brands-page .brands-box .bordered-box.letter-marker .btn-link, .bordered-box.product-item .btn-link,
+textarea + .bordered-box.textfield-placeholder .btn-link, .bordered-box.error-text .btn-link, .bordered-box.dropdown-value .btn-link, .bordered-box.product-item .btn-link,
 .products-list .bordered-box.banner .btn-link, .product-anons-item .bordered-box.item-title .btn-link, .relative-prod-box .rel-product-item .bordered-box.product-name .btn-link,
 .relative-prod-box .rel-product-item .product-name a.bordered-box .btn-link,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link .btn-link, .home-page .start-box .bordered-box.title .btn-link, .project-box .bordered-box.project-name .btn-link, .fullwidth-project-box .project-item .bordered-box.item-title .btn-link, .sale-box .bordered-box.sale-box-text .btn-link, .blog-item .bordered-box.item-text .btn-link, .blog-box .blog-art-item .bordered-box.item-title .btn-link, .document-item .bordered-box.item-name .btn-link, .modal .bordered-box.modal-title .btn-link,
@@ -533,7 +533,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder .icon,
 input[type="password"] + .bordered-box.textfield-placeholder .icon,
 input[type="search"] + .bordered-box.textfield-placeholder .icon,
 .inputtext + .bordered-box.textfield-placeholder .icon,
-textarea + .bordered-box.textfield-placeholder .icon, .bordered-box.error-text .icon, .bordered-box.dropdown-value .icon, .brands-page .brands-box .bordered-box.letter-marker .icon, .bordered-box.product-item .icon,
+textarea + .bordered-box.textfield-placeholder .icon, .bordered-box.error-text .icon, .bordered-box.dropdown-value .icon, .bordered-box.product-item .icon,
 .products-list .bordered-box.banner .icon, .product-anons-item .bordered-box.item-title .icon, .relative-prod-box .rel-product-item .bordered-box.product-name .icon,
 .relative-prod-box .rel-product-item .product-name a.bordered-box .icon,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link .icon, .home-page .start-box .bordered-box.title .icon, .project-box .bordered-box.project-name .icon, .fullwidth-project-box .project-item .bordered-box.item-title .icon, .sale-box .bordered-box.sale-box-text .icon, .blog-item .bordered-box.item-text .icon, .blog-box .blog-art-item .bordered-box.item-title .icon, .document-item .bordered-box.item-name .icon, .modal .bordered-box.modal-title .icon,
@@ -548,7 +548,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder:hover,
 input[type="password"] + .bordered-box.textfield-placeholder:hover,
 input[type="search"] + .bordered-box.textfield-placeholder:hover,
 .inputtext + .bordered-box.textfield-placeholder:hover,
-textarea + .bordered-box.textfield-placeholder:hover, .bordered-box.error-text:hover, .bordered-box.dropdown-value:hover, .brands-page .brands-box .bordered-box.letter-marker:hover, .bordered-box.product-item:hover,
+textarea + .bordered-box.textfield-placeholder:hover, .bordered-box.error-text:hover, .bordered-box.dropdown-value:hover, .bordered-box.product-item:hover,
 .products-list .bordered-box.banner:hover, .product-anons-item .bordered-box.item-title:hover, .relative-prod-box .rel-product-item .bordered-box.product-name:hover,
 .relative-prod-box .rel-product-item .product-name a.bordered-box:hover,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link:hover, .home-page .start-box .bordered-box.title:hover, .project-box .bordered-box.project-name:hover, .fullwidth-project-box .project-item .bordered-box.item-title:hover, .sale-box .bordered-box.sale-box-text:hover, .blog-item .bordered-box.item-text:hover, .blog-box .blog-art-item .bordered-box.item-title:hover, .document-item .bordered-box.item-name:hover, .modal .bordered-box.modal-title:hover,
@@ -564,7 +564,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder:hover a,
 input[type="password"] + .bordered-box.textfield-placeholder:hover a,
 input[type="search"] + .bordered-box.textfield-placeholder:hover a,
 .inputtext + .bordered-box.textfield-placeholder:hover a,
-textarea + .bordered-box.textfield-placeholder:hover a, .bordered-box.error-text:hover a, .bordered-box.dropdown-value:hover a, .brands-page .brands-box .bordered-box.letter-marker:hover a, .bordered-box.product-item:hover a,
+textarea + .bordered-box.textfield-placeholder:hover a, .bordered-box.error-text:hover a, .bordered-box.dropdown-value:hover a, .bordered-box.product-item:hover a,
 .products-list .bordered-box.banner:hover a, .product-anons-item .bordered-box.item-title:hover a, .relative-prod-box .rel-product-item .bordered-box.product-name:hover a,
 .relative-prod-box .rel-product-item .product-name a.bordered-box:hover a,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link:hover a, .home-page .start-box .bordered-box.title:hover a, .project-box .bordered-box.project-name:hover a, .fullwidth-project-box .project-item .bordered-box.item-title:hover a, .sale-box .bordered-box.sale-box-text:hover a, .blog-item .bordered-box.item-text:hover a, .blog-box .blog-art-item .bordered-box.item-title:hover a, .document-item .bordered-box.item-name:hover a, .modal .bordered-box.modal-title:hover a,
@@ -575,7 +575,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder:hover .btn-link,
 input[type="password"] + .bordered-box.textfield-placeholder:hover .btn-link,
 input[type="search"] + .bordered-box.textfield-placeholder:hover .btn-link,
 .inputtext + .bordered-box.textfield-placeholder:hover .btn-link,
-textarea + .bordered-box.textfield-placeholder:hover .btn-link, .bordered-box.error-text:hover .btn-link, .bordered-box.dropdown-value:hover .btn-link, .brands-page .brands-box .bordered-box.letter-marker:hover .btn-link, .bordered-box.product-item:hover .btn-link,
+textarea + .bordered-box.textfield-placeholder:hover .btn-link, .bordered-box.error-text:hover .btn-link, .bordered-box.dropdown-value:hover .btn-link, .bordered-box.product-item:hover .btn-link,
 .products-list .bordered-box.banner:hover .btn-link, .product-anons-item .bordered-box.item-title:hover .btn-link, .relative-prod-box .rel-product-item .bordered-box.product-name:hover .btn-link,
 .relative-prod-box .rel-product-item .product-name a.bordered-box:hover .btn-link,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link:hover .btn-link, .home-page .start-box .bordered-box.title:hover .btn-link, .project-box .bordered-box.project-name:hover .btn-link, .fullwidth-project-box .project-item .bordered-box.item-title:hover .btn-link, .sale-box .bordered-box.sale-box-text:hover .btn-link, .blog-item .bordered-box.item-text:hover .btn-link, .blog-box .blog-art-item .bordered-box.item-title:hover .btn-link, .document-item .bordered-box.item-name:hover .btn-link, .modal .bordered-box.modal-title:hover .btn-link,
@@ -590,7 +590,7 @@ input[type="tel"] + .bordered-box.textfield-placeholder:hover .icon,
 input[type="password"] + .bordered-box.textfield-placeholder:hover .icon,
 input[type="search"] + .bordered-box.textfield-placeholder:hover .icon,
 .inputtext + .bordered-box.textfield-placeholder:hover .icon,
-textarea + .bordered-box.textfield-placeholder:hover .icon, .bordered-box.error-text:hover .icon, .bordered-box.dropdown-value:hover .icon, .brands-page .brands-box .bordered-box.letter-marker:hover .icon, .bordered-box.product-item:hover .icon,
+textarea + .bordered-box.textfield-placeholder:hover .icon, .bordered-box.error-text:hover .icon, .bordered-box.dropdown-value:hover .icon, .bordered-box.product-item:hover .icon,
 .products-list .bordered-box.banner:hover .icon, .product-anons-item .bordered-box.item-title:hover .icon, .relative-prod-box .rel-product-item .bordered-box.product-name:hover .icon,
 .relative-prod-box .rel-product-item .product-name a.bordered-box:hover .icon,
 .relative-prod-box .rel-product-item .product-name .bordered-box.btn-link:hover .icon, .home-page .start-box .bordered-box.title:hover .icon, .project-box .bordered-box.project-name:hover .icon, .fullwidth-project-box .project-item .bordered-box.item-title:hover .icon, .sale-box .bordered-box.sale-box-text:hover .icon, .blog-item .bordered-box.item-text:hover .icon, .blog-box .blog-art-item .bordered-box.item-title:hover .icon, .document-item .bordered-box.item-name:hover .icon, .modal .bordered-box.modal-title:hover .icon,
@@ -2881,41 +2881,16 @@ html {
   box-sizing: inherit;
 }
 
-/* line 24, scss/elements/_global.scss */
-.fullpage .section {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-/* line 27, scss/elements/_global.scss */
-.fullpage .section .fp-tableCell {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
-}
-
-/* line 43, scss/elements/_global.scss */
+/* line 18, scss/elements/_global.scss */
 .valign-wrapper .valign {
   display: block;
 }
 
-/* line 51, scss/elements/_global.scss */
+/* line 26, scss/elements/_global.scss */
 .clearfix, .table-row, .table, .table-field, .collapsible .collapsible-body-content, .carousel .carousel-inner {
   clear: both;
 }
-/* line 53, scss/elements/_global.scss */
+/* line 28, scss/elements/_global.scss */
 .clearfix:before, .table-row:before, .table:before, .table-field:before, .collapsible .collapsible-body-content:before, .carousel .carousel-inner:before, .clearfix:after, .table-row:after, .table:after, .table-field:after, .collapsible .collapsible-body-content:after, .carousel .carousel-inner:after {
   content: '';
   display: block;
@@ -2925,89 +2900,7 @@ html {
   clear: both;
 }
 
-/* line 66, scss/elements/_global.scss */
-.z-depth-0 {
-  box-shadow: none !important;
-}
-
-/* line 69, scss/elements/_global.scss */
-.z-depth-1, .base-card, .compare-page .compare, .product-card {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* line 72, scss/elements/_global.scss */
-.z-depth-2, .tooltip {
-  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* line 75, scss/elements/_global.scss */
-.z-depth-3, .product-card:hover {
-  box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* line 78, scss/elements/_global.scss */
-.z-depth-4 {
-  box-shadow: 0 16px 28px 0 rgba(0, 0, 0, 0.22), 0 25px 55px 0 rgba(0, 0, 0, 0.21);
-}
-
-/* line 81, scss/elements/_global.scss */
-.z-depth-5 {
-  box-shadow: 0 27px 24px 0 rgba(0, 0, 0, 0.2), 0 40px 77px 0 rgba(0, 0, 0, 0.22);
-}
-
-/* line 84, scss/elements/_global.scss */
-.base-card, .compare-page .compare {
-  background: white;
-  border-radius: 6px;
-  padding: 10px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-/* line 91, scss/elements/_global.scss */
-.base-card .title, .compare-page .compare .title {
-  margin-bottom: 5px;
-}
-/* line 94, scss/elements/_global.scss */
-.base-card .card-content, .compare-page .compare .card-content {
-  padding: 10px;
-}
-/* line 96, scss/elements/_global.scss */
-.base-card .card-content > *:first-child, .compare-page .compare .card-content > *:first-child {
-  margin-top: 0;
-}
-/* line 99, scss/elements/_global.scss */
-.base-card .card-content > *:last-child, .compare-page .compare .card-content > *:last-child {
-  margin-bottom: 0;
-}
-/* line 102, scss/elements/_global.scss */
-.base-card .card-content.big-g-padding, .compare-page .compare .card-content.big-g-padding {
-  padding: 10px 30px;
-}
-/* line 106, scss/elements/_global.scss */
-.base-card.v-center, .compare-page .v-center.compare {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px !important;
-}
-
-/* line 114, scss/elements/_global.scss */
-.hoverable:hover {
-  -webkit-transition: box-shadow .25s;
-          transition: box-shadow .25s;
-  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* line 121, scss/elements/_global.scss */
+/* line 42, scss/elements/_global.scss */
 .divider {
   height: 1px;
   overflow: hidden;
@@ -3015,52 +2908,52 @@ html {
   margin: 20px 0;
 }
 
-/* line 131, scss/elements/_global.scss */
+/* line 52, scss/elements/_global.scss */
 blockquote {
   margin: 20px 0;
   padding-left: 1.5rem;
   border-left: 5px solid #da0034;
 }
 
-/* line 139, scss/elements/_global.scss */
+/* line 60, scss/elements/_global.scss */
 i {
   line-height: inherit;
 }
-/* line 142, scss/elements/_global.scss */
+/* line 63, scss/elements/_global.scss */
 i.left {
   float: left;
   margin-right: 15px;
 }
-/* line 146, scss/elements/_global.scss */
+/* line 67, scss/elements/_global.scss */
 i.right {
   float: right;
   margin-left: 15px;
 }
-/* line 150, scss/elements/_global.scss */
+/* line 71, scss/elements/_global.scss */
 i.tiny {
   font-size: 1rem;
 }
-/* line 153, scss/elements/_global.scss */
+/* line 74, scss/elements/_global.scss */
 i.small {
   font-size: 2rem;
 }
-/* line 156, scss/elements/_global.scss */
+/* line 77, scss/elements/_global.scss */
 i.medium, i.btn, .h-small-menu i.h-small-menu-link, .ps-small-menu i.ps-small-menu-link, .tabs .tab-header-item i.tab-link, .home-features-list .feature-item i.item-title {
   font-size: 4rem;
 }
-/* line 159, scss/elements/_global.scss */
+/* line 80, scss/elements/_global.scss */
 i.large {
   font-size: 6rem;
 }
 
-/* line 165, scss/elements/_global.scss */
+/* line 86, scss/elements/_global.scss */
 img.responsive-img,
 video.responsive-video {
   max-width: 100%;
   height: auto;
 }
 
-/* line 170, scss/elements/_global.scss */
+/* line 91, scss/elements/_global.scss */
 .video-box {
   padding-top: 25px;
   height: 0;
@@ -3068,7 +2961,7 @@ video.responsive-video {
   margin-bottom: 20px;
   padding-bottom: 56.25%;
 }
-/* line 176, scss/elements/_global.scss */
+/* line 97, scss/elements/_global.scss */
 .video-box iframe {
   position: absolute;
   top: 0;
@@ -3077,26 +2970,39 @@ video.responsive-video {
   height: 100%;
 }
 
-/* line 185, scss/elements/_global.scss */
+/* line 106, scss/elements/_global.scss */
 img.inline-img {
   max-height: 1.5em;
   vertical-align: middle;
   display: inline-block;
   margin-left: 5px;
 }
-/* line 190, scss/elements/_global.scss */
+/* line 111, scss/elements/_global.scss */
 img.inline-img:first-of-type {
   margin-left: 10px;
 }
 
-/* line 197, scss/elements/_global.scss */
+/* line 116, scss/elements/_global.scss */
+.loader {
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* line 121, scss/elements/_global.scss */
+.loader .icon {
+  fill: none;
+  stroke: #424242;
+}
+
+/* line 129, scss/elements/_global.scss */
 .parallax-container {
   position: relative;
   overflow: hidden;
   height: 500px;
 }
 
-/* line 203, scss/elements/_global.scss */
+/* line 135, scss/elements/_global.scss */
 .parallax {
   position: absolute;
   top: 0;
@@ -3105,7 +3011,7 @@ img.inline-img:first-of-type {
   bottom: 0;
   z-index: -1;
 }
-/* line 211, scss/elements/_global.scss */
+/* line 143, scss/elements/_global.scss */
 .parallax img {
   display: none;
   position: absolute;
@@ -3120,12 +3026,12 @@ img.inline-img:first-of-type {
           transform: translateX(-50%);
 }
 
-/* line 225, scss/elements/_global.scss */
+/* line 157, scss/elements/_global.scss */
 .pin-top, .pin-bottom {
   position: relative;
 }
 
-/* line 228, scss/elements/_global.scss */
+/* line 160, scss/elements/_global.scss */
 .pinned {
   position: fixed !important;
 }
@@ -3133,12 +3039,12 @@ img.inline-img:first-of-type {
 /*********************
   Transition Classes
 **********************/
-/* line 236, scss/elements/_global.scss */
+/* line 168, scss/elements/_global.scss */
 ul.staggered-list li {
   opacity: 0;
 }
 
-/* line 240, scss/elements/_global.scss */
+/* line 172, scss/elements/_global.scss */
 .fade-in {
   opacity: 0;
   -webkit-transform-origin: 0 50%;
@@ -3150,127 +3056,127 @@ ul.staggered-list li {
   Media Query Classes
 **********************/
 @media only screen and (max-width: 650px) {
-  /* line 249, scss/elements/_global.scss */
+  /* line 181, scss/elements/_global.scss */
   .hide-on-small-only, .hide-on-small-and-down {
     display: none !important;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 254, scss/elements/_global.scss */
+  /* line 186, scss/elements/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 651px) {
-  /* line 259, scss/elements/_global.scss */
+  /* line 191, scss/elements/_global.scss */
   .hide-on-med-and-up {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 992px) {
-  /* line 264, scss/elements/_global.scss */
+  /* line 196, scss/elements/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 269, scss/elements/_global.scss */
+  /* line 201, scss/elements/_global.scss */
   .hide-on-large-only {
     display: none !important;
   }
 }
 
 @media only screen and (min-width: 993px) {
-  /* line 274, scss/elements/_global.scss */
+  /* line 206, scss/elements/_global.scss */
   .show-on-large {
     display: initial !important;
   }
 }
 
 @media only screen and (min-width: 650px) and (max-width: 992px) {
-  /* line 279, scss/elements/_global.scss */
+  /* line 211, scss/elements/_global.scss */
   .show-on-medium {
     display: initial !important;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 284, scss/elements/_global.scss */
+  /* line 216, scss/elements/_global.scss */
   .show-on-small {
     display: initial !important;
   }
 }
 
 @media only screen and (min-width: 651px) {
-  /* line 289, scss/elements/_global.scss */
+  /* line 221, scss/elements/_global.scss */
   .show-on-medium-and-up {
     display: initial !important;
   }
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 294, scss/elements/_global.scss */
+  /* line 226, scss/elements/_global.scss */
   .show-on-medium-and-down {
     display: initial !important;
   }
 }
 
 @media only screen and (max-width: 650px) {
-  /* line 302, scss/elements/_global.scss */
+  /* line 234, scss/elements/_global.scss */
   .center-on-small-only {
     text-align: center;
   }
 }
 
-/* line 310, scss/elements/_global.scss */
+/* line 242, scss/elements/_global.scss */
 table, th, td {
   border: none;
 }
 
-/* line 314, scss/elements/_global.scss */
+/* line 246, scss/elements/_global.scss */
 table {
   width: 100%;
   display: table;
 }
-/* line 318, scss/elements/_global.scss */
+/* line 250, scss/elements/_global.scss */
 table thead {
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 321, scss/elements/_global.scss */
+/* line 253, scss/elements/_global.scss */
 table td, table th {
   padding: 7.5px 10px;
   display: table-cell;
   vertical-align: middle;
   border-radius: 2px;
 }
-/* line 328, scss/elements/_global.scss */
+/* line 260, scss/elements/_global.scss */
 table.bordered > thead > tr, table.bordered > tbody > tr {
   border-bottom: 1px solid #e5e5e5;
 }
-/* line 338, scss/elements/_global.scss */
+/* line 270, scss/elements/_global.scss */
 table.striped > tbody > tr > td {
   border-radius: 0px;
 }
-/* line 350, scss/elements/_global.scss */
+/* line 282, scss/elements/_global.scss */
 table.centered thead tr th, table.centered tbody tr td {
   text-align: center;
 }
-/* line 355, scss/elements/_global.scss */
+/* line 287, scss/elements/_global.scss */
 table.nostyle {
   border: 0;
   margin: 0;
 }
-/* line 358, scss/elements/_global.scss */
+/* line 290, scss/elements/_global.scss */
 table.nostyle td {
   padding: 0;
 }
 
 @media only screen and (max-width: 992px) {
-  /* line 367, scss/elements/_global.scss */
+  /* line 299, scss/elements/_global.scss */
   table.responsive-table {
     width: 100%;
     border-collapse: collapse;
@@ -3279,24 +3185,24 @@ table.nostyle td {
     position: relative
     /* sort out borders */
   }
-  /* line 374, scss/elements/_global.scss */
+  /* line 306, scss/elements/_global.scss */
   table.responsive-table th,
   table.responsive-table td {
     margin: 0;
   }
-  /* line 379, scss/elements/_global.scss */
+  /* line 311, scss/elements/_global.scss */
   table.responsive-table thead {
     display: block;
   }
-  /* line 382, scss/elements/_global.scss */
+  /* line 314, scss/elements/_global.scss */
   table.responsive-table thead tr {
     display: block;
   }
-  /* line 385, scss/elements/_global.scss */
+  /* line 317, scss/elements/_global.scss */
   table.responsive-table thead tr th::before {
     content: "\00a0";
   }
-  /* line 390, scss/elements/_global.scss */
+  /* line 322, scss/elements/_global.scss */
   table.responsive-table tbody {
     display: block;
     width: auto;
@@ -3304,83 +3210,83 @@ table.nostyle td {
     overflow-x: auto;
     white-space: nowrap;
   }
-  /* line 397, scss/elements/_global.scss */
+  /* line 329, scss/elements/_global.scss */
   table.responsive-table tbody tr {
     display: inline-block;
     vertical-align: top;
   }
-  /* line 402, scss/elements/_global.scss */
+  /* line 334, scss/elements/_global.scss */
   table.responsive-table th {
     display: block;
     text-align: right;
   }
-  /* line 406, scss/elements/_global.scss */
+  /* line 338, scss/elements/_global.scss */
   table.responsive-table td {
     display: block;
     min-height: 1.25em;
     text-align: left;
   }
-  /* line 413, scss/elements/_global.scss */
+  /* line 345, scss/elements/_global.scss */
   table.responsive-table thead {
     border: 0;
   }
-  /* line 418, scss/elements/_global.scss */
+  /* line 350, scss/elements/_global.scss */
   table.responsive-table.bordered th {
     border-bottom: 0;
     border-left: 0;
   }
-  /* line 419, scss/elements/_global.scss */
+  /* line 351, scss/elements/_global.scss */
   table.responsive-table.bordered td {
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
   }
-  /* line 420, scss/elements/_global.scss */
+  /* line 352, scss/elements/_global.scss */
   table.responsive-table.bordered tr {
     border: 0;
   }
-  /* line 421, scss/elements/_global.scss */
+  /* line 353, scss/elements/_global.scss */
   table.responsive-table.bordered tbody tr {
     border-right: 1px solid #e5e5e5;
   }
 }
-/* line 429, scss/elements/_global.scss */
+/* line 361, scss/elements/_global.scss */
 .table-row {
   display: table-row;
   width: 100%;
   border-top: 1px solid #e5e5e5;
 }
-/* line 434, scss/elements/_global.scss */
+/* line 366, scss/elements/_global.scss */
 .table-row:first-child {
   border-top: 0;
 }
-/* line 437, scss/elements/_global.scss */
+/* line 369, scss/elements/_global.scss */
 .table-row.table-header {
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 441, scss/elements/_global.scss */
+/* line 373, scss/elements/_global.scss */
 .table-col {
   display: table-cell;
 }
 
-/* line 444, scss/elements/_global.scss */
+/* line 376, scss/elements/_global.scss */
 .table {
   width: 100%;
   margin: 10px 0 15px;
 }
-/* line 449, scss/elements/_global.scss */
+/* line 381, scss/elements/_global.scss */
 .table .table-col {
   padding: 8px 0;
 }
 
-/* line 453, scss/elements/_global.scss */
+/* line 385, scss/elements/_global.scss */
 .table-header {
   text-align: center;
   color: #8c8c8c;
 }
 
-/* line 458, scss/elements/_global.scss */
+/* line 390, scss/elements/_global.scss */
 .flex-table .table-row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3396,31 +3302,31 @@ table.nostyle td {
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 463, scss/elements/_global.scss */
+/* line 395, scss/elements/_global.scss */
 .flex-table .col {
   padding: 1em 10px;
 }
-/* line 466, scss/elements/_global.scss */
+/* line 398, scss/elements/_global.scss */
 .flex-table .quantity,
 .flex-table .sum,
 .flex-table .delete {
   text-align: center;
 }
 
-/* line 473, scss/elements/_global.scss */
+/* line 405, scss/elements/_global.scss */
 .contacts-table .col {
   padding: 1rem 0;
 }
-/* line 476, scss/elements/_global.scss */
+/* line 408, scss/elements/_global.scss */
 .contacts-table .table-header {
   text-align: left;
 }
 
-/* line 481, scss/elements/_global.scss */
+/* line 413, scss/elements/_global.scss */
 .icons-block {
   margin-bottom: 20px;
 }
-/* line 483, scss/elements/_global.scss */
+/* line 415, scss/elements/_global.scss */
 .icons-block .block-item {
   margin: 10px 0;
   -webkit-box-orient: vertical;
@@ -3429,22 +3335,22 @@ table.nostyle td {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-/* line 487, scss/elements/_global.scss */
+/* line 419, scss/elements/_global.scss */
 .icons-block .item-icon {
   width: 100%;
   margin-bottom: 10px;
 }
-/* line 491, scss/elements/_global.scss */
+/* line 423, scss/elements/_global.scss */
 .icons-block .item-title {
   width: 100%;
 }
 
-/* line 496, scss/elements/_global.scss */
+/* line 428, scss/elements/_global.scss */
 .personal-list {
   margin-top: 10px;
   margin-bottom: 20px;
 }
-/* line 499, scss/elements/_global.scss */
+/* line 431, scss/elements/_global.scss */
 .personal-list .personal-item p {
   margin: 0.5em 0;
 }
@@ -3546,7 +3452,7 @@ table.nostyle td {
   color: $secondary-color;
 }
 */
-/* line 603, scss/elements/_global.scss */
+/* line 535, scss/elements/_global.scss */
 span.badge {
   min-width: 3rem;
   padding: 0 6px;
@@ -3556,19 +3462,19 @@ span.badge {
   position: absolute;
   right: 15px;
 }
-/* line 614, scss/elements/_global.scss */
+/* line 546, scss/elements/_global.scss */
 span.badge.new {
   font-weight: 300;
   font-size: 0.8rem;
   color: #fff;
   border-radius: 2px;
 }
-/* line 621, scss/elements/_global.scss */
+/* line 553, scss/elements/_global.scss */
 span.badge.new:after {
   content: " new";
 }
 
-/* line 627, scss/elements/_global.scss */
+/* line 559, scss/elements/_global.scss */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -3576,11 +3482,11 @@ span.badge.new:after {
   height: 0;
   overflow: hidden;
 }
-/* line 633, scss/elements/_global.scss */
+/* line 565, scss/elements/_global.scss */
 .video-container.no-controls {
   padding-top: 0;
 }
-/* line 637, scss/elements/_global.scss */
+/* line 569, scss/elements/_global.scss */
 .video-container iframe, .video-container object, .video-container embed {
   position: absolute;
   top: 0;
@@ -3670,54 +3576,54 @@ span.badge.new:after {
 /*******************
   Utility Classes
 *******************/
-/* line 728, scss/elements/_global.scss */
+/* line 660, scss/elements/_global.scss */
 .hide {
   display: none !important;
 }
 
-/* line 732, scss/elements/_global.scss */
+/* line 664, scss/elements/_global.scss */
 .bx-touch .hide-on-touch {
   display: none !important;
 }
 
-/* line 738, scss/elements/_global.scss */
+/* line 670, scss/elements/_global.scss */
 .left-align {
   text-align: left;
 }
 
-/* line 741, scss/elements/_global.scss */
+/* line 673, scss/elements/_global.scss */
 .right-align {
   text-align: right;
 }
 
-/* line 744, scss/elements/_global.scss */
+/* line 676, scss/elements/_global.scss */
 .center-align {
   text-align: center;
 }
 
-/* line 748, scss/elements/_global.scss */
+/* line 680, scss/elements/_global.scss */
 .left {
   float: left !important;
 }
 
-/* line 751, scss/elements/_global.scss */
+/* line 683, scss/elements/_global.scss */
 .right {
   float: right !important;
 }
 
-/* line 754, scss/elements/_global.scss */
+/* line 686, scss/elements/_global.scss */
 .nofloat {
   float: none !important;
 }
 
-/* line 757, scss/elements/_global.scss */
+/* line 689, scss/elements/_global.scss */
 .center {
   float: none;
   margin-right: auto;
   margin-left: auto;
 }
 
-/* line 764, scss/elements/_global.scss */
+/* line 696, scss/elements/_global.scss */
 .no-select {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -3727,19 +3633,19 @@ span.badge.new:after {
   user-select: none;
 }
 
-/* line 773, scss/elements/_global.scss */
+/* line 705, scss/elements/_global.scss */
 .circle {
   border-radius: 50%;
 }
 
-/* line 777, scss/elements/_global.scss */
+/* line 709, scss/elements/_global.scss */
 .center-block {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 783, scss/elements/_global.scss */
+/* line 715, scss/elements/_global.scss */
 .truncate {
   display: block;
   white-space: nowrap;
@@ -3747,177 +3653,23 @@ span.badge.new:after {
   text-overflow: ellipsis;
 }
 
-/* line 790, scss/elements/_global.scss */
-.no-padding, .compare-page .compare .compare-actions, .compare-page .compare .compare-products {
+/* line 722, scss/elements/_global.scss */
+.no-padding {
   padding: 0 !important;
 }
 
-/* line 793, scss/elements/_global.scss */
+/* line 725, scss/elements/_global.scss */
 .no-g-padding {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
 
-/* line 797, scss/elements/_global.scss */
+/* line 729, scss/elements/_global.scss */
 .no-h-padding {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
 }
 
-/*
-
-.card-panel {
-  transition: box-shadow .25s;
-  padding: $card-padding;
-  margin: $element-top-margin 0 $element-bottom-margin 0;
-  border-radius: 2px;
-  @extend .z-depth-1;
-  background-color: $card-bg-color;
-}
-
-.card {
-  position: relative;
-  overflow: hidden;
-  margin: $element-top-margin 0 $element-bottom-margin 0;
-  background-color: $card-bg-color;
-  transition: box-shadow .25s;
-  border-radius: 2px;
-  @extend .z-depth-1;
-
-
-  .card-title {
-    color: $card-bg-color;
-    font-size: 15px;
-	line-height: 1.5;
-    &.activator {
-      cursor: pointer;
-    }
-  }
-
-  // Card Sizes
-  &.small, &.medium, &.large {
-    position: relative;
-
-    .card-image {
-      overflow: hidden;
-    }
-    .card-content {
-      overflow: hidden;
-    }
-    .card-action {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-    }
-  }
-
-  &.small {
-    height: 300px;
-
-    .card-image {
-      height: 150px;
-    }
-    .card-content {
-      height: 150px;
-    }
-
-  }
-
-  &.medium {
-    height: 370px;
-
-    .card-image {
-      height: 200px;
-    }
-    .card-content {
-      height: 170px;
-    }
-  }
-
-  &.large {
-    height: 500px;
-
-    .card-image {
-      height: 330px;
-    }
-    .card-content {
-      height: 170px;
-    }
-  }
-
-
-  .card-image {
-    position: relative;
-
-    // Image background for content
-    img {
-      border-radius: 2px 2px 0 0;
-      position: relative;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      width: 100%;
-    }
-
-    .card-title {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      padding: $card-padding;
-    }
-
-  }
-
-  .card-content {
-    padding: $card-padding;
-    border-radius: 0 0 2px 2px;
-
-
-    p {
-      margin: 0;
-      color: inherit;
-    }
-    .card-title {
-      line-height: 48px;
-    }
-  }
-
-  .card-action {
-    padding: $card-padding;
-
-    a:not([class*="btn"]) {
-      color: $card-link-color;
-      @include transition(color .3s ease);
-      text-transform: uppercase;
-
-      &:hover { color: $card-link-color-light; }
-    }
-	[class*="btn"] {
-		margin: 0;
-	}
-  }
-
-  .card-reveal {
-    padding: $card-padding;
-    position: absolute;
-    background-color: $card-bg-color;
-    width: 100%;
-    overflow-y: auto;
-    top: 100%;
-    height: 100%;
-    z-index: 1;
-    display: none;
-
-    .card-title {
-      cursor: pointer;
-      display: block;
-    }
-
-  }
-}
-*/
 /* line 1, scss/elements/_buttons.scss */
 .btn {
   display: inline-block;
@@ -4144,7 +3896,7 @@ input[type="tel"] + .textfield-placeholder,
 input[type="password"] + .textfield-placeholder,
 input[type="search"] + .textfield-placeholder,
 .inputtext + .textfield-placeholder,
-textarea + .textfield-placeholder, .error-text, .dropdown-value, .brands-page .brands-box .letter-marker, .product-item,
+textarea + .textfield-placeholder, .error-text, .dropdown-value, .product-item,
 .products-list .banner, .product-anons-item .item-title, .relative-prod-box .rel-product-item .product-name,
 .relative-prod-box .rel-product-item .product-name a,
 .relative-prod-box .rel-product-item .product-name .btn-link, .home-page .start-box .title, .project-box .project-name, .fullwidth-project-box .project-item .item-title, .sale-box .sale-box-text, .blog-item .item-text, .blog-box .blog-art-item .item-title, .document-item .item-name, .modal .modal-title,
@@ -4168,7 +3920,7 @@ strong, .medium, .btn, .h-small-menu .h-small-menu-link, .ps-small-menu .ps-smal
 }
 
 /* line 38, scss/elements/_typography.scss */
-.lighter-color, .product-card .product-price .old-price {
+.lighter-color {
   color: #b9b9b9;
 }
 
@@ -4213,7 +3965,7 @@ textarea + .textfield-placeholder, .tabs .tab-header-item .tab-link {
 
 /* line 57, scss/elements/_typography.scss */
 .medium-text, .collapsible.sidebar-menu > .menu-item > .menu-link,
-.collapsible .collapsible-header, .horizontal-multilevel-menu > .menu-item > .menu-link, .horizontal-multilevel-menu .submenu-link.default, .horizontal-multilevel-menu .submenu.level-2 > .submenu-item > .submenu-link, .horizontal-multilevel-menu .submenu.level-3 > .submenu-item > .submenu-link, .alphabet-menu, .product-card .item-name, .product-card .product-price .old-price, .brands-page .brands-box .brand-item {
+.collapsible .collapsible-header, .horizontal-multilevel-menu > .menu-item > .menu-link, .horizontal-multilevel-menu .submenu-link.default, .horizontal-multilevel-menu .submenu.level-2 > .submenu-item > .submenu-link, .horizontal-multilevel-menu .submenu.level-3 > .submenu-item > .submenu-link, .alphabet-menu {
   font-size: 16px;
 }
 
@@ -4257,20 +4009,20 @@ ul.type-2 > li, ol.type-2 > li {
   margin: 10px 0;
 }
 /* line 85, scss/elements/_typography.scss */
-ul.nostyle, .pagin-list, .collapsible ul.collapsible-body-content, .dropdown-list, .menu, .main-menu .submenu, .horizontal-multilevel-menu .submenu, .h-small-menu, .ps-small-menu, .filter .filter-list, .carousel-nav, .brand-box .brand-list, .product-item .item-links,
+ul.nostyle, .pagin-list, .collapsible ul.collapsible-body-content, .dropdown-list, .menu, .main-menu .submenu, .horizontal-multilevel-menu .submenu, .h-small-menu, .ps-small-menu, .filter .filter-list, .carousel-nav, .product-item .item-links,
 .products-list .banner .item-links, .tabs .tab-header-list, .geo-box .projects-list, ol.nostyle {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 /* line 89, scss/elements/_typography.scss */
-ul.nostyle > li, .pagin-list > li, .collapsible ul.collapsible-body-content > li, .dropdown-list > li, .menu > li, .main-menu .submenu > li, .horizontal-multilevel-menu .submenu > li, .h-small-menu > li, .ps-small-menu > li, .filter .filter-list > li, .carousel-nav > li, .brand-box .brand-list > li, .product-item .item-links > li,
+ul.nostyle > li, .pagin-list > li, .collapsible ul.collapsible-body-content > li, .dropdown-list > li, .menu > li, .main-menu .submenu > li, .horizontal-multilevel-menu .submenu > li, .h-small-menu > li, .ps-small-menu > li, .filter .filter-list > li, .carousel-nav > li, .product-item .item-links > li,
 .products-list .banner .item-links > li, .tabs .tab-header-list > li, .geo-box .projects-list > li, ol.nostyle > li {
   padding: 0;
   margin: 0;
 }
 /* line 94, scss/elements/_typography.scss */
-ul.horizontal > li, .horizontal-menu > li, .h-small-menu > li, .ps-small-menu > li, .horizontal-multilevel-menu > li, .carousel-nav > li, .brand-box .brand-list > li, .tabs .tab-header-list > li, ol.horizontal > li {
+ul.horizontal > li, .horizontal-menu > li, .h-small-menu > li, .ps-small-menu > li, .horizontal-multilevel-menu > li, .carousel-nav > li, .tabs .tab-header-list > li, ol.horizontal > li {
   display: inline-block;
 }
 
@@ -4298,7 +4050,7 @@ a, .btn-link {
 a.nostyle, .nostyle.btn-link, .menu .menu-link, .main-menu .submenu .menu-link, .horizontal-multilevel-menu .submenu .menu-link,
 .menu .submenu-link,
 .main-menu .submenu .submenu-link,
-.horizontal-multilevel-menu .submenu .submenu-link, .breadcrumbs .brdcmb-link, .product-card .item-name a, .product-card .item-name .btn-link, .auth-box .auth-link {
+.horizontal-multilevel-menu .submenu .submenu-link, .breadcrumbs .brdcmb-link {
   color: inherit;
 }
 /* line 120, scss/elements/_typography.scss */
@@ -5245,91 +4997,6 @@ select option {
   cursor: default;
 }
 
-/* line 2, scss/elements/_rating.scss */
-.rating {
-  height: 15px;
-  margin: 4px 0 17px;
-}
-/* line 5, scss/elements/_rating.scss */
-.rating .star {
-  width: 14px;
-  height: 100%;
-  fill: #d4d4d4;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-1 .star:nth-child(1) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-2 .star:nth-child(1) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-2 .star:nth-child(2) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-3 .star:nth-child(1) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-3 .star:nth-child(2) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-3 .star:nth-child(3) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-4 .star:nth-child(1) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-4 .star:nth-child(2) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-4 .star:nth-child(3) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-4 .star:nth-child(4) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-5 .star:nth-child(1) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-5 .star:nth-child(2) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-5 .star:nth-child(3) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-5 .star:nth-child(4) {
-  fill: #da0034;
-}
-/* line 13, scss/elements/_rating.scss */
-.rating.rate-5 .star:nth-child(5) {
-  fill: #da0034;
-}
-
-/* line 21, scss/elements/_rating.scss */
-.rating-field .rating {
-  height: 25px;
-}
-/* line 24, scss/elements/_rating.scss */
-.rating-field .star {
-  width: 25px;
-  height: 25px;
-  margin-right: 5px;
-  fill: #363636;
-  cursor: pointer;
-}
-
 /* line 2, scss/elements/_pagination.scss */
 .pagination {
   margin: 15px auto 27.5px;
@@ -5471,9 +5138,8 @@ select option {
 }
 
 /* line 54, scss/elements/_collapsible.scss */
-.base-card .collapsible-type-2:first-child li:first-child .collapsible-header, .compare-page .compare .collapsible-type-2:first-child li:first-child .collapsible-header,
-.base-card .card-content .collapsible-type-2:first-child li:first-child .collapsible-header,
-.compare-page .compare .card-content .collapsible-type-2:first-child li:first-child .collapsible-header {
+.base-card .collapsible-type-2:first-child li:first-child .collapsible-header,
+.base-card .card-content .collapsible-type-2:first-child li:first-child .collapsible-header {
   border: 0;
 }
 
@@ -5585,98 +5251,6 @@ select option {
 /* line 70, scss/elements/_dropdown.scss */
 .dropdown-item[data-active="active"] {
   display: none;
-}
-
-/* line 2, scss/elements/_tooltip.scss */
-.tooltip {
-  position: absolute;
-  z-index: -999;
-  opacity: 0;
-  background: white;
-  border: 1px solid #d7d7d7;
-  padding: 10px 22.5px 12.5px 7.5px;
-}
-/* line 10, scss/elements/_tooltip.scss */
-.tooltip.show, .auth-box.loged-in:hover .lk-menu {
-  opacity: 1;
-  z-index: 999;
-}
-/* line 14, scss/elements/_tooltip.scss */
-.tooltip .btn-close {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-/* line 19, scss/elements/_tooltip.scss */
-.tooltip .tooltip-tngl {
-  width: 25px;
-  height: 16px;
-  position: absolute;
-  background: url("images/tooltip-tngl.png") center no-repeat;
-  bottom: -16px;
-  left: 30px;
-  -webkit-transform: rotate(180deg);
-      -ms-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
-/* line 29, scss/elements/_tooltip.scss */
-.tooltip[data-position^="top-"] .tooltip-tngl {
-  top: auto;
-  bottom: -16px;
-}
-/* line 33, scss/elements/_tooltip.scss */
-.tooltip[data-position^="bottom-"] .tooltip-tngl {
-  top: -16px;
-  -webkit-transform: rotate(0deg);
-      -ms-transform: rotate(0deg);
-          transform: rotate(0deg);
-}
-/* line 37, scss/elements/_tooltip.scss */
-.tooltip[data-position^="left-"] .tooltip-tngl {
-  left: auto;
-  right: -20px;
-  -webkit-transform: rotate(90deg);
-      -ms-transform: rotate(90deg);
-          transform: rotate(90deg);
-}
-/* line 42, scss/elements/_tooltip.scss */
-.tooltip[data-position^="right-"] .tooltip-tngl {
-  left: -20px;
-  -webkit-transform: rotate(-90deg);
-      -ms-transform: rotate(-90deg);
-          transform: rotate(-90deg);
-}
-/* line 46, scss/elements/_tooltip.scss */
-.tooltip[data-position$="-center"] .tooltip-tngl {
-  left: 50%;
-  margin-left: -15px;
-}
-/* line 50, scss/elements/_tooltip.scss */
-.tooltip[data-position$="-left"] .tooltip-tngl {
-  left: 30px;
-}
-/* line 53, scss/elements/_tooltip.scss */
-.tooltip[data-position$="-right"] .tooltip-tngl {
-  left: auto;
-  right: 30px;
-}
-/* line 57, scss/elements/_tooltip.scss */
-.tooltip[data-position$="-top"] .tooltip-tngl {
-  top: 30px;
-}
-/* line 60, scss/elements/_tooltip.scss */
-.tooltip[data-position$="-middle"] .tooltip-tngl {
-  top: 50%;
-  margin-top: -8px;
-}
-/* line 64, scss/elements/_tooltip.scss */
-.tooltip[data-position$="-bottom"] .tooltip-tngl {
-  top: auto;
-  bottom: 30px;
-}
-/* line 68, scss/elements/_tooltip.scss */
-.tooltip .tooltip-content p {
-  margin: 0.5em 0;
 }
 
 /* line 3, scss/components/_header.scss */
@@ -6481,177 +6055,6 @@ select option {
   }
 }
 
-/* line 2, scss/components/_shopping-card.scss */
-.shopping-card-box {
-  padding-top: 5px;
-}
-/* line 4, scss/components/_shopping-card.scss */
-.shopping-card-box .btn-minicart {
-  padding-left: 30px;
-  text-align: left;
-}
-/* line 7, scss/components/_shopping-card.scss */
-.shopping-card-box .btn-minicart.col.l2 {
-  max-width: 180px;
-}
-/* line 10, scss/components/_shopping-card.scss */
-.shopping-card-box .btn-minicart .icon {
-  position: absolute;
-  left: 15px;
-  fill: #242424;
-}
-/* line 16, scss/components/_shopping-card.scss */
-.shopping-card-box .btn-favorite {
-  margin: 5px 6.7% 5px 20%;
-  padding: 0;
-}
-/* line 19, scss/components/_shopping-card.scss */
-.shopping-card-box .btn-favorite .icon {
-  fill: #d8d8d8;
-}
-/* line 23, scss/components/_shopping-card.scss */
-.shopping-card-box .notification {
-  position: absolute;
-  top: 5px;
-  left: 30px;
-  width: 14px;
-  height: 14px;
-  font-size: 9px;
-  font-weight: 600;
-  line-height: 14px;
-  background: #da0034;
-  color: white;
-  border-radius: 50%;
-  text-align: center;
-  vertical-align: middle;
-}
-/* line 37, scss/components/_shopping-card.scss */
-.shopping-card-box .notification:empty {
-  display: none;
-}
-
-/* line 2, scss/components/_product-card.scss */
-.product-card {
-  background: white;
-  border-radius: 6px;
-  -webkit-transition: box-shadow .3s ease;
-          transition: box-shadow .3s ease;
-}
-/* line 10, scss/components/_product-card.scss */
-.product-card .product-info {
-  padding: 15px 10px 7.5px;
-}
-/* line 13, scss/components/_product-card.scss */
-.product-card .compare {
-  padding: 6px 10px 10px;
-  border-top: 1px solid #eeeeee;
-  margin-bottom: 0;
-}
-/* line 18, scss/components/_product-card.scss */
-.product-card .item-img {
-  display: block;
-  width: 100%;
-  height: 100px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/* line 26, scss/components/_product-card.scss */
-.product-card .item-name {
-  margin: 13px 0 4px;
-  min-height: 3em;
-}
-/* line 34, scss/components/_product-card.scss */
-.product-card .product-price {
-  line-height: 1;
-  height: 50px;
-}
-/* line 37, scss/components/_product-card.scss */
-.product-card .product-price .old-price {
-  lone-height: 21px;
-}
-/* line 42, scss/components/_product-card.scss */
-.product-card .product-price .price {
-  font-size: 24px;
-  padding: 13px 0 12px;
-}
-/* line 50, scss/components/_product-card.scss */
-.product-card .btn.shopping-card {
-  width: 70px;
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-}
-
-/* line 2, scss/components/_news-card.scss */
-.news-card {
-  color: white;
-  margin-bottom: 10px;
-}
-/* line 5, scss/components/_news-card.scss */
-.news-card .img-link {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  color: inherit;
-  overflow: hidden;
-}
-/* line 12, scss/components/_news-card.scss */
-.news-card .item-img {
-  display: block;
-  will-change: transform;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
-  -webkit-transition: -webkit-transform .3s ease;
-          transition: transform .3s ease;
-}
-/* line 18, scss/components/_news-card.scss */
-.news-card .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, transparent 100%);
-  will-change: background;
-  -webkit-transition: background .3s ease;
-          transition: background .3s ease;
-}
-/* line 28, scss/components/_news-card.scss */
-.news-card .item-terms {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  left: 0;
-  padding: 6.7px 10px;
-  background: #da0034;
-}
-/* line 36, scss/components/_news-card.scss */
-.news-card .item-text {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  padding: 10px;
-}
-/* line 44, scss/components/_news-card.scss */
-.news-card:hover .item-img {
-  -webkit-transform: scale(1.1, 1.1);
-      -ms-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
-  -webkit-transition: -webkit-transform .3s ease;
-          transition: transform .3s ease;
-}
-/* line 48, scss/components/_news-card.scss */
-.news-card:hover .overlay {
-  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
-  -webkit-transition: background .3s ease;
-          transition: background .3s ease;
-}
-
 /* line 2, scss/components/_carousel.scss */
 .carousel {
   overflow: hidden;
@@ -6690,25 +6093,31 @@ select option {
   margin-bottom: 40px;
 }
 /* line 31, scss/components/_carousel.scss */
-.carousel.blog-carousel .carousel-item {
+.carousel.blog-carousel {
   height: 360px;
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media only screen and (min-width: 651px) {
+  /* line 31, scss/components/_carousel.scss */
+  .carousel.blog-carousel {
+    height: 560px;
+  }
+}
 
-/* line 38, scss/components/_carousel.scss */
+/* line 41, scss/components/_carousel.scss */
 .vertical {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 41, scss/components/_carousel.scss */
+/* line 44, scss/components/_carousel.scss */
 .vertical .carousel-inner {
   width: 100%;
   height: 99999px;
 }
 
-/* line 46, scss/components/_carousel.scss */
+/* line 49, scss/components/_carousel.scss */
 .carousel-controlls {
   position: absolute;
   width: 100%;
@@ -6718,7 +6127,7 @@ select option {
   left: 0;
   z-index: 3;
 }
-/* line 54, scss/components/_carousel.scss */
+/* line 57, scss/components/_carousel.scss */
 .carousel-controlls .prev,
 .carousel-controlls .next {
   position: absolute;
@@ -6731,36 +6140,36 @@ select option {
   border: 0;
   color: #fff;
 }
-/* line 65, scss/components/_carousel.scss */
+/* line 68, scss/components/_carousel.scss */
 .carousel-controlls .prev .icon,
 .carousel-controlls .next .icon {
   fill: #fff;
 }
-/* line 68, scss/components/_carousel.scss */
+/* line 71, scss/components/_carousel.scss */
 .carousel-controlls .prev:hover .icon,
 .carousel-controlls .next:hover .icon {
   fill: #da0034;
 }
-/* line 72, scss/components/_carousel.scss */
+/* line 75, scss/components/_carousel.scss */
 .carousel-controlls .prev {
   left: 0;
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-/* line 76, scss/components/_carousel.scss */
+/* line 79, scss/components/_carousel.scss */
 .carousel-controlls .next {
   right: 0;
 }
 @media screen and (min-width: 1200px) {
-  /* line 46, scss/components/_carousel.scss */
+  /* line 49, scss/components/_carousel.scss */
   .carousel-controlls {
     left: 50%;
     margin-left: -600px;
   }
 }
 
-/* line 85, scss/components/_carousel.scss */
+/* line 88, scss/components/_carousel.scss */
 .vertical .carousel-controlls .prev,
 .vertical .carousel-controlls .next {
   left: 50%;
@@ -6769,14 +6178,14 @@ select option {
   width: 2em;
   height: 2em;
 }
-/* line 93, scss/components/_carousel.scss */
+/* line 96, scss/components/_carousel.scss */
 .vertical .carousel-controlls .prev {
   top: -0.5em;
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-/* line 97, scss/components/_carousel.scss */
+/* line 100, scss/components/_carousel.scss */
 .vertical .carousel-controlls .next {
   top: auto;
   bottom: -0.5em;
@@ -6785,7 +6194,7 @@ select option {
           transform: rotate(-90deg);
 }
 
-/* line 103, scss/components/_carousel.scss */
+/* line 106, scss/components/_carousel.scss */
 .carousel-nav {
   position: absolute;
   width: 100%;
@@ -6796,11 +6205,11 @@ select option {
   text-align: center;
   vertical-align: middle;
 }
-/* line 114, scss/components/_carousel.scss */
+/* line 117, scss/components/_carousel.scss */
 .carousel-nav .nav-item {
   margin: 0 3px;
 }
-/* line 117, scss/components/_carousel.scss */
+/* line 120, scss/components/_carousel.scss */
 .carousel-nav .nav-link {
   display: block;
   width: 13px;
@@ -6812,112 +6221,9 @@ select option {
   -webkit-transition: opacity .3s ease;
           transition: opacity .3s ease;
 }
-/* line 126, scss/components/_carousel.scss */
+/* line 129, scss/components/_carousel.scss */
 .carousel-nav .nav-link.active {
   opacity: 1;
-}
-
-/* line 2, scss/components/_brands.scss */
-.brand-box .brand-list {
-  font-size: 0;
-}
-/* line 6, scss/components/_brands.scss */
-.brand-box .brand-list .brand-item {
-  padding: 22px 35px 23px 20px;
-  font-size: 34px;
-  line-height: 1;
-  text-align: center;
-  vertical-align: middle;
-}
-/* line 13, scss/components/_brands.scss */
-.brand-box .brand-list .brand-item:last-child {
-  padding: 22px 20px 23px 35px;
-}
-/* line 17, scss/components/_brands.scss */
-.brand-box .brand-list .brand-link {
-  height: 1em;
-  overflow: hidden;
-  display: block;
-}
-/* line 22, scss/components/_brands.scss */
-.brand-box .brand-list .brand-img {
-  will-change: transform;
-  -webkit-transform: translate(0, 0) translateZ(0);
-          transform: translate(0, 0) translateZ(0);
-}
-/* line 26, scss/components/_brands.scss */
-.brand-box .brand-list .brand-link:hover .brand-img {
-  -webkit-transform: translate(0, -1em) translateZ(0);
-          transform: translate(0, -1em) translateZ(0);
-}
-/* line 29, scss/components/_brands.scss */
-.brand-box .brand-list .brand-item:last-child .brand-link {
-  font-size: 16px;
-  height: 1rem;
-  line-height: 1rem;
-  vertical-align: middle;
-}
-
-/* line 39, scss/components/_brands.scss */
-.brands-page .brands-list {
-  margin: 2.5px 0 20px;
-}
-/* line 42, scss/components/_brands.scss */
-.brands-page .brands-box {
-  padding: 12.5px 0 10px;
-  border-top: 1px solid #e5e5e5;
-}
-/* line 45, scss/components/_brands.scss */
-.brands-page .brands-box:first-child {
-  border-top: 0;
-}
-/* line 48, scss/components/_brands.scss */
-.brands-page .brands-box .letter-marker {
-  font-size: 40px;
-  line-height: 1;
-  text-transform: uppercase;
-  color: #363636;
-}
-/* line 55, scss/components/_brands.scss */
-.brands-page .brands-box .brands {
-  margin-top: 1em;
-}
-/* line 58, scss/components/_brands.scss */
-.brands-page .brands-box .brand-item {
-  margin-bottom: 7px;
-}
-
-/* line 65, scss/components/_brands.scss */
-.brand-page-single .brand-logo {
-  margin-top: 10px;
-}
-/* line 68, scss/components/_brands.scss */
-.brand-page-single .brand-info {
-  margin-bottom: 25px;
-}
-/* line 71, scss/components/_brands.scss */
-.brand-page-single .catalog {
-  margin-bottom: 50px;
-}
-
-/* line 2, scss/components/_banners.scss */
-.banner-box {
-  margin-top: 0;
-  margin-bottom: 14px;
-}
-
-/* line 6, scss/components/_banners.scss */
-.banner {
-  margin-bottom: 10px;
-  overflow: hidden;
-}
-/* line 9, scss/components/_banners.scss */
-.banner.big {
-  height: 560px;
-}
-/* line 12, scss/components/_banners.scss */
-.banner.small {
-  height: 270px;
 }
 
 /* line 2, scss/components/_product.scss */
@@ -7525,387 +6831,6 @@ select option {
     left: 0;
     margin: 10px 0 20px;
   }
-}
-
-/* line 2, scss/components/_shops.scss */
-.shops-list,
-.shops-map {
-  margin-top: 10px;
-}
-
-/* line 8, scss/components/_shops.scss */
-.shops-list .shop-item,
-.shops-list .sc-item,
-.sc-list .shop-item,
-.sc-list .sc-item {
-  margin-bottom: 10px;
-}
-/* line 12, scss/components/_shops.scss */
-.shops-list .shop-title,
-.shops-list .sc-title,
-.sc-list .shop-title,
-.sc-list .sc-title {
-  color: #da0034;
-}
-/* line 16, scss/components/_shops.scss */
-.shops-list .shop-address,
-.shops-list .shop-workhours,
-.shops-list .shop-phone,
-.shops-list .sc-address,
-.shops-list .sc-workhours,
-.shops-list .sc-phone,
-.sc-list .shop-address,
-.sc-list .shop-workhours,
-.sc-list .shop-phone,
-.sc-list .sc-address,
-.sc-list .sc-workhours,
-.sc-list .sc-phone {
-  padding-left: 12.5px;
-  margin: 5px 0;
-}
-/* line 24, scss/components/_shops.scss */
-.shops-list .shop-address .icon,
-.shops-list .shop-workhours .icon,
-.shops-list .shop-phone .icon,
-.shops-list .sc-address .icon,
-.shops-list .sc-workhours .icon,
-.shops-list .sc-phone .icon,
-.sc-list .shop-address .icon,
-.sc-list .shop-workhours .icon,
-.sc-list .shop-phone .icon,
-.sc-list .sc-address .icon,
-.sc-list .sc-workhours .icon,
-.sc-list .sc-phone .icon {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  top: 2px;
-  left: 0;
-  fill: #424242;
-}
-/* line 33, scss/components/_shops.scss */
-.shops-list .shop-phone .icon,
-.shops-list .sc-phone .icon,
-.sc-list .shop-phone .icon,
-.sc-list .sc-phone .icon {
-  fill: #da0034;
-}
-
-/* line 38, scss/components/_shops.scss */
-.shops-map,
-.shops-map .map {
-  width: 100%;
-  height: 650px;
-}
-
-/* line 43, scss/components/_shops.scss */
-.shops-page .shops-map,
-.shops-page .shops-map .map {
-  height: 740px;
-}
-
-/* line 47, scss/components/_shops.scss */
-.sc-list,
-.sc-map {
-  margin-top: 10px;
-}
-
-/* line 51, scss/components/_shops.scss */
-.sc-map,
-.sc-map .map {
-  height: 350px;
-}
-
-/* line 2, scss/components/_compare.scss */
-.compare-box {
-  margin: 0 0 12.5px;
-}
-/* line 4, scss/components/_compare.scss */
-.compare-box .icon {
-  display: inline-block;
-  width: 16px;
-  height: 18px;
-  margin-right: 15px;
-  fill: #d8d8d8;
-}
-
-/* line 12, scss/components/_compare.scss */
-.compare-page .compare {
-  padding: 10px 15px;
-  line-height: 18px;
-}
-/* line 16, scss/components/_compare.scss */
-.compare-page .compare .compare-header {
-  min-height: 220px;
-  border-bottom: 1px solid #e5e5e5;
-}
-/* line 19, scss/components/_compare.scss */
-.compare-page .compare .compare-header.fixed {
-  position: fixed;
-  top: 0;
-  background: white;
-  z-index: 999;
-}
-/* line 25, scss/components/_compare.scss */
-.compare-page .compare .compare-header.fixed + .compare-body {
-  padding-top: 240px;
-}
-/* line 29, scss/components/_compare.scss */
-.compare-page .compare .compare-actions {
-  height: 100%;
-}
-/* line 32, scss/components/_compare.scss */
-.compare-page .compare .compare-actions .btn-link {
-  margin-right: 9px;
-  margin-top: 180px;
-}
-/* line 35, scss/components/_compare.scss */
-.compare-page .compare .compare-actions .btn-link.active {
-  color: #424242;
-}
-/* line 40, scss/components/_compare.scss */
-.compare-page .compare .compare-products {
-  width: 68.4%;
-  max-width: 780px;
-}
-/* line 47, scss/components/_compare.scss */
-.compare-page .compare .compare-products .prod-img {
-  padding: 7.5px 0 10px;
-  text-align: center;
-}
-/* line 50, scss/components/_compare.scss */
-.compare-page .compare .compare-products .prod-img img {
-  height: 130px;
-  width: auto;
-}
-/* line 55, scss/components/_compare.scss */
-.compare-page .compare .compare-products .prod-name {
-  padding: 0 15px 0 0;
-}
-/* line 57, scss/components/_compare.scss */
-.compare-page .compare .compare-products .prod-name .btn-compare-delete {
-  position: absolute;
-  top: 2px;
-  right: 16px;
-  width: 1em;
-  height: 1em;
-}
-/* line 63, scss/components/_compare.scss */
-.compare-page .compare .compare-products .prod-name .btn-compare-delete .icon {
-  fill: #424242;
-}
-/* line 69, scss/components/_compare.scss */
-.compare-page .compare .carousel {
-  padding: 0;
-}
-/* line 73, scss/components/_compare.scss */
-.compare-page .compare .carousel-controlls .prev,
-.compare-page .compare .carousel-controlls .next {
-  margin-top: 0;
-  top: 55px;
-  opacity: 0;
-}
-/* line 78, scss/components/_compare.scss */
-.compare-page .compare .carousel-controlls .prev.active,
-.compare-page .compare .carousel-controlls .next.active {
-  opacity: 1;
-}
-/* line 82, scss/components/_compare.scss */
-.compare-page .compare .carousel-controlls .prev {
-  left: -86px;
-}
-/* line 85, scss/components/_compare.scss */
-.compare-page .compare .carousel-controlls .next {
-  right: -80px;
-}
-/* line 90, scss/components/_compare.scss */
-.compare-page .compare .compare-body .param-line {
-  padding: 8px 0;
-  border-bottom: 1px solid #e5e5e5;
-}
-/* line 93, scss/components/_compare.scss */
-.compare-page .compare .compare-body .param-line:last-child {
-  border-bottom: 0;
-}
-/* line 96, scss/components/_compare.scss */
-.compare-page .compare .compare-body .param-line .param-name {
-  padding-left: 0;
-  padding-right: 12.5px;
-}
-/* line 100, scss/components/_compare.scss */
-.compare-page .compare .compare-body .param-line .param-value {
-  width: 68.5%;
-  max-width: 780px;
-}
-/* line 104, scss/components/_compare.scss */
-.compare-page .compare .compare-body .param-line.price {
-  line-height: 24px;
-}
-/* line 106, scss/components/_compare.scss */
-.compare-page .compare .compare-body .param-line.price .param-value {
-  font-size: 24px;
-}
-
-/* line 4, scss/components/_basket.scss */
-.basket-table .product-item > .col {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-/* line 8, scss/components/_basket.scss */
-.basket-table .product-item .product-img {
-  text-align: center;
-}
-/* line 10, scss/components/_basket.scss */
-.basket-table .product-item .product-img img {
-  max-height: 110px;
-}
-
-/* line 16, scss/components/_basket.scss */
-.basket-table .sum,
-.total-sum-box .sum {
-  font-size: 22px;
-}
-
-/* line 20, scss/components/_basket.scss */
-.page-title-basket {
-  margin-top: 5px;
-  margin-bottom: 7.5px;
-}
-/* line 23, scss/components/_basket.scss */
-.page-title-basket .btn-clear-basket {
-  margin-top: 22.5px;
-}
-
-/* line 29, scss/components/_basket.scss */
-.btn-checkout {
-  margin-bottom: 90px;
-}
-
-/* line 33, scss/components/_basket.scss */
-.checkout-page .page-title, .checkout-page .portfolio-box .title, .portfolio-box .checkout-page .title {
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-/* line 37, scss/components/_basket.scss */
-.checkout-page .page-note-text {
-  margin-top: 0;
-  margin-bottom: 15px;
-}
-/* line 41, scss/components/_basket.scss */
-.checkout-page .base-card, .checkout-page .compare-page .compare, .compare-page .checkout-page .compare {
-  margin-bottom: 38px;
-}
-/* line 44, scss/components/_basket.scss */
-.checkout-page .delivery-address,
-.checkout-page .table-field.delivery-address {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-/* line 48, scss/components/_basket.scss */
-.checkout-page .delivery-address .label,
-.checkout-page .table-field.delivery-address .label {
-  vertical-align: top;
-  margin-top: 7px;
-}
-/* line 52, scss/components/_basket.scss */
-.checkout-page .delivery-address .select-box,
-.checkout-page .delivery-address .dropdown-box,
-.checkout-page .delivery-address .addr-actions,
-.checkout-page .delivery-address .second-field,
-.checkout-page .table-field.delivery-address .select-box,
-.checkout-page .table-field.delivery-address .dropdown-box,
-.checkout-page .table-field.delivery-address .addr-actions,
-.checkout-page .table-field.delivery-address .second-field {
-  width: 66%;
-  width: calc(70% - 20px);
-}
-/* line 59, scss/components/_basket.scss */
-.checkout-page .delivery-address .addr-actions,
-.checkout-page .table-field.delivery-address .addr-actions {
-  margin-top: 8px;
-}
-/* line 61, scss/components/_basket.scss */
-.checkout-page .delivery-address .addr-actions a, .checkout-page .delivery-address .addr-actions .btn-link,
-.checkout-page .table-field.delivery-address .addr-actions a,
-.checkout-page .table-field.delivery-address .addr-actions .btn-link {
-  margin-right: 12.5%;
-}
-/* line 66, scss/components/_basket.scss */
-.checkout-page .mrg {
-  margin-top: 2em;
-}
-/* line 70, scss/components/_basket.scss */
-.checkout-page .total-sum-box .title {
-  margin-bottom: 0;
-}
-/* line 73, scss/components/_basket.scss */
-.checkout-page .total-sum-box table {
-  margin-bottom: 25px;
-}
-/* line 76, scss/components/_basket.scss */
-.checkout-page .total-sum-box table td {
-  padding: 5px 0;
-}
-
-/* line 2, scss/components/_comments.scss */
-.comments-list {
-  margin-bottom: 20px;
-}
-/* line 4, scss/components/_comments.scss */
-.comments-list .comment-item {
-  padding: 5px 0;
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
-}
-/* line 8, scss/components/_comments.scss */
-.comments-list .comment-item .item-name {
-  margin-right: 10px;
-}
-/* line 11, scss/components/_comments.scss */
-.comments-list .comment-item .item-text {
-  margin: 10px 0;
-  line-height: 1.7;
-}
-
-/* line 17, scss/components/_comments.scss */
-.comment-form {
-  margin-bottom: 100px;
-}
-/* line 19, scss/components/_comments.scss */
-.comment-form .field {
-  margin-bottom: 15px;
-}
-/* line 21, scss/components/_comments.scss */
-.comment-form .field input, .comment-form .field textarea {
-  margin: 0.5em 0;
-}
-
-/* line 2, scss/components/_order.scss */
-.order-info-item {
-  margin: 1em 0 2em;
-}
-/* line 4, scss/components/_order.scss */
-.order-info-item:last-child {
-  margin-bottom: 1em;
-}
-
-/* line 8, scss/components/_order.scss */
-.prod-item p,
-.prod-list + .card-footer p {
-  margin: 5px 0;
-}
-
-/* line 12, scss/components/_order.scss */
-.profile-page .prod-item {
-  margin-bottom: 15px;
-}
-/* line 14, scss/components/_order.scss */
-.profile-page .prod-item *:first-child {
-  margin-top: 0;
-}
-/* line 17, scss/components/_order.scss */
-.profile-page .prod-item *:last-child {
-  margin-bottom: 0;
 }
 
 /* line 2, scss/components/_start.scss */
@@ -9421,313 +8346,4 @@ select option {
 /* line 109, scss/components/_modal.scss */
 .modal-dark-bg.open {
   z-index: 9998;
-}
-
-/* line 2, scss/pages/_catalog.scss */
-.catalog .item,
-.product-list .item {
-  margin: 0 0 10px;
-}
-
-/* line 7, scss/pages/_catalog.scss */
-.more-box {
-  margin: 50px auto;
-  text-align: center;
-}
-/* line 10, scss/pages/_catalog.scss */
-.more-box .btn-more {
-  margin: 0 auto;
-}
-
-/* line 3, scss/pages/_news.scss */
-.action-single .date,
-.action-single .item-img {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-/* line 8, scss/pages/_news.scss */
-.action-single .item-text {
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-/* line 12, scss/pages/_news.scss */
-.action-single .product-list {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-/* line 18, scss/pages/_news.scss */
-.action-single.test-drive .product-list {
-  margin-top: 15px;
-  margin-bottom: 20px;
-}
-
-/* line 3, scss/pages/_lk.scss */
-.profile-page .page-title, .profile-page .portfolio-box .title, .portfolio-box .profile-page .title {
-  margin-bottom: 8px;
-}
-/* line 6, scss/pages/_lk.scss */
-.profile-page .breadcrumbs + .workarea .page-title, .profile-page .breadcrumbs + .workarea .portfolio-box .title, .portfolio-box .profile-page .breadcrumbs + .workarea .title {
-  margin-bottom: 25px;
-}
-/* line 9, scss/pages/_lk.scss */
-.profile-page .page-note-text {
-  margin-bottom: 25px;
-}
-/* line 12, scss/pages/_lk.scss */
-.profile-page .orders-table.row {
-  width: calc(100% + 20px);
-  margin-right: -10px;
-  margin-left: -10px;
-}
-/* line 17, scss/pages/_lk.scss */
-.profile-page .orders-table {
-  margin-bottom: 17.5px;
-}
-/* line 19, scss/pages/_lk.scss */
-.profile-page .orders-table .table-header .col {
-  padding: 7.5px 10px;
-}
-/* line 22, scss/pages/_lk.scss */
-.profile-page .orders-table .col {
-  padding: 23px 10px;
-}
-/* line 25, scss/pages/_lk.scss */
-.profile-page .orders-table + .btn {
-  max-width: 240px;
-  margin-bottom: 5px;
-}
-/* line 30, scss/pages/_lk.scss */
-.profile-page .lk-boxes {
-  margin-bottom: 60px;
-}
-/* line 32, scss/pages/_lk.scss */
-.profile-page .lk-boxes .base-card, .profile-page .lk-boxes .compare-page .compare, .compare-page .profile-page .lk-boxes .compare {
-  padding-bottom: 47.5px;
-}
-/* line 34, scss/pages/_lk.scss */
-.profile-page .lk-boxes .base-card p, .profile-page .lk-boxes .compare-page .compare p, .compare-page .profile-page .lk-boxes .compare p {
-  min-height: 1.5em;
-}
-/* line 38, scss/pages/_lk.scss */
-.profile-page .lk-boxes .card-content {
-  padding-top: 7px;
-}
-/* line 41, scss/pages/_lk.scss */
-.profile-page .lk-boxes .card-content p {
-  margin: 8px 0;
-}
-/* line 44, scss/pages/_lk.scss */
-.profile-page .lk-boxes .link-box {
-  position: absolute;
-  top: auto;
-  left: 0;
-  bottom: 10px;
-  width: 100%;
-  padding: 0 10px;
-}
-/* line 56, scss/pages/_lk.scss */
-.profile-page .address-book .address-item {
-  padding-bottom: 40px;
-  min-height: 220px;
-}
-/* line 61, scss/pages/_lk.scss */
-.profile-page .btn-delete-addr {
-  position: absolute;
-  width: 19px;
-  height: 19px;
-  top: 0;
-  right: 0;
-}
-/* line 67, scss/pages/_lk.scss */
-.profile-page .btn-delete-addr .icon {
-  fill: #d8d8d8;
-}
-/* line 71, scss/pages/_lk.scss */
-.profile-page .address-form {
-  margin-bottom: 15px;
-}
-/* line 73, scss/pages/_lk.scss */
-.profile-page .address-form .def-addr {
-  margin-top: 10px;
-}
-/* line 77, scss/pages/_lk.scss */
-.profile-page .address-form,
-.profile-page .ld-form,
-.profile-page .pas-form,
-.profile-page .subs-form {
-  margin-bottom: 15px;
-}
-/* line 85, scss/pages/_lk.scss */
-.profile-page .ld-form .card-content,
-.profile-page .pas-form .card-content {
-  padding: 5px 10px;
-}
-/* line 89, scss/pages/_lk.scss */
-.profile-page .subs-form .card-content {
-  padding-top: 5px;
-}
-/* line 92, scss/pages/_lk.scss */
-.profile-page .address-form + .btn,
-.profile-page .ld-form + .btn,
-.profile-page .pas-form + .btn,
-.profile-page .subs-form + .btn {
-  margin-bottom: 100px;
-}
-
-/* line 2, scss/pages/_auth.scss */
-.auth-box {
-  text-align: right;
-}
-/* line 4, scss/pages/_auth.scss */
-.auth-box .auth-link {
-  display: inline-block;
-  padding: 0 3.5px;
-  line-height: 1;
-  height: 1em;
-}
-/* line 11, scss/pages/_auth.scss */
-.auth-box .auth-link.register {
-  border-left: 1px solid;
-  padding-left: 5px;
-}
-/* line 15, scss/pages/_auth.scss */
-.auth-box .icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  padding: 2px;
-  fill: #242424;
-  vertical-align: middle;
-  margin-right: 2.5px;
-  margin-top: -2.5px;
-}
-/* line 25, scss/pages/_auth.scss */
-.auth-box .lk-menu {
-  text-align: center;
-  padding: 13px 10px;
-  width: 100%;
-}
-/* line 29, scss/pages/_auth.scss */
-.auth-box .lk-menu .menu-link {
-  line-height: 1;
-  padding: 5px;
-  display: block;
-}
-/* line 33, scss/pages/_auth.scss */
-.auth-box .lk-menu .menu-link:hover {
-  color: #da0034;
-}
-/* line 38, scss/pages/_auth.scss */
-.auth-box.loged-in .auth-link.login {
-  width: 100%;
-  text-align: left;
-}
-/* line 43, scss/pages/_auth.scss */
-.auth-box.loged-in:hover .auth-link.login {
-  color: #da0034;
-}
-/* line 45, scss/pages/_auth.scss */
-.auth-box.loged-in:hover .auth-link.login .icon {
-  fill: #da0034;
-}
-
-/* line 56, scss/pages/_auth.scss */
-.authorize-page .page-title, .authorize-page .portfolio-box .title, .portfolio-box .authorize-page .title {
-  margin-bottom: 12.5px;
-}
-/* line 59, scss/pages/_auth.scss */
-.authorize-page .register-form,
-.authorize-page .authorize-form {
-  margin-bottom: 15px;
-}
-/* line 64, scss/pages/_auth.scss */
-.authorize-page .register-form .card-content {
-  padding-top: 2.5px;
-}
-/* line 67, scss/pages/_auth.scss */
-.authorize-page .register-form + .btn {
-  margin-bottom: 145px;
-}
-/* line 72, scss/pages/_auth.scss */
-.authorize-page .authorize-form .card-content {
-  padding: 5px 10px;
-}
-/* line 75, scss/pages/_auth.scss */
-.authorize-page .authorize-form + .btn {
-  margin-bottom: 95px;
-}
-/* line 79, scss/pages/_auth.scss */
-.authorize-page .soc-login .soc-link {
-  width: 46px;
-  height: 46px;
-  padding: 12px;
-}
-/* line 84, scss/pages/_auth.scss */
-.authorize-page .recpass-form + .btn {
-  margin-bottom: 95px;
-}
-
-/* line 2, scss/pages/_vakansii.scss */
-.vakansi-list {
-  margin-top: 5px;
-  margin-bottom: 145px;
-  padding-bottom: 15px;
-}
-/* line 6, scss/pages/_vakansii.scss */
-.vakansi-list .item {
-  margin: 5px 0;
-  padding-left: 20px;
-}
-
-/* line 11, scss/pages/_vakansii.scss */
-.vakansi-single {
-  margin-top: 5px;
-  margin-bottom: 15px;
-}
-/* line 14, scss/pages/_vakansii.scss */
-.vakansi-single + .btn {
-  margin-bottom: 95px;
-}
-
-/* line 3, scss/pages/_category.scss */
-.categories-list .category-item {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-/* line 7, scss/pages/_category.scss */
-.categories-list .category-name {
-  margin-bottom: 10px;
-}
-/* line 14, scss/pages/_category.scss */
-.categories-list .subcat-item .subcat-name > .subcat-link,
-.categories-list .subcat-item .collapsible-header.subcat-name {
-  display: block;
-  color: #da0034;
-  font-size: 16px;
-  padding: 5px 0;
-  min-height: 40px;
-  line-height: 1.5;
-}
-/* line 22, scss/pages/_category.scss */
-.categories-list .subcat-item .subcat-name > .subcat-link:after,
-.categories-list .subcat-item .collapsible-header.subcat-name:after {
-  display: inline-block;
-  position: relative;
-  color: #da0034;
-  top: auto;
-  left: auto;
-  right: auto;
-  margin-left: 1em;
-  font-size: inherit;
-}
-/* line 32, scss/pages/_category.scss */
-.categories-list .subcat-item .subcat-name > .subcat-link:hover,
-.categories-list .subcat-item .collapsible-header.subcat-name:hover {
-  background: none;
-}
-/* line 36, scss/pages/_category.scss */
-.categories-list .subcat-item .subcat-link {
-  display: block;
-  padding: 5px 10px;
 }
