@@ -9,7 +9,9 @@ html, body {
 }
 .workarea-wrapper {
 	min-height: calc(100vh - 195px);
-	padding: 0;
+	padding: 1px 0;
+	margin-top: -1px;
+	margin-bottom: -1px;
 	@media #{$large-and-up}{
 		min-height: calc(100vh - 202px);
 	}
