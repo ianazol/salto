@@ -42,8 +42,9 @@
 						</div>
 						<div class="col s12 m6 l5">
 							<div class="field">
-								<textarea id="comment"></textarea>
+								<textarea id="comment" required></textarea>
 								<label for="comment" class="textfield-placeholder">Опишите вашу задачу</label>
+								<span class="error-text error-required">Пожалуйста, опишите вашу задачу.</span>
 							</div>
 						</div>
 					</div>

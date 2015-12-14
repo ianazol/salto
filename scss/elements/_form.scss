@@ -97,6 +97,9 @@ textarea {
 textarea {
 	max-width: 100%;
 	min-height: 190px;
+	&[required] {
+		background-position: right 19px top 19px;
+	}
 }
 
 // checkbox
