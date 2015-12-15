@@ -1,5 +1,4 @@
 // header
-// header
 .header-wrapper {
 	border-bottom: 1px solid $border-color;
 	background: white;
@@ -36,6 +35,9 @@
 		justify-content: flex-start;
 		align-items: center;
 		width: 15%;
+		@media only screen and (min-width: #{$medium-screen}) and (max-width: #{$large-screen}){
+			justify-content: space-around;
+		}
 		@media #{$medium-and-up}{
 			width: 7%;
 		}
@@ -103,6 +105,7 @@
 		order: 10;
 		.btn {
 			width: 100%;
+			padding: 0 $gutter-width*0.75;
 			@extend .standart-color;
 		}
 		@media #{$medium-and-up}{
@@ -176,10 +179,14 @@
 				top: 60px;
 				right: 33.4%;
 			}
+			@media only screen and (min-width: #{$medium-screen}) and (max-width: #{$large-screen}){
+				right: 40%;
+			}
 		}
 		.btn-box .btn {
-			width: 100%;
 			@extend .standart;
+			width: 100%;
+			padding: 0 $gutter-width*0.75;
 		}
 	}
 }

@@ -47,10 +47,11 @@
 	.title {
 		@extend .page-title;
 		@media #{$medium-and-up}{
-			margin: $gutter-width*2 0;
+			margin-top: $gutter-width*2;
+			margin-bottom: $gutter-width*2;
 		}
 		@media #{$large-and-up}{
-			margin: $gutter-width*3 0 $gutter-width*2;
+			margin-top: $gutter-width*3;
 		}
 	}
 	.portfolio-list {
@@ -133,6 +134,9 @@
 		@media #{$large-and-up}{
 			height: 630px;
 		}
+		@media only screen and (min-width: #{$medium-screen-up}) and (max-width: #{$large-screen}){
+			height: 450px;
+		}
 		.item-link {
 			display: flex;
 			justify-content: center;
@@ -159,6 +163,9 @@
 			}
 			@media #{$large-and-up}{
 				font-size: 39px;
+			}
+			@media only screen and (min-width: #{$medium-screen-up}) and (max-width: #{$large-screen}){
+				font-size: $xbig-text;
 			}
 		}
 	}

@@ -29,6 +29,9 @@
 		@extend .medium;
 		text-transform: uppercase;
 		color: inherit;
+		@media only screen and (min-width: #{$medium-screen}) and (max-width: #{$large-screen}){
+			font-size: $xsmall-text;
+		}
 	}
 }
 .ps-small-menu {

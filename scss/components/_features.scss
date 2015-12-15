@@ -19,12 +19,12 @@
 			font-size: $xbig-text;
 			text-transform: uppercase;
 			margin: 0 0 $gutter-width*2;
-			@media #{$medium-only}{
+			@media #{$medium-only}, only screen and (width: 1024px) and(height: 768px) and (orientation: landscape){
 				font-size: 20px;
 			}
 		}
 		.item-text {
-			@media #{$medium-only}{
+			@media #{$medium-only}, only screen and (width: 1024px) and(height: 768px) and (orientation: landscape){
 				font-size: 12px;
 			}
 		}

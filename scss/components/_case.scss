@@ -21,15 +21,22 @@
 	}
 	.params-list {
 		margin-top: $gutter-width*4;
+		@media #{$medium-and-up}{
+			.col.l6 {
+				min-width: 600px;
+			}
+		}
 	}
 	.param-item {
 		margin-bottom: $gutter-width*2.5;
 		@media #{$medium-and-up}{
 			&:first-child {
 				padding-right: $gutter-width*4.5;
+				min-width: 200px;
 			}
 			&:last-child {
 				padding-left: $gutter-width*4.5;
+				min-width: 200px;
 			}
 		}
 		.item-icon {

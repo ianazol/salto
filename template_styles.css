@@ -1564,7 +1564,7 @@ textarea + .bordered-box.textfield-placeholder:hover .icon, .bordered-box.error-
     width: 50%;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 94, scss/_grid.scss */
   .row .col.l1 {
     width: 8.33333%;
@@ -2275,7 +2275,7 @@ textarea + .bordered-box.textfield-placeholder:hover .icon, .bordered-box.error-
   }
 }
 
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px) {
   /* line 158, scss/_grid.scss */
   .m-fullwidth {
     width: 100vw;
@@ -2284,7 +2284,7 @@ textarea + .bordered-box.textfield-placeholder:hover .icon, .bordered-box.error-
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 165, scss/_grid.scss */
   .l-fullwidth {
     width: 100vw;
@@ -2770,7 +2770,7 @@ html, body {
   margin-top: -1px;
   margin-bottom: -1px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 10, scss/_layout.scss */
   .workarea-wrapper {
     min-height: calc(100vh - 202px);
@@ -2798,7 +2798,7 @@ html, body {
     padding-top: 70px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 26, scss/_layout.scss */
   .p404 {
     padding-top: 100px;
@@ -3064,7 +3064,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
   /* line 186, scss/elements/_global.scss */
   .hide-on-med-and-down {
     display: none !important;
@@ -3078,28 +3078,28 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 992px) {
+@media only screen and (min-width: 650px) and (max-width: 990px) {
   /* line 196, scss/elements/_global.scss */
   .hide-on-med-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 201, scss/elements/_global.scss */
   .hide-on-large-only {
     display: none !important;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 206, scss/elements/_global.scss */
   .show-on-large {
     display: initial !important;
   }
 }
 
-@media only screen and (min-width: 650px) and (max-width: 992px) {
+@media only screen and (min-width: 650px) and (max-width: 990px) {
   /* line 211, scss/elements/_global.scss */
   .show-on-medium {
     display: initial !important;
@@ -3120,7 +3120,7 @@ ul.staggered-list li {
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
   /* line 226, scss/elements/_global.scss */
   .show-on-medium-and-down {
     display: initial !important;
@@ -3177,7 +3177,7 @@ table.nostyle td {
   padding: 0;
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 990px) {
   /* line 299, scss/elements/_global.scss */
   table.responsive-table {
     width: 100%;
@@ -3809,13 +3809,20 @@ span.badge.new:after {
   font-size: 14px;
   line-height: 1.5;
 }
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  /* line 114, scss/elements/_buttons.scss */
+  .btn-menu .btn-text,
+  .btn-menu.btn-icon .btn-text {
+    display: none;
+  }
+}
 
-/* line 120, scss/elements/_buttons.scss */
+/* line 123, scss/elements/_buttons.scss */
 .btn-more {
   margin-top: 5px;
 }
 
-/* line 123, scss/elements/_buttons.scss */
+/* line 126, scss/elements/_buttons.scss */
 .btn-close {
   width: 17px;
   height: 17px;
@@ -3826,32 +3833,32 @@ span.badge.new:after {
   -webkit-transition: -webkit-transform .3s ease;
           transition: transform .3s ease;
 }
-/* line 129, scss/elements/_buttons.scss */
+/* line 132, scss/elements/_buttons.scss */
 .btn-close .icon {
   fill: #da0034;
 }
-/* line 132, scss/elements/_buttons.scss */
+/* line 135, scss/elements/_buttons.scss */
 .btn-close:hover {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
 
-/* line 136, scss/elements/_buttons.scss */
+/* line 139, scss/elements/_buttons.scss */
 .btn-delete-from-card {
   width: 17px;
   height: 17px;
 }
-/* line 139, scss/elements/_buttons.scss */
+/* line 142, scss/elements/_buttons.scss */
 .btn-delete-from-card .icon {
   fill: #8c8c8c;
 }
-/* line 142, scss/elements/_buttons.scss */
+/* line 145, scss/elements/_buttons.scss */
 .btn-delete-from-card:hover .icon {
   fill: #da0034;
 }
 
-/* line 146, scss/elements/_buttons.scss */
+/* line 149, scss/elements/_buttons.scss */
 .btn-link {
   background: none;
   border: 0;
@@ -4126,14 +4133,14 @@ h6 {
     margin: 50px 0 40px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 144, scss/elements/_typography.scss */
   .page-title, .portfolio-box .title, h1 {
     margin: 70px auto 40px;
   }
 }
 
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 159, scss/elements/_typography.scss */
   .page-title, .portfolio-box .title {
     max-width: 60%;
@@ -4253,7 +4260,7 @@ h6 {
     margin-bottom: 20px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 243, scss/elements/_typography.scss */
   .img-center.s-fullwidth,
   .img-center.m-fullwidth {
@@ -4293,7 +4300,7 @@ h6 {
     margin-top: 0;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 261, scss/elements/_typography.scss */
   .cols-2 {
     -webkit-column-gap: 100px;
@@ -4780,7 +4787,7 @@ select option {
 .consult-form-box {
   margin: 35px 0 50px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 312, scss/elements/_form.scss */
   .order-form-box,
   .consult-form-box {
@@ -4818,7 +4825,7 @@ select option {
     margin-right: 18px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 331, scss/elements/_form.scss */
   .price-form-box .field {
     margin-right: 5px;
@@ -4858,7 +4865,7 @@ select option {
   width: 100vw;
   height: 40px;
   top: 46px;
-  right: -12px;
+  right: -28%;
   background: #da0034;
   border-color: #da0034;
   border-bottom: 1px solid #da0034;
@@ -4936,29 +4943,35 @@ select option {
     left: 10px;
   }
 }
-@media only screen and (min-width: 651px) {
+@media only screen and (min-width: 991px) {
   /* line 91, scss/elements/_search.scss */
   .header .search-box .search-field-box {
     width: 380px;
   }
 }
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  /* line 96, scss/elements/_search.scss */
+  .header .search-box .search-field-box {
+    width: 250px;
+  }
+}
 
-/* line 97, scss/elements/_search.scss */
+/* line 102, scss/elements/_search.scss */
 .start .header .search-box .search-btn.active .icon {
   fill: #fff;
 }
-/* line 100, scss/elements/_search.scss */
+/* line 105, scss/elements/_search.scss */
 .start .header .search-box .search-field-box {
   border-color: #fff;
   color: #fff;
   background: none;
 }
-/* line 104, scss/elements/_search.scss */
+/* line 109, scss/elements/_search.scss */
 .start .header .search-box .search-field-box .search.inputtext {
   border-color: rgba(253, 253, 253, 0.2);
 }
 @media only screen and (max-width: 650px) {
-  /* line 110, scss/elements/_search.scss */
+  /* line 115, scss/elements/_search.scss */
   .start .header .search-box .search-field-box:before {
     content: '';
     display: block;
@@ -4969,7 +4982,7 @@ select option {
     background: #fff;
     width: calc(100% - 47px);
   }
-  /* line 120, scss/elements/_search.scss */
+  /* line 125, scss/elements/_search.scss */
   .start .header .search-box .search-field-box:after {
     content: '';
     display: block;
@@ -4980,7 +4993,7 @@ select option {
     background: #fff;
     width: 21px;
   }
-  /* line 130, scss/elements/_search.scss */
+  /* line 135, scss/elements/_search.scss */
   .start .header .search-box .search-field-box .tngl {
     border-right-color: transparent;
     border-bottom-color: transparent;
@@ -5259,7 +5272,7 @@ select option {
   display: none;
 }
 
-/* line 3, scss/components/_header.scss */
+/* line 2, scss/components/_header.scss */
 .header-wrapper {
   border-bottom: 1px solid #e8e8e8;
   background: white;
@@ -5267,7 +5280,7 @@ select option {
   z-index: 9980;
 }
 
-/* line 9, scss/components/_header.scss */
+/* line 8, scss/components/_header.scss */
 .header {
   padding-top: 18px;
   padding-bottom: 12px;
@@ -5295,23 +5308,23 @@ select option {
           justify-content: flex-start;
 }
 @media only screen and (min-width: 651px) {
-  /* line 9, scss/components/_header.scss */
+  /* line 8, scss/components/_header.scss */
   .header {
     min-height: 93px;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 9, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 8, scss/components/_header.scss */
   .header {
     padding-top: 20px;
     padding-bottom: 20px;
   }
 }
-/* line 27, scss/components/_header.scss */
+/* line 26, scss/components/_header.scss */
 .header .icon {
   fill: #424242;
 }
-/* line 30, scss/components/_header.scss */
+/* line 29, scss/components/_header.scss */
 .header .menu-box {
   -webkit-box-ordinal-group: 1;
   -webkit-order: 0;
@@ -5338,19 +5351,27 @@ select option {
           align-items: center;
   width: 15%;
 }
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  /* line 29, scss/components/_header.scss */
+  .header .menu-box {
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+  }
+}
 @media only screen and (min-width: 651px) {
-  /* line 30, scss/components/_header.scss */
+  /* line 29, scss/components/_header.scss */
   .header .menu-box {
     width: 7%;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 30, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 29, scss/components/_header.scss */
   .header .menu-box {
     width: 30%;
   }
 }
-/* line 46, scss/components/_header.scss */
+/* line 48, scss/components/_header.scss */
 .header .logo-box {
   -webkit-box-ordinal-group: 6;
   -webkit-order: 5;
@@ -5359,7 +5380,7 @@ select option {
   top: 0;
   width: 70%;
 }
-/* line 50, scss/components/_header.scss */
+/* line 52, scss/components/_header.scss */
 .header .logo-box .logo {
   width: 120px;
   margin: 0 auto;
@@ -5372,18 +5393,18 @@ select option {
           transition: all .5s ease;
 }
 @media only screen and (min-width: 651px) {
-  /* line 46, scss/components/_header.scss */
+  /* line 48, scss/components/_header.scss */
   .header .logo-box {
     width: 33%;
     margin: 0 10px;
   }
-  /* line 61, scss/components/_header.scss */
+  /* line 63, scss/components/_header.scss */
   .header .logo-box .logo {
     width: 195px;
     height: 60px;
   }
 }
-/* line 67, scss/components/_header.scss */
+/* line 69, scss/components/_header.scss */
 .header .phone-box {
   -webkit-box-ordinal-group: 9;
   -webkit-order: 8;
@@ -5397,7 +5418,7 @@ select option {
   padding-bottom: 5px;
 }
 @media only screen and (min-width: 651px) {
-  /* line 67, scss/components/_header.scss */
+  /* line 69, scss/components/_header.scss */
   .header .phone-box {
     display: block;
     -webkit-box-ordinal-group: 3;
@@ -5407,8 +5428,8 @@ select option {
     width: 18%;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 67, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 69, scss/components/_header.scss */
   .header .phone-box {
     -webkit-box-ordinal-group: 9;
     -webkit-order: 8;
@@ -5420,7 +5441,7 @@ select option {
     text-align: center;
   }
 }
-/* line 86, scss/components/_header.scss */
+/* line 88, scss/components/_header.scss */
 .header .search-box {
   -webkit-box-ordinal-group: 10;
   -webkit-order: 9;
@@ -5429,7 +5450,7 @@ select option {
   width: 15%;
 }
 @media only screen and (min-width: 651px) {
-  /* line 86, scss/components/_header.scss */
+  /* line 88, scss/components/_header.scss */
   .header .search-box {
     -webkit-box-ordinal-group: 4;
     -webkit-order: 3;
@@ -5438,8 +5459,8 @@ select option {
     width: 7%;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 86, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 88, scss/components/_header.scss */
   .header .search-box {
     -webkit-box-ordinal-group: 3;
     -webkit-order: 2;
@@ -5450,7 +5471,7 @@ select option {
             flex-basis: 30px;
   }
 }
-/* line 98, scss/components/_header.scss */
+/* line 100, scss/components/_header.scss */
 .header .geo-box {
   -webkit-box-ordinal-group: 8;
   -webkit-order: 7;
@@ -5458,19 +5479,20 @@ select option {
           order: 7;
   display: none;
 }
-/* line 102, scss/components/_header.scss */
+/* line 104, scss/components/_header.scss */
 .header .btn-box {
   -webkit-box-ordinal-group: 11;
   -webkit-order: 10;
       -ms-flex-order: 10;
           order: 10;
 }
-/* line 104, scss/components/_header.scss */
+/* line 106, scss/components/_header.scss */
 .header .btn-box .btn {
   width: 100%;
+  padding: 0 7.5px;
 }
 @media only screen and (min-width: 651px) {
-  /* line 102, scss/components/_header.scss */
+  /* line 104, scss/components/_header.scss */
   .header .btn-box {
     -webkit-flex-basis: 170px;
         -ms-flex-preferred-size: 170px;
@@ -5478,19 +5500,19 @@ select option {
     margin-left: 8.5%;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 102, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 104, scss/components/_header.scss */
   .header .btn-box {
     margin-left: 25px;
   }
 }
-/* line 116, scss/components/_header.scss */
+/* line 119, scss/components/_header.scss */
 .header .btn {
   -webkit-transition: none;
           transition: none;
 }
 
-/* line 120, scss/components/_header.scss */
+/* line 123, scss/components/_header.scss */
 .header-wrapper.fixed {
   position: fixed;
   top: 0;
@@ -5498,12 +5520,12 @@ select option {
   z-index: 9980;
   width: 100%;
 }
-/* line 126, scss/components/_header.scss */
+/* line 129, scss/components/_header.scss */
 .header-wrapper.fixed + .workarea-wrapper {
   padding-top: 71px;
 }
 
-/* line 130, scss/components/_header.scss */
+/* line 133, scss/components/_header.scss */
 .header-wrapper.start {
   position: absolute;
   top: 0;
@@ -5512,21 +5534,21 @@ select option {
   background: transparent;
   border: 0;
 }
-/* line 137, scss/components/_header.scss */
+/* line 140, scss/components/_header.scss */
 .header-wrapper.start .header {
   color: #fff;
 }
-@media only screen and (min-width: 993px) {
-  /* line 137, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 140, scss/components/_header.scss */
   .header-wrapper.start .header {
     padding-top: 40px;
   }
 }
-/* line 142, scss/components/_header.scss */
+/* line 145, scss/components/_header.scss */
 .header-wrapper.start .header .icon {
   fill: #fff;
 }
-/* line 146, scss/components/_header.scss */
+/* line 149, scss/components/_header.scss */
 .header-wrapper.start .header .logo-box .logo {
   -webkit-transform: scale(2.4) translateY(60px);
       -ms-transform: scale(2.4) translateY(60px);
@@ -5535,14 +5557,14 @@ select option {
           transition: all .3s ease;
 }
 @media only screen and (min-width: 651px) {
-  /* line 146, scss/components/_header.scss */
+  /* line 149, scss/components/_header.scss */
   .header-wrapper.start .header .logo-box .logo {
     -webkit-transform: scale(2.66) translateY(80px);
         -ms-transform: scale(2.66) translateY(80px);
             transform: scale(2.66) translateY(80px);
   }
 }
-/* line 154, scss/components/_header.scss */
+/* line 157, scss/components/_header.scss */
 .header-wrapper.start .header .phone-box {
   display: block;
   text-align: right;
@@ -5551,15 +5573,15 @@ select option {
   right: 15%;
 }
 @media only screen and (min-width: 651px) {
-  /* line 154, scss/components/_header.scss */
+  /* line 157, scss/components/_header.scss */
   .header-wrapper.start .header .phone-box {
     position: relative;
     right: auto;
     top: 0;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 154, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 157, scss/components/_header.scss */
   .header-wrapper.start .header .phone-box {
     -webkit-box-ordinal-group: 9;
     -webkit-order: 8;
@@ -5571,22 +5593,29 @@ select option {
     text-align: center;
   }
 }
-/* line 171, scss/components/_header.scss */
+/* line 174, scss/components/_header.scss */
 .header-wrapper.start .header .geo-box {
   display: block;
   margin: 0;
 }
-@media only screen and (min-width: 993px) {
-  /* line 171, scss/components/_header.scss */
+@media only screen and (min-width: 991px) {
+  /* line 174, scss/components/_header.scss */
   .header-wrapper.start .header .geo-box {
     position: absolute;
     top: 60px;
     right: 33.4%;
   }
 }
-/* line 180, scss/components/_header.scss */
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  /* line 174, scss/components/_header.scss */
+  .header-wrapper.start .header .geo-box {
+    right: 40%;
+  }
+}
+/* line 186, scss/components/_header.scss */
 .header-wrapper.start .header .btn-box .btn {
   width: 100%;
+  padding: 0 7.5px;
 }
 
 /* line 11, scss/components/_menu.scss */
@@ -5614,8 +5643,14 @@ select option {
   text-transform: uppercase;
   color: inherit;
 }
+@media only screen and (min-width: 990px) and (max-width: 1200px) {
+  /* line 27, scss/components/_menu.scss */
+  .h-small-menu .h-small-menu-link {
+    font-size: 12px;
+  }
+}
 
-/* line 34, scss/components/_menu.scss */
+/* line 37, scss/components/_menu.scss */
 .ps-small-menu {
   font-size: 14px;
   line-height: 1.5;
@@ -5630,71 +5665,71 @@ select option {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-/* line 43, scss/components/_menu.scss */
+/* line 46, scss/components/_menu.scss */
 .ps-small-menu .ps-small-menu-item {
   margin: 0 5px;
 }
-/* line 45, scss/components/_menu.scss */
+/* line 48, scss/components/_menu.scss */
 .ps-small-menu .ps-small-menu-item:first-child {
   margin-left: 0;
 }
-/* line 48, scss/components/_menu.scss */
+/* line 51, scss/components/_menu.scss */
 .ps-small-menu .ps-small-menu-item:last-child {
   margin-right: 0;
 }
-/* line 52, scss/components/_menu.scss */
+/* line 55, scss/components/_menu.scss */
 .ps-small-menu .ps-small-menu-link {
   padding: 0;
   text-transform: uppercase;
   color: inherit;
 }
 @media only screen and (min-width: 651px) {
-  /* line 34, scss/components/_menu.scss */
+  /* line 37, scss/components/_menu.scss */
   .ps-small-menu {
     padding: 5px 0 25px;
   }
 }
 
-/* line 63, scss/components/_menu.scss */
+/* line 66, scss/components/_menu.scss */
 .vertical-menu .menu-item {
   margin: 4px 0;
 }
 
-/* line 67, scss/components/_menu.scss */
+/* line 70, scss/components/_menu.scss */
 .main-menu {
   margin-top: 20px;
 }
-/* line 69, scss/components/_menu.scss */
+/* line 72, scss/components/_menu.scss */
 .main-menu .menu-link {
   display: block;
   padding: 1em 0;
   text-transform: uppercase;
 }
 @media only screen and (min-width: 651px) {
-  /* line 69, scss/components/_menu.scss */
+  /* line 72, scss/components/_menu.scss */
   .main-menu .menu-link {
     padding: 20px 0;
   }
 }
-/* line 78, scss/components/_menu.scss */
+/* line 81, scss/components/_menu.scss */
 .main-menu .menu-item:first-child .menu-link {
   padding-top: 0;
 }
-/* line 81, scss/components/_menu.scss */
+/* line 84, scss/components/_menu.scss */
 .main-menu .menu-item:last-child .menu-link {
   padding-bottom: 0;
 }
-/* line 84, scss/components/_menu.scss */
+/* line 87, scss/components/_menu.scss */
 .main-menu .menu-item.active > .menu-link, .main-menu .menu-item.active > .collapsible-header,
 .main-menu .menu-item .menu-link:hover,
 .main-menu .menu-item .menu-link.primary-color {
   color: #da0034;
 }
-/* line 91, scss/components/_menu.scss */
+/* line 94, scss/components/_menu.scss */
 .main-menu .menu-item.parent .menu-link {
   display: inline-block;
 }
-/* line 94, scss/components/_menu.scss */
+/* line 97, scss/components/_menu.scss */
 .main-menu .menu-item.parent .collapsible-header {
   font-size: 20px;
   font-weight: 300;
@@ -5702,41 +5737,41 @@ select option {
   margin-left: 15px;
   height: 100%;
 }
-/* line 100, scss/components/_menu.scss */
+/* line 103, scss/components/_menu.scss */
 .main-menu .menu-item.parent .collapsible-header:after {
   display: none;
 }
-/* line 106, scss/components/_menu.scss */
+/* line 109, scss/components/_menu.scss */
 .main-menu .submenu {
   padding: 5px 0;
 }
-/* line 110, scss/components/_menu.scss */
+/* line 113, scss/components/_menu.scss */
 .main-menu .submenu .menu-link {
   font-size: 12px;
   padding: 1rem 1.5em;
 }
 
-/* line 116, scss/components/_menu.scss */
+/* line 119, scss/components/_menu.scss */
 .horizontal-multilevel-menu {
   width: 100%;
 }
-/* line 119, scss/components/_menu.scss */
+/* line 122, scss/components/_menu.scss */
 .horizontal-multilevel-menu .menu-link,
 .horizontal-multilevel-menu .submenu-link {
   display: block;
 }
-/* line 123, scss/components/_menu.scss */
+/* line 126, scss/components/_menu.scss */
 .horizontal-multilevel-menu > .menu-item {
   position: static;
 }
-/* line 126, scss/components/_menu.scss */
+/* line 129, scss/components/_menu.scss */
 .horizontal-multilevel-menu > .menu-item > .menu-link {
   font-size: 13px;
   font-weight: 600;
   line-height: 1;
   padding: 9px 12px 8px;
 }
-/* line 136, scss/components/_menu.scss */
+/* line 139, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu {
   position: absolute;
   left: 0;
@@ -5744,32 +5779,32 @@ select option {
   padding: 10px 0;
   color: #424242;
 }
-/* line 144, scss/components/_menu.scss */
+/* line 147, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-item {
   display: block;
   position: static;
 }
-/* line 148, scss/components/_menu.scss */
+/* line 151, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-link.default, .horizontal-multilevel-menu .submenu.level-2 > .submenu-item > .submenu-link, .horizontal-multilevel-menu .submenu.level-3 > .submenu-item > .submenu-link {
   line-height: 18px;
   padding: 1em 10px;
   position: static;
 }
-/* line 155, scss/components/_menu.scss */
+/* line 158, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2 {
   display: none;
   left: auto;
   background: #d8d8d8;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
 }
-/* line 164, scss/components/_menu.scss */
+/* line 167, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2.parent-box {
   width: 100%;
   width: calc(100% - 10px);
   left: 5px;
   background: white;
 }
-/* line 169, scss/components/_menu.scss */
+/* line 172, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2.parent-box:before {
   content: '';
   display: block;
@@ -5781,11 +5816,11 @@ select option {
   background: #d8d8d8;
   z-index: -1;
 }
-/* line 180, scss/components/_menu.scss */
+/* line 183, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2.parent-box > .submenu-item {
   width: 25%;
 }
-/* line 186, scss/components/_menu.scss */
+/* line 189, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3 {
   display: none;
   top: 0;
@@ -5794,21 +5829,21 @@ select option {
   min-height: 100%;
   background: white;
 }
-/* line 193, scss/components/_menu.scss */
+/* line 196, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3 > .submenu-item {
   width: 33.33%;
 }
-/* line 196, scss/components/_menu.scss */
+/* line 199, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3.col-2 > .submenu-item {
   width: 45%;
   display: inline-block;
 }
-/* line 200, scss/components/_menu.scss */
+/* line 203, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-3 > .submenu-item > .submenu-link {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 207, scss/components/_menu.scss */
+/* line 210, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4 {
   top: 0;
   left: 33.34%;
@@ -5817,56 +5852,56 @@ select option {
   display: none;
   font-size: 0;
 }
-/* line 215, scss/components/_menu.scss */
+/* line 218, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4 .submenu-item {
   display: inline-block;
   width: 100%;
 }
-/* line 219, scss/components/_menu.scss */
+/* line 222, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4.col-2 .submenu-item {
   width: 49%;
 }
-/* line 222, scss/components/_menu.scss */
+/* line 225, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-4 .submenu-link {
   font-size: 16px;
   padding: 5px 15px;
 }
-/* line 229, scss/components/_menu.scss */
+/* line 232, scss/components/_menu.scss */
 .horizontal-multilevel-menu .menu-item:hover .menu-link {
   background: #da0034;
 }
-/* line 232, scss/components/_menu.scss */
+/* line 235, scss/components/_menu.scss */
 .horizontal-multilevel-menu .menu-item:hover > .submenu {
   display: block;
 }
-/* line 237, scss/components/_menu.scss */
+/* line 240, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-item.active > .submenu-link {
   color: #da0034;
 }
-/* line 240, scss/components/_menu.scss */
+/* line 243, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu-item.active > .submenu {
   display: block;
 }
-/* line 245, scss/components/_menu.scss */
+/* line 248, scss/components/_menu.scss */
 .horizontal-multilevel-menu .submenu.level-2 > .submenu-item.active > .submenu-link,
 .horizontal-multilevel-menu .submenu.level-2 > .submenu-item:hover > .submenu-link {
   color: #424242;
   background: white;
 }
 
-/* line 252, scss/components/_menu.scss */
+/* line 255, scss/components/_menu.scss */
 .alphabet-menu {
   margin: 5px 0;
   line-height: 1;
 }
-/* line 256, scss/components/_menu.scss */
+/* line 259, scss/components/_menu.scss */
 .alphabet-menu .menu-link {
   padding-top: 2px;
   padding-bottom: 2px;
   color: #424242;
   text-transform: uppercase;
 }
-/* line 262, scss/components/_menu.scss */
+/* line 265, scss/components/_menu.scss */
 .alphabet-menu .menu-item {
   margin-right: 3px;
 }
@@ -5911,7 +5946,7 @@ select option {
     padding: 30px 20%;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 20, scss/components/_page-aside.scss */
   .page-aside .page-aside-inner {
     padding: 100px 30px 30px 100px;
@@ -6249,7 +6284,7 @@ select option {
     min-height: 250px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 2, scss/components/_product.scss */
   .product-item,
   .products-list .banner {
@@ -6320,7 +6355,7 @@ select option {
 .products-list .banner .item-text {
   font-size: 18px;
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px) {
   /* line 59, scss/components/_product.scss */
   .product-item .item-link,
   .product-item .item-text,
@@ -6338,7 +6373,7 @@ select option {
   height: 60px;
   max-width: 74px;
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px) {
   /* line 66, scss/components/_product.scss */
   .product-item .item-icon,
   .products-list .banner .item-icon {
@@ -6352,7 +6387,7 @@ select option {
   height: 100%;
   fill: #fff;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 66, scss/components/_product.scss */
   .product-item .item-icon,
   .products-list .banner .item-icon {
@@ -6364,7 +6399,7 @@ select option {
 .product-item:hover .item-img, .product-item:hover .item-img-blur {
   opacity: 1;
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px) {
   /* line 91, scss/components/_product.scss */
   .product-item .item-title {
     font-size: 20px;
@@ -6387,7 +6422,7 @@ select option {
     padding-top: 55px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 96, scss/components/_product.scss */
   .products-list .banner {
     padding-top: 120px;
@@ -6407,7 +6442,7 @@ select option {
 .products-list {
   margin-bottom: 60px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 117, scss/components/_product.scss */
   .products-list {
     margin-bottom: 80px;
@@ -6420,7 +6455,7 @@ select option {
 .products-list.serv-list .product-item.primary .btn-link {
   color: #fff;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 129, scss/components/_product.scss */
   .products-list.serv-list .product-item,
   .products-list.serv-list .banner {
@@ -6453,7 +6488,7 @@ select option {
     max-width: 230px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 145, scss/components/_product.scss */
   .product-anons-item .product-img img {
     max-width: 260px;
@@ -6479,7 +6514,7 @@ select option {
     padding-left: 4.5%;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 179, scss/components/_product.scss */
   .product-anons-list .col:nth-child(odd) .product-anons-item,
   .product-anons-list .col:nth-child(even) .product-anons-item {
@@ -6490,7 +6525,7 @@ select option {
 .product-box {
   margin-bottom: 50px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 187, scss/components/_product.scss */
   .product-box {
     margin-bottom: 70px;
@@ -6509,13 +6544,13 @@ select option {
     padding: 10px 65px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 192, scss/components/_product.scss */
   .product-box .product-img {
     margin-right: 0;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 204, scss/components/_product.scss */
   .product-box .product-info {
     padding-left: 20px;
@@ -6545,7 +6580,7 @@ select option {
     margin-bottom: 30px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 219, scss/components/_product.scss */
   .relative-prod-box .box-title {
     margin-bottom: 40px;
@@ -6571,7 +6606,7 @@ select option {
   font-size: 18px;
   color: #424242;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 217, scss/components/_product.scss */
   .relative-prod-box {
     margin: 55px 0 65px;
@@ -6614,7 +6649,7 @@ select option {
     margin-left: calc(46% + 20px);
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 265, scss/components/_product.scss */
   .serv-box {
     padding: 0 40px;
@@ -6751,7 +6786,7 @@ select option {
     margin-bottom: 5px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 2, scss/components/_reviews.scss */
   .review-page {
     padding-top: 60px;
@@ -6813,7 +6848,7 @@ select option {
     margin-bottom: 0;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 86, scss/components/_reviews.scss */
   .reviews-box .box-title {
     margin-bottom: 30px;
@@ -6866,7 +6901,7 @@ select option {
     height: 560px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 2, scss/components/_start.scss */
   .start-box {
     background-size: cover;
@@ -6882,7 +6917,7 @@ select option {
 .start-box .content {
   padding-top: 120px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 31, scss/components/_start.scss */
   .start-box .content {
     padding-top: 160px;
@@ -6909,7 +6944,7 @@ select option {
 .start-box .logo {
   height: 90px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 50, scss/components/_start.scss */
   .start-box .logo {
     height: 140px;
@@ -6952,7 +6987,7 @@ select option {
     font-size: 18px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 60, scss/components/_start.scss */
   .home-page .start-box {
     height: 695px;
@@ -7012,7 +7047,7 @@ select option {
     height: 233px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 20, scss/components/_portfolio.scss */
   .portfolio-item .item-title {
     opacity: 0;
@@ -7047,7 +7082,7 @@ select option {
     margin-bottom: 60px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 36, scss/components/_portfolio.scss */
   .portfolio {
     margin-bottom: 150px;
@@ -7061,123 +7096,130 @@ select option {
 @media only screen and (min-width: 651px) {
   /* line 47, scss/components/_portfolio.scss */
   .portfolio-box .title {
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 47, scss/components/_portfolio.scss */
   .portfolio-box .title {
-    margin: 30px 0 20px;
+    margin-top: 30px;
   }
 }
-/* line 56, scss/components/_portfolio.scss */
+/* line 57, scss/components/_portfolio.scss */
 .portfolio-box .portfolio-list {
   margin-bottom: 20px;
 }
-/* line 59, scss/components/_portfolio.scss */
+/* line 60, scss/components/_portfolio.scss */
 .portfolio-box .portfolio-item {
   height: 185px;
 }
 @media only screen and (min-width: 651px) {
-  /* line 59, scss/components/_portfolio.scss */
+  /* line 60, scss/components/_portfolio.scss */
   .portfolio-box .portfolio-item {
     height: 220px;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 59, scss/components/_portfolio.scss */
+@media only screen and (min-width: 991px) {
+  /* line 60, scss/components/_portfolio.scss */
   .portfolio-box .portfolio-item {
     height: 350px;
   }
 }
 
 @media only screen and (min-width: 651px) {
-  /* line 69, scss/components/_portfolio.scss */
+  /* line 70, scss/components/_portfolio.scss */
   .home-page .portfolio {
     margin-bottom: 40px;
   }
-  /* line 72, scss/components/_portfolio.scss */
+  /* line 73, scss/components/_portfolio.scss */
   .home-page .portfolio .portfolio-list {
     margin-top: 30px;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 69, scss/components/_portfolio.scss */
+@media only screen and (min-width: 991px) {
+  /* line 70, scss/components/_portfolio.scss */
   .home-page .portfolio {
     margin-bottom: 50px;
   }
-  /* line 78, scss/components/_portfolio.scss */
+  /* line 79, scss/components/_portfolio.scss */
   .home-page .portfolio .portfolio-list {
     margin-top: 40px;
   }
-  /* line 81, scss/components/_portfolio.scss */
+  /* line 82, scss/components/_portfolio.scss */
   .home-page .portfolio .portfolio-item {
     height: 370px;
   }
 }
 
-/* line 88, scss/components/_portfolio.scss */
+/* line 89, scss/components/_portfolio.scss */
 .project-box {
   margin-top: 40px;
   margin-bottom: 80px;
 }
 @media only screen and (min-width: 651px) {
-  /* line 88, scss/components/_portfolio.scss */
+  /* line 89, scss/components/_portfolio.scss */
   .project-box {
     margin-bottom: 50px;
   }
-  /* line 93, scss/components/_portfolio.scss */
+  /* line 94, scss/components/_portfolio.scss */
   .project-box .box-title {
     margin-bottom: 30px;
   }
 }
-/* line 97, scss/components/_portfolio.scss */
+/* line 98, scss/components/_portfolio.scss */
 .project-box .project-item {
   margin-bottom: 25px;
 }
-/* line 100, scss/components/_portfolio.scss */
+/* line 101, scss/components/_portfolio.scss */
 .project-box .project-img {
   margin: 0 0 20px;
 }
-/* line 106, scss/components/_portfolio.scss */
+/* line 107, scss/components/_portfolio.scss */
 .project-box .project-name a, .project-box .project-name .btn-link {
   color: #424242;
   text-decoration: none;
 }
-/* line 111, scss/components/_portfolio.scss */
+/* line 112, scss/components/_portfolio.scss */
 .project-box .project-item:hover .project-name a, .project-box .project-item:hover .project-name .btn-link {
   color: #da0034;
 }
 
-/* line 118, scss/components/_portfolio.scss */
+/* line 119, scss/components/_portfolio.scss */
 .fullwidth-project-box .row {
   width: 100%;
   margin: 0;
 }
-/* line 122, scss/components/_portfolio.scss */
+/* line 123, scss/components/_portfolio.scss */
 .fullwidth-project-box .project-item {
   height: 310px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
-/* line 127, scss/components/_portfolio.scss */
+/* line 128, scss/components/_portfolio.scss */
 .fullwidth-project-box .project-item.col {
   max-width: 100vw;
 }
 @media only screen and (min-width: 651px) {
-  /* line 122, scss/components/_portfolio.scss */
+  /* line 123, scss/components/_portfolio.scss */
   .fullwidth-project-box .project-item {
     height: 245px;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 122, scss/components/_portfolio.scss */
+@media only screen and (min-width: 991px) {
+  /* line 123, scss/components/_portfolio.scss */
   .fullwidth-project-box .project-item {
     height: 630px;
   }
 }
-/* line 136, scss/components/_portfolio.scss */
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 123, scss/components/_portfolio.scss */
+  .fullwidth-project-box .project-item {
+    height: 450px;
+  }
+}
+/* line 140, scss/components/_portfolio.scss */
 .fullwidth-project-box .project-item .item-link {
   display: -webkit-box;
   display: -webkit-flex;
@@ -7202,26 +7244,32 @@ select option {
   -webkit-transition: background .3s ease;
           transition: background .3s ease;
 }
-/* line 148, scss/components/_portfolio.scss */
+/* line 152, scss/components/_portfolio.scss */
 .fullwidth-project-box .project-item .item-link:hover {
   background: transparent;
 }
-/* line 152, scss/components/_portfolio.scss */
+/* line 156, scss/components/_portfolio.scss */
 .fullwidth-project-box .project-item .item-title {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
 }
 @media only screen and (min-width: 651px) {
-  /* line 152, scss/components/_portfolio.scss */
+  /* line 156, scss/components/_portfolio.scss */
   .fullwidth-project-box .project-item .item-title {
     font-size: 16px;
   }
 }
-@media only screen and (min-width: 993px) {
-  /* line 152, scss/components/_portfolio.scss */
+@media only screen and (min-width: 991px) {
+  /* line 156, scss/components/_portfolio.scss */
   .fullwidth-project-box .project-item .item-title {
     font-size: 39px;
+  }
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  /* line 156, scss/components/_portfolio.scss */
+  .fullwidth-project-box .project-item .item-title {
+    font-size: 24px;
   }
 }
 
@@ -7270,13 +7318,13 @@ select option {
   margin-bottom: 10px;
   min-height: 280px;
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px) {
   /* line 4, scss/components/_features.scss */
   .features-box .feature-item {
     min-height: 240px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 4, scss/components/_features.scss */
   .features-box .feature-item {
     padding: 30px;
@@ -7293,13 +7341,13 @@ select option {
   text-transform: uppercase;
   margin: 0 0 20px;
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px), only screen and (width: 1024px) and (height: 768px) and (orientation: landscape) {
   /* line 18, scss/components/_features.scss */
   .features-box .feature-item .item-title {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px), only screen and (width: 1024px) and (height: 768px) and (orientation: landscape) {
   /* line 26, scss/components/_features.scss */
   .features-box .feature-item .item-text {
     font-size: 12px;
@@ -7351,7 +7399,7 @@ select option {
   font-size: 20px;
   margin: 1em 0 1rem;
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px) {
   /* line 41, scss/components/_features.scss */
   .home-features-list .feature-item {
     padding-bottom: 20px;
@@ -7379,7 +7427,7 @@ select option {
     right: 0;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 41, scss/components/_features.scss */
   .home-features-list .feature-item {
     padding-bottom: 10px;
@@ -7431,7 +7479,7 @@ select option {
     margin-top: 5px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 4, scss/components/_blog.scss */
   .blog-item .item-img {
     margin-bottom: 0;
@@ -7454,19 +7502,19 @@ select option {
     font-size: 20px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 13, scss/components/_blog.scss */
   .blog-item .item-title {
     margin-left: 10px;
   }
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
+@media only screen and (min-width: 651px) and (max-width: 990px) {
   /* line 28, scss/components/_blog.scss */
   .blog-item .item-text {
     font-size: 14px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 28, scss/components/_blog.scss */
   .blog-item .item-text {
     margin-left: 10px;
@@ -7575,7 +7623,7 @@ select option {
     margin: 0 15px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 2, scss/components/_documents.scss */
   .documents {
     margin-top: 70px;
@@ -7614,37 +7662,37 @@ select option {
   height: 30px;
   display: none;
 }
-@media only screen and (min-width: 651px) and (max-width: 992px) {
-  /* line 20, scss/components/_documents.scss */
-  .document-item {
-    min-height: 230px;
-  }
-  /* line 48, scss/components/_documents.scss */
-  .document-item .item-link {
-    padding: 40px 20px 20px;
-  }
-  /* line 51, scss/components/_documents.scss */
-  .document-item .item-name {
-    font-size: 20px;
-  }
-}
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 20, scss/components/_documents.scss */
   .document-item {
     min-height: 320px;
   }
-  /* line 57, scss/components/_documents.scss */
+  /* line 48, scss/components/_documents.scss */
   .document-item .item-link {
     padding: 60px 25px 70px;
   }
-  /* line 60, scss/components/_documents.scss */
+  /* line 51, scss/components/_documents.scss */
   .document-item .hover-icon {
     display: block;
     opacity: 0;
   }
-  /* line 64, scss/components/_documents.scss */
+  /* line 55, scss/components/_documents.scss */
   .document-item:hover .hover-icon {
     opacity: 1;
+  }
+}
+@media only screen and (min-width: 651px) and (max-width: 990px), only screen and (width: 1024px) and (height: 768px) and (orientation: landscape) {
+  /* line 20, scss/components/_documents.scss */
+  .document-item {
+    min-height: 230px;
+  }
+  /* line 61, scss/components/_documents.scss */
+  .document-item .item-link {
+    padding: 40px 20px 20px;
+  }
+  /* line 64, scss/components/_documents.scss */
+  .document-item .item-name {
+    font-size: 20px;
   }
 }
 
@@ -7659,7 +7707,7 @@ select option {
   margin-top: 50px;
   margin-bottom: 30px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 2, scss/components/_contacts.scss */
   .contact-info-box {
     margin-top: 65px;
@@ -7700,13 +7748,13 @@ select option {
     padding-left: 30px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 23, scss/components/_contacts.scss */
   .contact-info-box .cont-tel {
     padding-left: 40px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 31, scss/components/_contacts.scss */
   .contact-info-box .cont-address {
     padding-left: 50px;
@@ -7913,7 +7961,7 @@ select option {
   margin-top: 40px;
   margin-bottom: 30px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 88, scss/components/_digit.scss */
   .home-digit-box {
     padding-top: 60px;
@@ -7926,7 +7974,7 @@ select option {
 .home-digit-box .digit {
   font-size: 51px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 99, scss/components/_digit.scss */
   .home-digit-box .digit {
     font-size: 76px;
@@ -7941,7 +7989,7 @@ select option {
 .home-digit-box .big-block .digit {
   font-size: 67px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 106, scss/components/_digit.scss */
   .home-digit-box .big-block {
     padding-top: 50px;
@@ -7955,7 +8003,7 @@ select option {
 .home-digit-box .medium-block:nth-of-type(2) {
   padding-left: 15px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 120, scss/components/_digit.scss */
   .home-digit-box .medium-block:nth-of-type(2) {
     padding-left: 45px;
@@ -7985,7 +8033,7 @@ select option {
 .home-digit-box .small-block:nth-of-type(8) {
   padding-left: 60px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 130, scss/components/_digit.scss */
   .home-digit-box .small-block {
     font-size: 18px;
@@ -8013,7 +8061,7 @@ select option {
   margin-top: 20px;
   margin-bottom: 10px;
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 160, scss/components/_digit.scss */
   .home-digit-box .divider-block {
     padding-left: 45px;
@@ -8035,7 +8083,7 @@ select option {
     border-right: 0;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 4, scss/components/_clients.scss */
   .clients .clients-list {
     margin-top: 40px;
@@ -8105,7 +8153,7 @@ select option {
     padding: 50px 0;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 6, scss/components/_case.scss */
   .case .case-text,
   .case .case-params {
@@ -8125,21 +8173,29 @@ select option {
 .case .params-list {
   margin-top: 40px;
 }
-/* line 25, scss/components/_case.scss */
+@media only screen and (min-width: 651px) {
+  /* line 25, scss/components/_case.scss */
+  .case .params-list .col.l6 {
+    min-width: 600px;
+  }
+}
+/* line 30, scss/components/_case.scss */
 .case .param-item {
   margin-bottom: 25px;
 }
 @media only screen and (min-width: 651px) {
-  /* line 28, scss/components/_case.scss */
+  /* line 33, scss/components/_case.scss */
   .case .param-item:first-child {
     padding-right: 45px;
+    min-width: 200px;
   }
-  /* line 31, scss/components/_case.scss */
+  /* line 37, scss/components/_case.scss */
   .case .param-item:last-child {
     padding-left: 45px;
+    min-width: 200px;
   }
 }
-/* line 35, scss/components/_case.scss */
+/* line 42, scss/components/_case.scss */
 .case .param-item .item-icon {
   width: 150px;
   height: 150px;
@@ -8159,20 +8215,20 @@ select option {
           align-items: center;
   margin-bottom: 25px;
 }
-/* line 45, scss/components/_case.scss */
+/* line 52, scss/components/_case.scss */
 .case .param-item .item-title {
   font-size: 18px;
   text-align: center;
 }
-/* line 50, scss/components/_case.scss */
+/* line 57, scss/components/_case.scss */
 .case .case-review {
   padding: 20px 0 40px;
 }
-/* line 52, scss/components/_case.scss */
+/* line 59, scss/components/_case.scss */
 .case .case-review .review-logo {
   margin-bottom: 30px;
 }
-/* line 54, scss/components/_case.scss */
+/* line 61, scss/components/_case.scss */
 .case .case-review .review-logo .img-circle {
   width: 130px;
   height: 130px;
@@ -8191,24 +8247,24 @@ select option {
       -ms-flex-align: center;
           align-items: center;
 }
-/* line 64, scss/components/_case.scss */
+/* line 71, scss/components/_case.scss */
 .case .case-review .item-title {
   margin-bottom: 10px;
 }
-/* line 66, scss/components/_case.scss */
+/* line 73, scss/components/_case.scss */
 .case .case-review .item-title a, .case .case-review .item-title .btn-link {
   color: #424242;
 }
-/* line 70, scss/components/_case.scss */
+/* line 77, scss/components/_case.scss */
 .case .case-review .more-link {
   margin-top: 20px;
 }
 @media only screen and (min-width: 651px) {
-  /* line 74, scss/components/_case.scss */
+  /* line 81, scss/components/_case.scss */
   .case .case-review .item-title {
     padding-right: 140px;
   }
-  /* line 77, scss/components/_case.scss */
+  /* line 84, scss/components/_case.scss */
   .case .case-review .item-date {
     position: absolute;
     top: 0;
@@ -8280,7 +8336,7 @@ select option {
     font-size: 24px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 991px) {
   /* line 55, scss/components/_modal.scss */
   .modal.small-modal .modal-inner {
     padding: 75px 75px 50px;
@@ -8331,7 +8387,7 @@ select option {
     font-size: 24px;
   }
 }
-@media only screen and (min-width: 993px) {
+@media only screen and (min-width: 1200px) {
   /* line 67, scss/components/_modal.scss */
   .modal.big-modal {
     max-width: 1130px;

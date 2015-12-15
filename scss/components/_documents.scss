@@ -43,15 +43,6 @@
 		height: 30px;
 		display: none;
 	}
-	@media #{$medium-only}{
-		min-height: 230px;
-		.item-link {
-			padding: $gutter-width*4 $gutter-width*2 $gutter-width*2;
-		}
-		.item-name {
-			font-size: 20px;
-		}
-	}
 	@media #{$large-and-up}{
 		min-height: 320px;
 		.item-link {
@@ -63,6 +54,15 @@
 		}
 		&:hover .hover-icon {
 			opacity: 1;
+		}
+	}
+	@media #{$medium-only}, only screen and (width: 1024px) and(height: 768px) and (orientation: landscape){
+		min-height: 230px;
+		.item-link {
+			padding: $gutter-width*4 $gutter-width*2 $gutter-width*2;
+		}
+		.item-name {
+			font-size: 20px;
 		}
 	}
 }

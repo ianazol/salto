@@ -115,6 +115,9 @@
 		margin-left: $gutter-width*1.5;
 		font-size: $small-text;
 		line-height: 1.5;
+		@media only screen and (min-width: #{$medium-screen}) and (max-width: #{$large-screen}){
+			display: none;
+		}
 	}
 }
 .btn-more {

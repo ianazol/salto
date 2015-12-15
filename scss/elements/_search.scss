@@ -20,7 +20,7 @@
 		width: 100vw;
 		height: 40px;
 		top: 46px;
-		right: -12px;
+		right: -28%;
 		background: color('primary','base');
 		border-color: color('primary','base');
 		border-bottom: 1px solid color('primary','base');
@@ -87,9 +87,14 @@
 			}
 		}
 	}
-	@media #{$medium-and-up}{
+	@media #{$large-and-up}{
 		.search-field-box {
 			width: 380px;
+		}
+	}
+	@media only screen and (min-width: #{$medium-screen}) and (max-width: #{$large-screen}){
+		.search-field-box {
+			width: 250px;
 		}
 	}
 }
