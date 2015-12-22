@@ -2964,7 +2964,7 @@ video.responsive-video {
   padding-bottom: 56.25%;
 }
 /* line 97, scss/elements/_global.scss */
-.video-box iframe {
+.video-box iframe, .video-box object, .video-box video {
   position: absolute;
   top: 0;
   left: 0;
@@ -7835,8 +7835,9 @@ select option {
 .geo-box .project-map-btn {
   color: #424242;
   line-height: 1.5;
+  text-align: left;
 }
-/* line 89, scss/components/_contacts.scss */
+/* line 90, scss/components/_contacts.scss */
 .geo-box .project-map-btn:active, .geo-box .project-map-btn:hover, .geo-box .project-map-btn.active {
   color: #da0034;
 }

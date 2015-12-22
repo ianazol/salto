@@ -94,7 +94,7 @@ video.responsive-video {
 	margin-top: $gutter-width*2;
 	margin-bottom: $gutter-width*2;
 	padding-bottom: 56.25%;
-	iframe {
+	iframe, object, video {
 		position: absolute;
 		top: 0;
 		left: 0;
