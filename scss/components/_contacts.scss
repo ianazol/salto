@@ -70,15 +70,12 @@
 	.map {
 		height: $gutter-width*38;
 		@media #{$medium-and-up}{
-			height: $gutter-width*45;
+			min-height: $gutter-width*60;
 		}
 	}
 	.projects-list {
 		@extend ul.nostyle;
 		margin-top: $gutter-width*3;
-		@media #{$medium-and-up}{
-			padding-left: $gutter-width*2;
-		}
 		.project-item {
 			margin: $gutter-width*1.5 0;
 		}
@@ -91,6 +88,23 @@
 		&:hover,
 		&.active {
 			color: color('primary','base');
+		}
+	}
+	@media #{$medium-and-up}{
+		.row {
+			display: flex;
+			flex-direction: row;
+			justify-content: flex-start;
+			align-items: stretch;
+			.map {
+				height: 100%;
+			}
+			.map-projects {
+				padding: $gutter-width $gutter-width $gutter-width $gutter-width*2;
+			}
+			.subtitle {
+				margin-top: 10px;
+			}
 		}
 	}
 }

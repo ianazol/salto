@@ -7814,32 +7814,60 @@ select option {
 @media only screen and (min-width: 651px) {
   /* line 70, scss/components/_contacts.scss */
   .geo-box .map {
-    height: 450px;
+    min-height: 600px;
   }
 }
 /* line 76, scss/components/_contacts.scss */
 .geo-box .projects-list {
   margin-top: 30px;
 }
-@media only screen and (min-width: 651px) {
-  /* line 76, scss/components/_contacts.scss */
-  .geo-box .projects-list {
-    padding-left: 20px;
-  }
-}
-/* line 82, scss/components/_contacts.scss */
+/* line 79, scss/components/_contacts.scss */
 .geo-box .projects-list .project-item {
   margin: 15px 0;
 }
-/* line 86, scss/components/_contacts.scss */
+/* line 83, scss/components/_contacts.scss */
 .geo-box .project-map-btn {
   color: #424242;
   line-height: 1.5;
   text-align: left;
 }
-/* line 90, scss/components/_contacts.scss */
+/* line 87, scss/components/_contacts.scss */
 .geo-box .project-map-btn:active, .geo-box .project-map-btn:hover, .geo-box .project-map-btn.active {
   color: #da0034;
+}
+@media only screen and (min-width: 651px) {
+  /* line 94, scss/components/_contacts.scss */
+  .geo-box .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+        -ms-flex-align: stretch;
+            align-items: stretch;
+  }
+  /* line 99, scss/components/_contacts.scss */
+  .geo-box .row .map {
+    height: 100%;
+  }
+  /* line 102, scss/components/_contacts.scss */
+  .geo-box .row .map-projects {
+    padding: 10px 10px 10px 20px;
+  }
+  /* line 105, scss/components/_contacts.scss */
+  .geo-box .row .subtitle {
+    margin-top: 10px;
+  }
 }
 
 /* line 2, scss/components/_digit.scss */

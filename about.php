@@ -25,15 +25,16 @@
 			<div class="col l4 m6 s12 map-projects">
 				<div class="subtitle">Реализованные проекты</div>
 				<ul class="projects-list">
-					<li class="project-item"><button class="project-map-btn btn-link">Загородный дом в Москве</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Верхний Бор</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Казачьи луга</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Сквер Пацко</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Гагарин</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Когалым</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Покрытие для детского парка</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Покрытие для спортивной площадки</button></li>
-					<li class="project-item"><button class="project-map-btn btn-link">Покрытие для детской площадки</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">Детские площадки ПСК "ДОМ"</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">Новый Мыс 2.0 и покрытие из резиновой крошки Сальто</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">Беговые дорожки из резиновой крошки. ЖК ОЛИМПИЯ</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">Детские площадки в микрорайоне "Видный"</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">ЖК "Зодиак" с резиновым покрытием "САЛЬТО"</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">ЖК ПИОНЕР детская площадка с резиновым покрытием "Сальто EPDM"</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">Площадка для проекта #ЗдравыйСмысл</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">Покрытие из каучуковой крошки в Тюмени</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">В школе покрытие из резиновой крошки "Сальто"</button></li>
+					<li class="project-item"><button class="project-map-btn btn-link">#workout в Сквере имени "Пацко"</button></li>
 				</ul>
 			</div>
 		</div>
