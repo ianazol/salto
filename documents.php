@@ -38,7 +38,7 @@
 		<div class="documents-list col s12 m12 l9 center no-padding clearfix">
 			<div class="col s12 m4 l3">
 				<div class="document-item bordered-box yellow">
-					<a href="#.pdf" class="item-link">
+					<a href="#.pdf" class="item-link" target="_blank">
 						<div class="item-icon"><svg class="icon"><use xlink:href="#pdf"/></svg></div>
 						<div class="item-name">Технические нормы безопасности при укладке</div>
 						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
@@ -47,7 +47,7 @@
 			</div>
 			<div class="col s12 m4 l3">
 				<div class="document-item bordered-box blue">
-					<a href="#.doc" class="item-link">
+					<a href="#.doc" class="item-link" target="_blank">
 						<div class="item-icon"><svg class="icon"><use xlink:href="#doc"/></svg></div>
 						<div class="item-name">Требования к основанию</div>
 						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
@@ -56,8 +56,8 @@
 			</div>
 			<div class="col s12 m4 l3">
 				<div class="document-item bordered-box green">
-					<a href="#doc." class="item-link">
-						<div class="item-icon"><svg class="icon"><use xlink:href="#doc"/></svg></div>
+					<a href="#.docx" class="item-link" target="_blank">
+						<div class="item-icon"><svg class="icon"><use xlink:href="#docx"/></svg></div>
 						<div class="item-name">Благодарности</div>
 						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
 					</a>
@@ -65,8 +65,17 @@
 			</div>
 			<div class="col s12 m4 l3">
 				<div class="document-item bordered-box red">
-					<a href="#.pdf" class="item-link">
-						<div class="item-icon"><svg class="icon"><use xlink:href="#pdf"/></svg></div>
+					<a href="#.xls" class="item-link" target="_blank">
+						<div class="item-icon"><svg class="icon"><use xlink:href="#xls"/></svg></div>
+						<div class="item-name">Технические нормы безопасности при укладке</div>
+						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
+					</a>
+				</div>
+			</div>
+			<div class="col s12 m4 l3">
+				<div class="document-item bordered-box red">
+					<a href="#.xlsx" class="item-link" target="_blank">
+						<div class="item-icon"><svg class="icon"><use xlink:href="#xlsx"/></svg></div>
 						<div class="item-name">Технические нормы безопасности при укладке</div>
 						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
 					</a>
@@ -74,8 +83,35 @@
 			</div>
 			<div class="col s12 m4 l3">
 				<div class="document-item bordered-box violet">
-					<a href="#.doc" class="item-link">
-						<div class="item-icon"><svg class="icon"><use xlink:href="#doc"/></svg></div>
+					<a href="#.ppt" class="item-link" target="_blank">
+						<div class="item-icon"><svg class="icon"><use xlink:href="#ppt"/></svg></div>
+						<div class="item-name">Награды</div>
+						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
+					</a>
+				</div>
+			</div>
+			<div class="col s12 m4 l3">
+				<div class="document-item bordered-box violet">
+					<a href="#.pptx" class="item-link" target="_blank">
+						<div class="item-icon"><svg class="icon"><use xlink:href="#pptx"/></svg></div>
+						<div class="item-name">Награды</div>
+						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
+					</a>
+				</div>
+			</div>
+			<div class="col s12 m4 l3">
+				<div class="document-item bordered-box violet">
+					<a href="#.zip" class="item-link" target="_blank">
+						<div class="item-icon"><svg class="icon"><use xlink:href="#zip"/></svg></div>
+						<div class="item-name">Награды</div>
+						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
+					</a>
+				</div>
+			</div>
+			<div class="col s12 m4 l3">
+				<div class="document-item bordered-box violet">
+					<a href="#.rar" class="item-link" target="_blank">
+						<div class="item-icon"><svg class="icon"><use xlink:href="#rar"/></svg></div>
 						<div class="item-name">Награды</div>
 						<div class="hover-icon"><svg class="icon"><use xlink:href="#download"/></svg></div>
 					</a>
