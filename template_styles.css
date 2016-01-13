@@ -2777,11 +2777,6 @@ html, body {
   }
 }
 
-/* line 20, scss/_layout.scss */
-.page {
-  overflow-x: hidden;
-}
-
 /* line 23, scss/_layout.scss */
 .page-empty {
   padding: 20vh 0;
